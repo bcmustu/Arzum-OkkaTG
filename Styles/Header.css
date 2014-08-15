@@ -1,0 +1,125 @@
+﻿header{
+    width: 100%;
+    z-index: 1000;
+    ba
+}
+
+header .divContent{
+    padding-top: 40px;
+    margin: auto;
+    height: 105px;
+}
+
+header .divContent .aLogo:link {
+    position: absolute;
+    width: 146px;
+    height: 65px;
+    left: 60px;
+}
+header .divContent a img {
+    width: 146px;
+    height: 65px;
+}
+
+
+
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+
+    header .divContent{
+        width: 90%;
+        padding-top: 20px;
+        height: 60px;
+    }
+
+    header .divContent .aLogo:link,
+    header .divContent .aLogo:visited{
+        position: absolute;
+        left: 0;
+    }
+    header .divContent a img {
+        width: 90px;
+        height: auto;
+    }
+
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+
+    header .divContent{
+        width: 90%;
+        padding-top: 20px;
+        height: 85px;
+    }
+
+    header .divContent .aLogo:link,
+    header .divContent .aLogo:visited{
+        position: absolute;
+        width: 146px;
+        height: 65px;
+        left: 0;
+    }
+
+}
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+
+    header .divContent{
+        width: 700px;
+        height: 180px;
+    }
+
+    header .divContent .aLogo:link,
+    header .divContent .aLogo:visited{
+        position: absolute;
+        width: 146px;
+        height: 65px;
+        left: 0;
+    }
+
+}
+
+@media all and (min-width: 1019px) and (max-width: 1274px) {
+
+    header .divContent{
+        width: 980px;
+    }
+
+    header .divContent .aLogo:link,
+    header .divContent .aLogo:visited{
+        position: absolute;
+        width: 146px;
+        height: 65px;
+        left: 20px;
+    }
+
+}
+
+@media all and (min-width: 1275px) {
+
+    header .divContent{
+        width: 1260px;
+    }
+
+    header .divContent .aLogo:link,
+    header .divContent .aLogo:visited{
+        position: absolute;
+        width: 146px;
+        height: 65px;
+        left: 60px;
+    }
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+﻿input, 
+select,
+select option,
+button,
+label,
+textarea{
+    font-family:'Nova';
+}
+
+
+/* Customized */
+.inputTextA{
+}
+
+.inputTextA::-webkit-input-placeholder { /* WebKit browsers */
+}
+.inputTextA:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+}
+.inputTextA::-moz-placeholder { /* Mozilla Firefox 19+ */
+}
+.inputTextA:-ms-input-placeholder { /* Internet Explorer 10+ */
+}
+/* BUTTON STARTS HERE */
+
+/*BLACK BUTTON STYLE */
+.buttonA{
+}
+
+.buttonA:hover{
+
+}
+
+.buttonA:active{
+
+}
+/*END BLACK BUTTON STYLE*/
+
+
+
+
+
+
+
+
+
+.selectStyleA{
+}
+
+.selectStyleA option{
+}
+
+.selectStyleB{
+}
+
+.selectStyleB option{
+}
+
+
+
+
+
+.textareaStyleA{
+
+}
+
+.textareaStyleB{
+
+}
+
+
+
+
+
+.labelStyleA{
+}
+
+.labelStyleB{
+}
+
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+
+}
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+
+}
+
+@media all and (min-width: 1019px) and (max-width: 1275px) {
+
+}
+
+@media all and (min-width: 1276px) {
+
+}
+
+
+

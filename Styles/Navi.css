@@ -1,0 +1,180 @@
+﻿
+nav{
+    width:100%;
+    height:100%;
+}
+
+nav .divNav{
+    height: 55px;
+    position:absolute;
+    top: 10px;
+    right:0px;
+}
+
+nav .divNav ul.level1 {
+    width: 700px;
+    height: 34px;
+    text-align: center;
+    margin: auto;
+}
+
+nav .divNav ul.level1 li {
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: left;
+}
+
+nav .divNav ul.level1 li a {
+    height: 55px;
+}
+
+/*
+nav .divNav ul.level1 li a:hover ~ ul.level2 {
+    display: block;
+    opacity: 1;
+    height: auto;
+}
+*/
+
+nav .divNav ul.level1 li ul.level2 { 
+    position: absolute;
+    width: 192px;
+    height: 0;
+    top: 55px;
+    margin-left: -50px;
+    background: #381915;
+    border: 1px solid #785a4e;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.3s, display 0s 0.3s;
+    display: none;
+}
+
+nav .divNav ul.level1 li ul.level2 li {
+    width: 190px;
+    float: left;
+    padding: 0px; 
+    border-bottom: 1px solid #785a4e;
+}
+
+nav .divNav ul.level1 li ul.level2 li:last-child {
+    border-bottom: 0px;
+}
+
+nav .divNav ul.level1 li ul.level2 li a {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #181818;
+}
+
+nav .divNav .navSeperator {
+    width: 750px;
+    height: 2px;
+    top: 20px;
+    background: url(../Images/divider-nav.png) repeat-y;
+}
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+
+    nav{
+        width:100%;
+        height:45px;
+        top: 55px;
+
+    }
+
+    nav .divNav{
+        width: 100%;
+        height: 34px;
+        position:absolute;
+        right:0;
+    }
+
+    nav .divNav ul.level1 {
+        width: 300px;
+        height: 34px;
+        text-align: center;
+        margin: auto;
+        display: none;
+    }
+
+    nav .divNav ul.level1 li {
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+
+    nav .divNav .navSeperator {
+        width: 100% !important;
+        height: 2px;
+        top: -10px !important;
+        background: url(../Images/divider-nav.png) repeat-y center center !important;
+    }
+
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+
+}
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+
+    nav {
+        width: 100%;
+        height: 65px;
+        position:absolute;
+        top: 115px;
+        right:0;
+    }
+
+    }
+
+    nav .divNav ul.level1 {
+        width: 100%;
+        height: 34px;
+        text-align: center;
+        margin: auto;
+        top:31px;
+    }
+
+    nav .divNav .navSeperator {
+        width: 700px;
+        height: 2px;
+        margin: auto; 
+        top: -25px;
+        background: url(../Images/divider-nav.png) repeat-y;
+    }
+
+
+}
+
+@media all and (min-width: 1019px) and (max-width: 1274px) {
+
+    nav .divNav{
+        width: 710px;
+        height: 65px;
+        position:absolute;
+        right:20px;
+    }
+
+}
+
+@media all and (min-width: 1275px) {
+
+    nav .divNav{
+        width: 750px;
+        height: 65px;
+        position:absolute;
+        right:30px;
+    }
+
+}

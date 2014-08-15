@@ -1,0 +1,267 @@
+﻿body {
+    font-family: 'Trajan';
+}
+
+.subFont {
+    font-family: Roboto;
+}
+
+b, strong {
+    font-weight: 500;
+}
+
+i, em {
+    font-style: italic;
+}
+
+blockquote {
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+p {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+a:link,
+a:visited {
+    display: block;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+}
+
+
+
+
+/* Customized */
+.faceA {
+    font-family: Trajan;
+    color: #f2d9b8;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    background: -webkit-linear-gradient(left, #7c4f36, #fef6e8, #e0ba8f, #ffffff, #956a4d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.faceB {
+    font-family: MyriadPro;
+    color: #d0bfa9;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.faceC {
+    font-family: MyriadPro;
+    color: #ebcbaf;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.faceD {
+    font-family: MyriadPro;
+    color: #340d08;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.faceE {
+    font-family: MyriadPro;
+    color: #ebcbaf;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.faceF {
+    font-family: MyriadPro;
+    color: #bea794;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.faceG {
+    font-family: MyriadPro;
+    color: #ebcbaf;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.faceH {
+    font-family: MyriadPro;
+    color: #ebcbaf;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.faceI {
+    font-family: MyriadPro;
+    color: #ebcbaf;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.faceJ {
+    font-family: MyriadPro;
+    color: #ebcbaf;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faceK {
+    font-family: MyriadPro;
+    color: #441e15;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.faceL {
+    font-family: MyriadPro;
+    color: #441e15;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.aStyleA:link,
+.aStyleA:visited {
+    text-decoration: none;
+    color: #b27d66;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+    display: block;
+}
+
+.aStyleA:hover,
+.aStyleA:active {
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+
+
+
+
+.aStyleB:link,
+.aStyleB:visited {
+    text-decoration: none;
+    color: #b27d66;
+    font-family: MyriadPro;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+}
+
+.aStyleB:hover,
+.aStyleB:active {
+    color: #d9d9d9;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.spanStyleA {
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+}
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+
+    .faceA {
+        font-family: Trajan;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+    .faceC {
+        font-size: 18px;
+    }
+
+    .aStyleA:link,
+    .aStyleA:visited {
+        text-decoration: none;
+        color: #b27d66;
+        font-family: Avenir;
+        font-size: 13px;
+        font-weight: 500;
+        transition: all 0.3s;
+        display: block;
+    }
+
+    .aStyleA:hover,
+    .aStyleA:active {
+        color: #d9d9d9;
+        text-decoration: none;
+    }
+
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+
+}
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+
+    .faceA {
+        font-family: Trajan;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+}
+
+@media all and (min-width: 1019px) and (max-width: 1274px) {
+
+    .faceA {
+        font-family: Trajan;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+}
+
+@media all and (min-width: 1275px) {
+
+}
+
+
+

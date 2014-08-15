@@ -1,0 +1,546 @@
+﻿.overlayA {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.5;
+    display: none;
+}
+
+
+
+/* THESE STYLES ARE FOR LIMART SPECIFIC - NOT A PART OF STOP63 DEFAULT TEMPLATE */
+
+/* ICONS AND OTHERS */
+img[data-sixtythree="arrow-next"] {
+    width: 24px;
+    height: 11px;
+}
+
+img[data-sixtythree="arrow-down"] {
+    width: 11px;
+    height: 24px;
+}
+
+img[data-sixtythree="arrow-previous"] {
+    width: 24px;
+    height: 11px;
+}
+
+img[data-sixtythree="arrow-up"] {
+    width: 11px;
+    height: 24px;
+}
+
+img[data-sixtythree="icon-search"] {
+    width: 12px;
+    height: 12px;
+}
+
+img[data-sixtythree="icon-room-view"] {
+    display: block;
+    width: 18px;
+    height: 12px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid rgba(0,0,0,0.66666666);
+    box-sizing: content-box;
+    opacity: 0.3;
+}
+
+img[data-sixtythree="icon-share"] {
+    display: block;
+    width: 13px;
+    height: 14px;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(0,0,0,0.66666666);
+    box-sizing: content-box;
+    opacity: 0.3;
+}
+
+img[data-sixtythree="icon-zoom-in"] {
+    display: block;
+    width: 24px;
+    height: 24px;
+    box-sizing: content-box;
+    opacity: 0.3;
+}
+
+img[data-sixtythree="icon-mobile-nav"] {
+    width: 69px;
+    height: 65px;
+    padding: 25px 25px 25px 25px;
+    box-sizing: border-box;
+}
+/* SOCIAL MEDIA ICONS STYLES */
+img[data-sixtythree^="icon-social-"] {
+    display: block;
+    width: 36px;
+    height: 36px;
+    box-sizing: content-box;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+    img[data-sixtythree^="icon-social-"]:not(.white) {
+        opacity: 0.2;
+    }
+
+        img[data-sixtythree^="icon-social-"]:not(.white):hover {
+            opacity: 1;
+        }
+/*  END - SOCIAL MEDIA ICONS STYLES */
+
+/* END - ICONS AND OTHERS */
+
+
+
+
+/* LOGOTYPE */
+img[data-sixtythree="logotype-symbol"] {
+    width: 33px;
+    height: 33px;
+    transition: all 0.15s;
+}
+
+    img[data-sixtythree="logotype-symbol"]:hover {
+        -webkit-transform: rotate(-47deg);
+    }
+
+    img[data-sixtythree="logotype-symbol"]:active {
+        -webkit-transform: rotate(0deg);
+    }
+
+img[data-sixtythree="logotype"] {
+    width: 106px;
+    height: 39px;
+}
+
+    img[data-sixtythree="logotype"].smallLogo {
+        width: 66px;
+        height: 24px;
+        transition: all 0.15s;
+    }
+
+img[data-sixtythree="logotype-white"] {
+    width: 122px;
+    height: 45px;
+}
+/* END LOGOTYPE */
+
+
+/* THIN DESIGN LINES */
+.divLineA {
+    width: 1px;
+    height: 35px;
+    background-color: #fff;
+}
+
+.divLineB {
+    width: 1px;
+    height: 35px;
+    background-color: #000;
+}
+
+.divLineC {
+    width: 1px;
+    height: 13px;
+    background-color: #fff;
+}
+
+.divLineD {
+    width: 1px;
+    height: 13px;
+    background-color: #000;
+}
+
+.divLineE {
+    width: 1px;
+    height: 57px;
+    background-color: #000;
+}
+
+.divLineF {
+    width: 49px;
+    height: 2px;
+    background-color: #dd354b;
+}
+/* END - THIN DESIGN LINES */
+
+
+
+.SmallArrow.right {
+    width: 24px;
+    height: 11px;
+}
+
+.SmallArrow.down {
+    width: 11px;
+    height: 24px;
+}
+
+.SmallArrow.left {
+    width: 7px;
+    height: 13px;
+}
+
+.aArrow img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.aButton:link,
+.aButton:visited {
+    width: 15px;
+    height: 22px;
+}
+
+.aButton:hover,
+.aButton:active {
+}
+
+.aButton img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.aCloseA:link,
+.aCloseA:visited {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 13px;
+    height: 13px;
+}
+
+.aCloseA:hover,
+.aCloseA:active {
+}
+
+.aCloseA img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.aCloseB:link,
+.aCloseB:visited {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 13px;
+    height: 13px;
+}
+
+.aCloseB:hover,
+.aCloseB:active {
+}
+
+.aCloseB img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.aCloseC {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 300px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+    .aCloseC div {
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        margin-left: -1.5px;
+        margin-top: -4px;
+        width: 3px;
+        height: 10px;
+        background-color: #fff;
+    }
+
+        .aCloseC div:nth-child(1) {
+            border-radius: 0px 0px 5px 5px;
+            transform: rotate(-45deg) translate(0px,5px);
+            -webkit-transform: rotate(-45deg) translate(0px,5px);
+            -moz-transform: rotate(-45deg) translate(0px,5px);
+            -ms-transform: rotate(-45deg) translate(0px,5px);
+            -o-transform: rotate(-45deg) translate(0px,5px);
+        }
+
+        .aCloseC div:nth-child(2) {
+            border-radius: 5px 5px 0px 0px;
+            transform: rotate(45deg) translate(0px,-5px);
+            -webkit-transform: rotate(45deg) translate(0px,-5px);
+            -moz-transform: rotate(45deg) translate(0px,-5px);
+            -ms-transform: rotate(45deg) translate(0px,-5px);
+            -o-transform: rotate(45deg) translate(0px,-5px);
+        }
+
+        .aCloseC div:nth-child(3) {
+            border-radius: 0px 0px 5px 5px;
+            transform: rotate(-45deg) translate(0px,-5px);
+            -webkit-transform: rotate(-45deg) translate(0px,-5px);
+            -moz-transform: rotate(-45deg) translate(0px,-5px);
+            -ms-transform: rotate(-45deg) translate(0px,-5px);
+            -o-transform: rotate(-45deg) translate(0px,-5px);
+        }
+
+        .aCloseC div:nth-child(4) {
+            border-radius: 0px 0px 5px 5px;
+            transform: rotate(45deg) translate(0px,5px);
+            -webkit-transform: rotate(45deg) translate(0px,5px);
+            -moz-transform: rotate(45deg) translate(0px,5px);
+            -ms-transform: rotate(45deg) translate(0px,5px);
+            -o-transform: rotate(45deg) translate(0px,5px);
+        }
+
+
+
+
+
+
+.socialsA {
+    margin: 50px auto 0 auto !important;
+    width: 195px;
+}
+
+    .socialsA li {
+        float: left;
+        margin-left: 10px;
+    }
+
+        .socialsA li a:link,
+        .socialsA li a:visited {
+            display: block;
+        }
+
+        .socialsA li a:hover,
+        .socialsA li a:active {
+        }
+
+
+
+
+
+.socialsB {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: auto;
+}
+
+    .socialsB li {
+        float: left;
+    }
+
+        .socialsB li a:link,
+        .socialsB li a:visited {
+            display: block;
+            padding: 6px;
+            border: 2px solid #000;
+            border-right: 1px solid #000;
+            border-left: 1px solid #000;
+            opacity: 0.4;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+        }
+
+        .socialsB li a:hover,
+        .socialsB li a:active {
+            opacity: 1;
+        }
+
+        .socialsB li a span {
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+        }
+
+        .socialsB li .aGeneric span {
+            background-image: url('../Images/share-black.png');
+        }
+
+        .socialsB li .aFacebook span {
+            background-image: url('../Images/facebook-black.png');
+        }
+
+        .socialsB li .aTwitter span {
+            background-image: url('../Images/twitter-black.png');
+        }
+
+        .socialsB li .aInstagram span {
+            background-image: url('../Images/instagram-black.png');
+        }
+
+        .socialsB li .aWhatsapp span {
+            background-image: url('../Images/whatsapp-black.png');
+        }
+
+        .socialsB li .aLinked span {
+            background-image: url('../Images/link-black.png');
+        }
+
+        .socialsB li .aGoogleplus span {
+            background-image: url('../Images/gplus-black.png');
+        }
+
+        .socialsB li .aPinterest span {
+            background-image: url('../Images/pinterest-black.png');
+        }
+
+
+
+
+
+.socialsC {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+}
+
+    .socialsC li {
+        float: left;
+    }
+
+        .socialsC li a:link,
+        .socialsC li a:visited {
+            display: block;
+            padding: 6px;
+            border: 2px solid #fff;
+            border-right: 1px solid #fff;
+            border-left: 1px solid #fff;
+            opacity: 0.5;
+            transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+        }
+
+        .socialsC li a:hover,
+        .socialsC li a:active {
+            opacity: 1;
+        }
+
+        .socialsC li a span {
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+        }
+
+        .socialsC li .aGeneric span {
+            background-image: url('../Images/share.png');
+        }
+
+        .socialsC li .aFacebook span {
+            background-image: url('../Images/facebook.png');
+        }
+
+        .socialsC li .aTwitter span {
+            background-image: url('../Images/twitter.png');
+        }
+
+        .socialsC li .aInstagram span {
+            background-image: url('../Images/instagram.png');
+        }
+
+        .socialsC li .aWhatsapp span {
+            background-image: url('../Images/whatsapp.png');
+        }
+
+        .socialsC li .aLinked span {
+            background-image: url('../Images/link.png');
+        }
+
+        .socialsC li .aGoogleplus span {
+            background-image: url('../Images/gplus.png');
+        }
+
+        .socialsC li .aPinterest span {
+            background-image: url('../Images/pinterest.png');
+        }
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+    header nav img[data-sixtythree="icon-search"] {
+        width: 15px;
+        height: 15px;
+    }
+
+    header nav img[data-sixtythree^="icon-social-"]:not(.white) {
+        opacity: 1;
+    }
+
+    header nav .socialsA {
+        margin: 30px auto 0 auto !important;
+        width: 195px;
+    }
+
+    .divLineA {
+        height: 50px;
+    }
+
+    .divLineB {
+        height: 50px;
+    }
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+    header nav img[data-sixtythree="icon-search"] {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+    header nav img[data-sixtythree="icon-search"] {
+        width: 15px;
+        height: 15px;
+    }
+
+    header nav img[data-sixtythree^="icon-social-"]:not(.white) {
+        opacity: 1;
+    }
+}
+
+
+@media all and (min-width: 1019px) and (max-width: 1434px) {
+}
+
+@media all and (min-width: 1435px) {
+}

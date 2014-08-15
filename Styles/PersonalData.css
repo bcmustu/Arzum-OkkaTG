@@ -1,0 +1,117 @@
+﻿
+
+section.personalDataPage {
+    max-width: 1240px;
+    margin: auto;
+}
+
+section.personalDataPage .pageContent {
+    position: fixed;
+    width: 600px;
+    padding-bottom: 50px;
+    bottom: 0px;
+    right: 10%;
+    background: rgba(189,177,172, 0.9);
+}
+
+section.personalDataPage .pageContent .pageTitle {
+    width: 90%;
+    padding-top: 20px;
+    margin: 35px auto;
+    border-top:1px solid #fee5cc;
+}
+
+section.personalDataPage .pageContent .formSection {
+    width: 90%;
+    padding-bottom: 20px;
+    margin: 30px auto;
+    text-align: justify;
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+
+    section.personalDataPage .pageContent {
+        width: 90%;
+        padding-bottom: 50px;
+        right: 0;
+        top: 50%;
+        margin: 0 auto;
+        margin-top: 50%;
+        background: rgba(189,177,172, 0.9);
+    
+        position: relative;
+        min-height: 100%;
+}
+
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+
+}
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+
+    section.personalDataPage { 
+    }
+
+    section.personalDataPage .pageContent {
+        width: 90%;
+        right: 0;
+        margin: auto;
+        height: auto !important;
+        margin-top: 20%;
+        background: rgba(189,177,172, 0.9);
+    
+        position: relative;
+}
+
+    section.personalDataPage .pageContent .formSection {
+        width: 90%;
+        height: auto;
+        padding-bottom: 20px;
+        margin: 30px auto;
+        text-align: justify;
+        background: #fff;
+        overflow: auto;
+    }
+
+}
+
+@media all and (min-width: 1019px) and (max-width: 1274px) {
+
+}
+
+@media all and (min-width: 1275px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

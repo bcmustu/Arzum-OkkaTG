@@ -1,0 +1,127 @@
+﻿
+html {
+    height: 100%;
+}
+
+
+body {
+    background: #f0caaa;
+    height: 100%;
+}
+
+
+#wrapper {
+   max-width: 1280px;
+   min-height: 100%;
+   background: url(../Files/Pages/Home/Pictures/background.jpg); 
+   background-size: cover;
+   background-position: left center;
+   margin: auto;
+}
+
+#wrapper-detail {
+   max-width: 1280px;
+   min-height: 100%;
+   background: url(../Files/Products/01/Pictures/background.jpg) no-repeat;
+   background-position: left top;
+   background-color: #411c13;
+   margin: auto;
+}
+
+#wrapper-photo {
+   max-width: 1280px;
+   min-height: 100%;
+   background: url(../Files/Pages/Static/background.jpg) no-repeat;
+   background-size: cover;
+   margin: auto;
+}
+
+#wrapper-data-page {
+   max-width: 1280px;
+   min-height: 100%;
+   background: url(../Files/Pages/DataPage/Pictures/background.jpg) no-repeat;
+   background-size: cover;
+   margin: auto;
+}
+
+
+
+main {
+    margin: 0 auto;
+    z-index: 500;
+}
+
+
+
+
+/* PAGE HEADER */
+#pageHeader{}
+/* END - PAGE HEADER */
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+
+    #wrapper {
+       background-position: center center !important;
+       background: url(../Files/Pages/Home/Pictures/background-smartphone.jpg);
+       background-size: cover; 
+    }
+
+    #wrapper-detail {
+       max-width: 1280px;
+       min-height: 100%;
+       background: url(../Files/Products/01/Pictures/background-portrait.jpg) no-repeat;
+       background-position: center -275px;
+       background-color: #411c13;
+       margin: auto;
+    }
+
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+
+    #wrapper {
+       background-position: center center !important;
+       background: url(../Files/Pages/Home/Pictures/background.jpg);
+       background-size: cover; 
+    }
+
+}
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+
+    #wrapper {
+       background-position: center center !important;
+       background: url(../Files/Pages/Home/Pictures/background-portrait.jpg);
+       background-size: cover; 
+    }
+
+  #wrapper-detail {
+     max-width: 1280px;
+     min-height: 100%;
+     background: url(../Files/Products/01/Pictures/background-portrait.jpg) no-repeat;
+     background-position: left top;
+     background-color: #411c13;
+     margin: auto;
+  }
+
+}
+
+@media all and (min-width: 1019px) and (max-width: 1274px) {
+
+    #wrapper {
+       background-position: -225px center;
+    }
+
+}
+
+@media all and (min-width: 1275px) {
+
+    #wrapper {
+       background-position: center center;
+    }
+
+}

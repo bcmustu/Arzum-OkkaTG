@@ -1,0 +1,163 @@
+
+
+/* **** MOBILE MENU ICON **** */
+#navMobile .aMobileMenuIcon img {
+    height:12px;
+    position:absolute;
+    top:50%;
+    left:5%;
+    margin-top:-12px;
+    padding:6px;
+    display:block;
+}
+
+#navMobile .aMobileMenuIcon:link,
+#navMobile .aMobileMenuIcon:visited {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top: 0px;
+    right: 0px;
+    background: tomato;
+}
+
+#navMobile .aMobileMenuIcon:hover,
+#navMobile .aMobileMenuIcon:active{
+}
+/* **** END - MOBILE MENU ICON **** */
+
+
+
+
+/* **** MOBILE MENU CONTENT  **** */ 
+#divMobileMenuEntireContent {
+    background-color: #381915;
+    position:absolute;
+    height: calc(100% - 100px);
+    left:0;
+    width:100%;
+    /*overflow:hidden;*/
+    display:none;
+    z-index: 1000;
+}
+
+#divMobileMenuEntireContent > ul {
+    width:100%;
+}
+
+#divMobileMenuEntireContent .ulMobileMenu2{
+    background-color:#404040;
+}
+
+#divMobileMenuEntireContent > ul > li {
+    border-top: 1px solid #4b2b27;
+    position:relative;
+
+}
+
+#divMobileMenuEntireContent .ulMobileMenu2 > li {
+    border-top:1px solid #666666;
+}
+
+#divMobileMenuEntireContent > ul > li > a:link,
+#divMobileMenuEntireContent > ul > li > a:visited {
+    display:block;
+    width:95%;
+    text-decoration:none;
+    font-family: avenir;
+    color: #ad9a8b;
+    font-weight: 400;
+    font-size: 16px;
+    padding:15px 0 15px 5%;
+    position:relative;
+}
+
+#divMobileMenuEntireContent > ul > li > a:hover,
+#divMobileMenuEntireContent > ul > li > a:active {
+}
+
+#divMobileMenuEntireContent > ul > li > a > img {
+    width:7px;
+    height:13px;
+    position:absolute;
+    right:5%;
+}
+
+#divMobileMenuEntireContent > ul > li > input[type="text"]{
+    width:72%;
+    height:35px;
+    font-size:13px;
+    font-weight:400;
+    color:#c2c2c2;
+    background-color:transparent;
+    border:1px solid #d9d9d9;
+    margin:10px 0 10px 5%;
+    padding:0 13% 0 5%;
+}
+
+#divMobileMenuEntireContent > ul > li > input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #c2c2c2;
+}
+#divMobileMenuEntireContent > ul > li > input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #c2c2c2;
+}
+#divMobileMenuEntireContent > ul > li > input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #c2c2c2;
+}
+#divMobileMenuEntireContent > ul > li > input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #c2c2c2;
+}
+
+#divMobileMenuEntireContent a.search:link,
+#divMobileMenuEntireContent a.search:visited {
+    display:block;
+    position:absolute;
+    top:50%;
+    right:6%;
+    width:30px;
+    height:30px;
+    margin-top:-15px;
+    padding:0;
+    opacity:0.4;
+}
+
+#divMobileMenuEntireContent a.search:hover,
+#divMobileMenuEntireContent a.search:active {
+    opacity:1;
+}
+
+
+#divMobileMenuEntireContent a.search img {
+    width:20px;
+    height: 20px;
+    padding:5px;
+}
+/* **** END - MOBILE MENU CONTENT  **** */ 
+
+
+/* **** SUB MENUS **** */
+#divMobileMenuEntireContent .ulMobileSubMenu1,
+#divMobileMenuEntireContent .ulMobileSubMenu2 {
+    position:absolute;
+    left:100%;
+    top:0;
+    display:none;
+}
+
+#divMobileMenuEntireContent > ul > li > a.aActive:link,
+#divMobileMenuEntireContent > ul > li > a.aActive:visited {
+    background-color:#f7f7f7;
+    color:#bcbcbc;
+    padding-left:11%;
+}
+
+#divMobileMenuEntireContent > ul > li > a.aActive:hover,
+#divMobileMenuEntireContent > ul > li > a.aActive:active {
+}
+
+#divMobileMenuEntireContent > ul > li > a.aActive img {
+    left:5%;
+}
+/* **** END - SUB MENUS **** */
+/* END - SITE MOBILE NAV MENU */
+

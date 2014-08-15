@@ -1,0 +1,226 @@
+
+        
+<!-- MOBILE SITE MAIN MENU CONTENT -->
+    <div id="divMobileMenuEntireContent">
+        <!-- **** 1st group of main menu **** -->
+        <ul class="ulMobileMenu1">
+            <li>
+                <input type="text" placeholder="ÜRÜN ARAMA" />
+                <a href="#" class="search"><img src="Images/mag.png" /></a>
+            </li>
+            <li>
+                <a href="javascript:showSubMenu(11);">E-SHOP<img src="Images/Header/sectionArrow.png" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='11'>
+                    <li><a href="javascript:backToMainMenu(11);" class="aActive"><img src="Images/Header/backArrow.png" /> DESA COLLECTION</a></li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(11, 111);">TEST A<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='111'>
+                            <li><a href="javascript:backToSubMenu1(11, 111);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST AA</a></li>
+                            <li><a href="#">TEST AB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(11, 112);">TEST B<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='112'>
+                            <li><a href="javascript:backToSubMenu1(11, 112);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST BA</a></li>
+                            <li><a href="#">TEST BB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(11, 113);">TEST C<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='113'>
+                            <li><a href="javascript:backToSubMenu1(11, 113);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST CA</a></li>
+                            <li><a href="#">TEST CB</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:showSubMenu(12);">KOLEKSİYONU KEŞFET <img src="Images/Header/sectionArrow.png" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='12'>
+                    <li><a href="javascript:backToMainMenu(12);" class="aActive"><img src="Images/Header/backArrow.png" /> DESA COLLECTION</a></li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(12, 121);">TEST D<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='121'>
+                            <li><a href="javascript:backToSubMenu1(12, 121);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST DA</a></li>
+                            <li><a href="#">TEST DB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(12, 122);">TEST E<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='122'>
+                            <li><a href="javascript:backToSubMenu1(12, 122);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST EA</a></li>
+                            <li><a href="#">TEST EB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(12, 123);">TEST F<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='123'>
+                            <li><a href="javascript:backToSubMenu1(12, 123);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST FA</a></li>
+                            <li><a href="#">TEST FB</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:showSubMenu(13);">DESA <img src="Images/Header/sectionArrow.png" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='13'>
+                    <li><a href="javascript:backToMainMenu(13);" class="aActive"><img src="Images/Header/backArrow.png" /> DESA COLLECTION</a></li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(13, 131);">TEST D<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='131'>
+                            <li><a href="javascript:backToSubMenu1(13, 131);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST DA</a></li>
+                            <li><a href="#">TEST DB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(13, 132);">TEST E<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='132'>
+                            <li><a href="javascript:backToSubMenu1(13, 132);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST EA</a></li>
+                            <li><a href="#">TEST EB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(13, 133);">TEST F<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='133'>
+                            <li><a href="javascript:backToSubMenu1(12, 133);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST FA</a></li>
+                            <li><a href="#">TEST FB</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:showSubMenu(14);">SAMSONITE <img src="Images/Header/sectionArrow.png" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='14'>
+                    <li><a href="javascript:backToMainMenu(14);" class="aActive"><img src="Images/Header/backArrow.png" /> DESA COLLECTION</a></li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(14, 141);">TEST D<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='141'>
+                            <li><a href="javascript:backToSubMenu1(14, 141);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST DA</a></li>
+                            <li><a href="#">TEST DB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(14, 142);">TEST E<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='142'>
+                            <li><a href="javascript:backToSubMenu1(14, 142);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST EA</a></li>
+                            <li><a href="#">TEST EB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(14, 143);">TEST F<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='143'>
+                            <li><a href="javascript:backToSubMenu1(14, 143);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST FA</a></li>
+                            <li><a href="#">TEST FB</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:showSubMenu(15);">AEROSOLES <img src="Images/Header/sectionArrow.png" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='15'>
+                    <li><a href="javascript:backToMainMenu(15);" class="aActive"><img src="Images/Header/backArrow.png" /> DESA COLLECTION</a></li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(15, 151);">TEST D<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='151'>
+                            <li><a href="javascript:backToSubMenu1(15, 151);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST DA</a></li>
+                            <li><a href="#">TEST DB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(15, 152);">TEST E<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='152'>
+                            <li><a href="javascript:backToSubMenu1(15, 152);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST EA</a></li>
+                            <li><a href="#">TEST EB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(15, 153);">TEST F<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='153'>
+                            <li><a href="javascript:backToSubMenu1(15, 153);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST FA</a></li>
+                            <li><a href="#">TEST FB</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- **** end **** -->
+        <!-- **** 2nd group of main menu **** -->
+        <ul class="ulMobileMenu2">
+            <li>
+                <a href="javascript:showSubMenu(23);">AW13 COLLECTION<img src="Images/Header/sectionArrow2.png" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='23'>
+                    <li><a href="javascript:backToMainMenu(23);" class="aActive"><img src="Images/Header/backArrow.png" /> DESA COLLECTION</a></li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(23, 231);">TEST G<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='231'>
+                            <li><a href="javascript:backToSubMenu1(23, 231);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST GA</a></li>
+                            <li><a href="#">TEST GB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(23, 232);">TEST H<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='232'>
+                            <li><a href="javascript:backToSubMenu1(23, 232);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST HA</a></li>
+                            <li><a href="#">TEST HB</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:showSubSubMenu(23, 233);">TEST I<img src="Images/Header/sectionArrow.png" /></a>
+
+                        <ul class="ulMobileSubMenu2" data-sub-sub-menu-id='233'>
+                            <li><a href="javascript:backToSubMenu1(23, 233);" class="aActive"><img src="Images/Header/backArrow.png" /> SS14 COLLECTION</a></li>
+                            <li><a href="#">TEST IA</a></li>
+                            <li><a href="#">TEST IB</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">2014</a></li>
+        </ul>
+        <!-- **** end **** -->
+    </div>
+    <!-- END - MOBILE SITE MAIN MENU CONTENT -->
