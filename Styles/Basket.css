@@ -2,7 +2,7 @@
 #basket{
     margin:auto;
     width:1170px;
-    background-color:#fff;
+    background-color:#efe0d2;
 }
 
 #basket table{
@@ -65,10 +65,8 @@
 }
 
 #basket table tr td span.ref{
-    display:block;
-    color:#c2c2c2;
-    font-size:12px;
     margin-top:20px;
+    display: block; color: #ca936f; font-size: 12px;  letter-spacing: 1px; margin-bottom: 5px;
 }
 
 #basket table tr td h1{
@@ -79,11 +77,10 @@
 }
 
 #basket table tr td h2{
-    font-size:12px;
-    color:#a3a3a3;
     font-weight:500;
-    letter-spacing:0.070em;
     margin-top:4px;
+    display: block; 
+    color: #ca936f; font-size: 12px;  letter-spacing: 1px; margin-bottom: 5px;
 }
 
 #basket table tr td span.old{
@@ -108,7 +105,7 @@
     width:10px;
     float:left;
     font-size:20px;
-    color:#a3a3a3;
+    color: #ca936f;
     font-weight:400;
 }
 
@@ -143,44 +140,52 @@
     width:300px;
     margin:15px 0 0 25px;
 }
-
+#basket .buttonB {
+    color:#000;
+    float:none;
+    width:200px;
+    text-align:center;
+    height:40px;
+    line-height:27px
+}
 #basket .divTotal .divInput input[type="text"]{
-    width:170px;
-    height:30px;
+    height: 35px;
+    font-family: myriadpro;
     font-size:12px;
-    color:#c2c2c2;
+    color: #000;
     font-weight:400;
-    border:1px solid #d9d9d9;
+    border: 1px solid #000;
     padding:0 0 0 15px;
     float:left;
 }
 
 #basket .divTotal input[type="text"]::-webkit-input-placeholder {
-    color:#c2c2c2;
+    color:#000;
 }
 
 #basket .divTotal input[type="text"]:-moz-placeholder { /* Firefox 18- */
-    color:#c2c2c2;
+    color:#000;
 }
 
 #basket .divTotal input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
-    color:#c2c2c2;
+    color:#000;
 }
 
 #basket .divTotal input[type="text"]:-ms-input-placeholder {  
-    color:#c2c2c2;
+    color:#000;
 }
 
 #basket .divTotal .divInput a.aButton:link,
 #basket .divTotal .divInput a.aButton:visited{
     display:inline-block;
     text-decoration:none;
-    background-color:#fff;
     font-size:12px;
     color:#000;
     font-weight:500;
+    width: 70px;
     float:left;
-    margin:11px 0 0 15px;
+    line-height: 23px;
+    margin: 8px 0 0 12px;
     text-align:center;
     opacity:0.35;
     transition: all 0.5s;
@@ -194,16 +199,16 @@
 
 #basket .divTotal .divInput a.aButton img {
     float:left;
-    margin-right:10px;
+    margin-right: 5px;
 }
 
 #basket .divTotal a.aButton1:link,
 #basket .divTotal a.aButton1:visited {
     text-decoration:none;
     display:block;
-    width:170px;
+    width: 180px;
     text-align:center;
-    border:1px solid #7f7f7f;
+    border: 0px;
     position:absolute;
     bottom:0;
     left:25px;
@@ -218,22 +223,19 @@
 }
 
 #basket .divTotal a.aButton1 span{
-    display:block;
-    color:#fff;
-    font-size:12px;
-    letter-spacing:1px;
-    padding:10px 0 9px 0;
-    background-color:#7f7f7f;
-    border:1px solid #fff;
+    display: block; color: #000; 
+    font-weight: 400; letter-spacing: 0px; 
+    font-size: 14px; 
+    padding: 15px 0 12px 0; background-color: #e2cfbf;
 }
 
 #basket .divTotal a.aButton2:link,
 #basket .divTotal a.aButton2:visited{
     text-decoration:none;
     display:block;
-    width:170px;
+    width: 180px;
     text-align:center;
-    border:1px solid #000;
+    border: 0px;
     position:absolute;
     bottom:0;
     right:20px;
@@ -249,12 +251,12 @@
 
 #basket .divTotal a.aButton2 span{
     display:block;
-    color:#fff;
-    font-size:12px;
-    letter-spacing:1px;
-    padding:10px 0 9px 0;
-    background-color:#000;
-    border:1px solid #fff;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 14px;
+    padding: 15px 0 12px 0;
+    background-color: #e2cfbf;
 }
 
 #basket .divTotal .divTotalContent{
@@ -315,7 +317,20 @@
     font-weight:500;
 }
 
-
+.accordionHeader{
+    display:block;
+    width: 1170px; padding: 25px 50px 100px 50px;
+    text-decoration:none;
+    font-family: MyriadPro;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:400;
+    margin: auto;
+    margin-top: 25px;
+    padding:20px 30px 20px 30px;
+    background-color:#210001;
+    color:#d0bfa9;
+}
 
 
 

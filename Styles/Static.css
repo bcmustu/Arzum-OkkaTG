@@ -4,118 +4,150 @@ header {
     padding-bottom: 30px;
     background: rgba(24,5,3,0.9);
 }
-
-section.staticPage {
-    margin-top: 75%;
-    position: relative;
+main {
+    text-align: center;
+}
+.staticContentWrapper {
+    width:960px;
+    margin: 0 auto;
+    display: inline-block;
+    min-height: 400px;
+    text-align: left;
+    left: 100px;
+    margin-top: calc(100vh - 627px);
 }
 
-section.staticPage .pageContent {
-    position: fixed;
-    width: 500px;
-    height: 425px;
-    bottom: 0px;
-    left: 50%;
-    background: #411c13;
+.staticContentMainImage {
+    width: 460px;
+    float: left;
 }
 
-section.staticPage .pageContent .pageTitle {
-    width: 90%;
-    padding-top: 20px;
-    margin: 35px auto;
-    border-top:1px solid #fee5cc;
-    line-height: 30px;
+    .staticContentMainImage img {
+        width: 100%;
+    }
+
+.staticContentWording {
+    width:500px;
+    min-height: 490px;
+    float: left;
+    padding: 30px 20px;
+    background: rgba(65,28,19,1);
 }
 
-section.staticPage .pageContent .pageDescription {
-    width: 90%;
-    height: auto;
-    padding-bottom: 20px;
-    margin: 30px auto;
-    text-align: justify;
+    .staticContentWording .pageTitle {
+        padding-top:20px;
+        border-top:1px solid #fee5cc;
+        margin-bottom:20px;
+        line-height:30px;
+    }
+
+.pageName{
+    padding-bottom: 5px;
+
+} 
+
+    .pageName h2{
+        font-size:11px;
+    } 
+
+.pageDescription h3 {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-bottom: 1px solid #8c685f;
+    border-top: 1px solid #8c685f;
+    line-height: 24px;
 }
-
-
-
-
 
 
 /* Screen */
 @media all and (max-width: 400px) {
-
-    header {
-        width: 100%;
-        height: 80px;
-        padding-bottom: 30px;
-        background: rgba(33,0,0,1);
-    
-        position: absolute;
-        top: 0px;
+.staticContentWrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: inline-block;
+    min-height: 400px;
+    text-align: left;
+    left: 0;
+    margin-top: 5%;
 }
 
-    section.staticPage .pageContent {
-        position: relative;
-        width: 100%;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        height: auto;
-        bottom: 0px;
-        left: 0;
-        background: #411c13;
-    }
-
-    section.staticPage .pageContent .pageDescription {
-        width: 90%;
-        padding-bottom: 20px;
-        margin: 30px auto;
-        border-bottom:1px solid #fee5cc;
-        text-align: justify;
-    
-        overflow: auto;
-        height: auto;
+.staticContentMainImage {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    left: 0px;
 }
-    section.staticPage {
-        margin-top: 75%;
-        position: absolute;
-    }
-    .staticPageNav ~ .navSeperator {
-        display: none;
+
+    .staticContentMainImage img {
+        width: 100%;
     }
 
-    .level1 .subnav {
-        display: none;
+.staticContentWording {
+    width: 100%;
+    min-height: 315px;
+    float: left;
+    padding: 30px 20px;
+    background: rgba(65,28,19,1);
+}
+
+    .staticContentWording .pageTitle {
+        padding-top:20px;
+        border-top:1px solid #fee5cc;
+        margin-bottom:20px;
+        line-height:30px;
+    }
+    
+    
+    
+    
+    header .navSeperator {
+        display:none;
     }
 
 }
 
 @media all and (min-width: 401px) and (max-width: 700px) {
-    .level1 .subnav {
-        display: none;
-    }
+
 }
 
 @media all and (min-width: 701px) and (max-width: 1018px) {
+.staticContentWrapper {
+    width: 700px;
+    margin: 0 auto;
+    display: inline-block;
+    min-height: 400px;
+    text-align: left;
+    left: 0;
+    margin-top: 34px;
+}
 
-    header {
-        height: 215px;
-        padding-bottom: 30px;
-        background: rgba(33,0,0,1);
-    }
+.staticContentMainImage {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    left: 0px;
+}
 
-    section.staticPage .pageContent {
-        position: absolute;
+    .staticContentMainImage img {
         width: 100%;
-        height: auto;
-        bottom: auto;
-        left: 0;
-        background: #411c13;
     }
 
-    section.staticPage {
-        margin-top: 20%;
-        position: relative;
-    }
+.staticContentWording {
+    width: 100%;
+    min-height: 315px;
+    float: left;
+    padding: 30px 20px;
+    background: rgba(65,28,19,1);
+}
 
+    .staticContentWording .pageTitle {
+        padding-top:20px;
+        border-top:1px solid #fee5cc;
+        margin-bottom:20px;
+        line-height:30px;
+    }
 }
 
 @media all and (min-width: 1019px) and (max-width: 1274px) {
@@ -128,6 +160,16 @@ section.staticPage .pageContent .pageDescription {
     
         position: absolute;
 }
+
+    .staticContentWrapper {
+        width: 960px;
+        margin: 0 auto;
+        display: inline-block;
+        min-height: 400px;
+        left: auto;
+        text-align: left;
+        margin-top: calc(734px - 625px);
+    }
 
 }
 

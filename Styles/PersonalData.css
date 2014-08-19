@@ -10,9 +10,10 @@ section.personalDataPage .pageContent {
     width: 600px;
     margin: 0 auto;
     padding-bottom: 50px;
+    padding-top: 1px;
     top: 100px;
     bottom: 0px;
-    left: 234px;
+    left: 120px;
     background: rgba(189,177,172, 0.9);
 }
 section.loginPage .pageContent {
@@ -40,8 +41,9 @@ section.personalDataPage .pageContent .pageTitle, section.loginPage .pageContent
 
 section.personalDataPage .pageContent .formSection, section.loginPage .pageContent .formSection, section.signUpPage .pageContent .formSection {
     width: 90%;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     margin: 30px auto;
+    margin-bottom: -20px;
     text-align: justify;
 }
 
@@ -139,6 +141,23 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
     bottom: -5px;
 }
 
+    p.pContactGuide {
+        padding: 36px;
+    
+        padding-top: 0px;
+        margin-top: -20px;
+        color: #441e15;
+        opacity: 0.7;
+        width: 70%;
+        padding-bottom: 0px;
+}
+
+    textarea.inputTextE {
+        height: 100px;
+    
+        resize: none;
+}
+
 
 /* Screen */
 @media all and (max-width: 400px) {
@@ -146,13 +165,64 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
     section.personalDataPage .pageContent, section.signUpPage .pageContent, section.loginPage .pageContent {
         width: 90%;
         padding-bottom: 50px;
-        right: 0;
-        top: 50%;
+        padding-top: 20px;
+        left: 0;
         margin: 0 auto;
-        margin-top: 50%;
+        margin-top: 17.3%;
         background: rgba(189,177,172, 0.9);
         position: relative;
         min-height: 100%;
+        
+    }
+
+    div.alreadyAMemberOrNot label.additionalInputLabel {
+        position:relative;
+        right: 0px;
+        bottom: -15px;
+        left:-35px
+    }
+    
+    div.divSocialIcons a.aSocialIcon {
+        float: none;
+        width: 170px;
+        height: 35px;
+        margin: 5px auto;
+        text-align: center;
+        border: 1px solid #e2cfbf;
+        transition:all 0.3s;
+        text-align: left;
+    }
+    
+    span.spanOr {
+        margin: 20px 0px;
+        margin-top:30px;
+        text-align: center;
+        width: 100%;
+    }
+    section.personalDataPage .pageContent .pageTitle, section.loginPage .pageContent .pageTitle, section.signUpPage .pageContent .pageTitle {
+        width: 90%;
+        padding-top: 20px;
+        margin: 35px auto;
+        margin-top:0px;
+        border-top: 1px solid #fee5cc;
+    }
+
+        p.pContactGuide {
+        padding: 20px;
+    
+        padding-top: 0px;
+        margin-top: -20px;
+        color: #441e15;
+        opacity: 0.7;
+        width: 100%;
+        padding-bottom: 0px;
+}
+
+    textarea.inputTextE {
+        height: 100px;
+    
+        padding-top: 15px;
+        resize: none;
 }
 
 }
@@ -168,12 +238,27 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
 
     section.personalDataPage .pageContent, section.signUpPage .pageContent, section.loginPage .pageContent {
         width: 90%;
-        right: 0;
+        left: 0;
         margin: auto;
         height: auto !important;
-        margin-top: 20%;
+        margin-top: 56%;
         background: rgba(189,177,172, 0.9);
         position: relative;
+}
+    section.personalDataPage .pageContent{
+    margin-top: calc(20.4% - 110px);
+
+    padding-top: 30px;
+}
+    section.signUpPage .pageContent{
+    margin-top: calc(43.6% - 110px);
+
+    padding-top: 30px;
+}
+    section.loginPage .pageContent{
+    margin-top: calc(45% - 141px);
+
+    padding-top: 30px;
 }
 
     section.personalDataPage .pageContent .formSection, section.signUpPage .pageContent .formSection, section.loginPage .pageContent .formSection {
@@ -184,6 +269,48 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
         text-align: justify;
         overflow: auto;
     }
+    
+        div.divSocialIcons a.aSocialIcon {
+        float: left;
+        width: 187px;
+        height: 35px;
+        margin: 10px;
+        text-align: center;
+        border: 1px solid #e2cfbf;
+        transition:all 0.3s;
+        text-align: left;
+    }
+    
+    span.spanOr {
+        margin: 20px 0px;
+        margin-top:30px;
+        text-align: center;
+        width: 100%;
+    }
+    section.personalDataPage .pageContent .pageTitle, section.loginPage .pageContent .pageTitle, section.signUpPage .pageContent .pageTitle {
+        width: 90%;
+        padding-top: 20px;
+        margin: 35px auto;
+        margin-top:0px;
+        border-top: 1px solid #fee5cc;
+    }
+    
+    p.pContactGuide {
+        padding: 36px;
+    
+        padding-top: 0px;
+        margin-top: -20px;
+        color: #441e15;
+        opacity: 0.7;
+        width: 70%;
+        padding-bottom: 0px;
+}
+
+    textarea.inputTextE {
+        height: 100px;
+    
+        resize: none;
+}
 
 
 }

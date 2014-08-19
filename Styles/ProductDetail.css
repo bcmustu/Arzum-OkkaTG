@@ -37,6 +37,24 @@ section.productDetail .productDetailDescription .detailHead {
     padding: 0px 15px 20px 15px; 
 }
 
+section.productDetail .productDetailDescription .detailHead select {
+    float:right;
+    width: 146px !important;
+    margin-right: 10px;
+    font-family: myriadpro;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    background-color: transparent;
+    color: #e0ba8f;
+    background-image: url('../Images/icon-arrow-down.png'); background-size: 10px; background-repeat: no-repeat; 
+    background-position: 86% center;
+    height: 47px;
+    padding-left: 28px;
+    top: 2px;
+    border: 1px solid;
+}
+
 section.productDetail .productDetailDescription .detailHead h1.productTitle {
     float: left;
     margin-top: 20px;
@@ -198,9 +216,11 @@ section.productDetail .productDetailDescription .technicalImages img {
     }
 
     section.productDetail .productImage img {
-        width: 300px;
+        width: 250px;
         left: 5px;
-    }
+    
+        margin: auto;
+}
 
     section.productDetail .productDetailDescription {
         width: 100%;
@@ -214,26 +234,34 @@ section.productDetail .productDetailDescription .technicalImages img {
         width: 90%;
         float: left; 
         margin-left: 5%;
+        margin-top: -30px;
         padding: 0 0 20px 0; 
-    }
+    
+        z-index: 99999;
+}
 
     section.productDetail .productDetailDescription .detailHead h1.productTitle {
         float: left;
-        margin-top: 13px;
+        margin-top: -40px;
+        margin-bottom: 21px;
         line-height: 20px;
-    }
+    
+        width: 100%;
+}
 
     section.productDetail .productDetailDescription .detailHead .addToBasketButton {
         width: auto;
-        float: right;
         line-height: 20px;
-    }
+    
+        float: left;
+}
 
     section.productDetail .productDetailDescription .detailHead .addToBasketButton input[type="button"] {
         background: #e0ba8f;
         border: 0;
         padding: 10px 15px 10px 15px;
         cursor: pointer; 
+        width: 130px;
         transition: all 0.3s;
     }
 
@@ -351,6 +379,27 @@ section.productDetail .productDetailDescription .technicalImages img {
         float: left;
         margin-top: 30px; 
     }
+    
+    
+    section.productDetail .productDetailDescription .detailHead select {
+        float: right;
+        width: 130px !important;
+        margin-right: 0px;
+        font-family: myriadpro;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        background-color: transparent;
+        color: #e0ba8f;
+        background-image: url('../Images/icon-arrow-down.png');
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: 86% center;
+        height: 39px;
+        padding-left: 28px;
+        top: 2px;
+        border: 1px solid;
+    }
 
 }
 
@@ -381,7 +430,7 @@ section.productDetail .productDetailDescription .technicalImages img {
 
     section.productDetail .productDetailDescription {
         width: 100%;
-        margin-top: 0px;
+        margin-top: -70px;
         margin-left: 28px;
         background: transparent;
     }
@@ -391,7 +440,9 @@ section.productDetail .productDetailDescription .technicalImages img {
         float: left; 
         margin-left: 25px;
         padding: 0px 15px 20px 15px; 
-    }
+    
+        z-index: 9999;
+}
 
     section.productDetail .productDetailDescription .introSection {
         width: 720px;

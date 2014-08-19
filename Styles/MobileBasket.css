@@ -1,10 +1,11 @@
 ﻿
 #mobileBasket {
-    width:100%;
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
     margin-top:50px;
     padding-bottom:100px;
-    border:1px solid #fff;
-    background-color:#fff;
+    background-color: #efe0d2;
 }
 
 #mobileBasket .divContent .divBasketRow {
@@ -45,7 +46,7 @@
 }
 
 #mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(1) > div >  h3 {
-    color:#a3a3a3;
+    color: #ca936f;
     margin-top:6px;
 }
 
@@ -64,17 +65,18 @@
 
 #mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(2) div:nth-child(1) {
     float:left;
-    color:#a3a3a3;
+    color: #ca936f;
     font-size:12px;
 }
 
 #mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(2) div:nth-child(1) input[type="text"] {
     width:30px;
     height:20px;
-    border:1px solid #d9d9d9;
+    border: 1px solid #ca936f;
     margin-right:10px;
     font-size:12px;
-    color:#000;
+    color: #ca936f;
+    background-color: transparent;
     padding-left:10px;
 }
 
@@ -91,6 +93,7 @@
 
 #mobileBasket .divContent .divTotal {
     width:100%;
+    color: #ca936f;
 }
 
 #mobileBasket .divContent .divTotal .divTotalContent{
@@ -128,7 +131,7 @@
 #mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
     display:block;
     font-size:12px;
-    color:#a3a3a3;
+    color: #ca936f;
     letter-spacing:1px;
     margin-bottom:7px;
     text-align:right;
@@ -151,7 +154,6 @@
     display:block;
     text-decoration:none;
     text-align:center;
-    border:1px solid #000;
     margin-top:10px;
 }
 
@@ -161,10 +163,15 @@
 
 #mobileBasket .divContent  a.aButton span{
     display:block;
-    color:#fff;
+    color: #000;
     font-size:12px;
     letter-spacing:1px;
     padding:14px 0 13px 0;
-    background-color:#000;
-    border:1px solid #fff;
+    background-color: #e2cfbf;
+}
+
+@media all and (max-width: 400px) {
+    #mobileBasket {
+        margin-top: 65px;
+    }
 }

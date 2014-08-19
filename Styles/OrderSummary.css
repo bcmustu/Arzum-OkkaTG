@@ -1,8 +1,9 @@
 ﻿
 #orderSummary{
-    margin:50px auto 0 auto;
+    margin: 0px auto 0 auto;
+    padding: 20px;
     padding-bottom:100px;
-    background-color:#fff;
+    background-color: #efe0d2;
 }
 
 #orderSummary h1{
@@ -20,13 +21,13 @@
 
 #orderSummary .divOrderSummaryInfo .divContent > span{
     font-size:14px;
-    color:#898989;
+    color: #ca936f;
 }
 
 #orderSummary .divOrderSummaryInfo .divContent > p{
     margin:10px 0 0 0;
     font-size:14px;
-    color:#898989;
+    color: #ca936f;
 }
 
 
@@ -36,7 +37,7 @@
 }
 
 #orderSummary .divOrderSummaryInfo .divContent table tr th{
-    color:#cacaca;
+    color: #ca936f;
     font-weight:400;
     font-size:12px;
     letter-spacing:1px;
@@ -84,6 +85,7 @@
 #orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(1) img{
     display:block;
     margin:auto;
+    margin-right: 10px;
 }
 
 #orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(2){
@@ -94,7 +96,7 @@
 
 #orderSummary .divOrderSummaryInfo .divContent table tr td span.ref{
     display:block;
-    color:#c2c2c2;
+    color: #ca936f;
     font-size:12px;
     margin-top:20px;
 }
@@ -108,7 +110,7 @@
 
 #orderSummary .divOrderSummaryInfo .divContent table tr td h2{
     font-size:12px;
-    color:#a3a3a3;
+    color: #ca936f;
     font-weight:500;
     letter-spacing:0.070em;
     margin-top:4px;
@@ -171,7 +173,7 @@
 #orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
     display:block;
     font-size:12px;
-    color:#a3a3a3;
+    color: #ca936f;
     font-weight:600;
     letter-spacing:1px;
     margin-bottom:12px;
@@ -209,20 +211,34 @@
 #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation span,
 #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation span{
     font-size:14px;
-    color:#898989;
+    color: #ca936f;
     line-height:20px;
 }
 
 #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation p,
 #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation p{
     font-size:14px;
-    color:#898989;
+    color: #ca936f;
     line-height:20px;
 }
 
 
 
 
+.accordionHeader{
+    display:block;
+    width: 730px; 
+    text-decoration:none;
+    font-family: MyriadPro;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:400;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 17px 20px 20px;
+    background-color:#210001;
+    color:#d0bfa9;
+}
 
 
 
@@ -331,6 +347,20 @@
     #orderSummary .divOrderSummaryInfo .divContent{
         padding:0 5px 0 5px !important;
     }
+    .accordionHeader{
+    display:block;
+    width: 730px; 
+    text-decoration:none;
+    font-family: MyriadPro;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:400;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 17px 20px 20px;
+    background-color:#210001;
+    color:#d0bfa9;
+}
 }
 
 @media all and (min-width: 401px) and (max-width: 700px) {
@@ -432,12 +462,29 @@
     #orderSummary .divOrderSummaryInfo .divContent{
         padding:0 5px 0 5px !important;
     }
+    
+    .accordionHeader{
+    display:block;
+    width: 730px; 
+    text-decoration:none;
+    font-family: MyriadPro;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:400;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 17px 20px 20px;
+    background-color:#210001;
+    color:#d0bfa9;
+}
 } 
 
 @media all and (min-width: 701px) and (max-width: 1018px) {
     #orderSummary{
-        width:730px;
-    }
+        width: 730px;
+    
+        padding: 20px;
+}
 
     #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
     #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
@@ -452,26 +499,76 @@
     #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation {
         float:right;
     }
+    
+    .accordionHeader{
+    display:block;
+    width: 730px; 
+    text-decoration:none;
+    font-family: MyriadPro;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:400;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 17px 20px 20px;
+    background-color:#210001;
+    color:#d0bfa9;
+}
 }
 
 @media all and (min-width: 1019px) and (max-width: 1274px) {
     #orderSummary{
-        width:960px;
-    }
+        width: 960px;
+    
+        padding: 20px;
+}
 
     #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
     #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
         margin-top:30px;
     }
+    
+    .accordionHeader{
+    display:block;
+    width: 960px; 
+    text-decoration:none;
+    font-family: MyriadPro;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:400;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 17px 20px 20px;
+    background-color:#210001;
+    color:#d0bfa9;
+}
 }
 
 @media all and (min-width: 1275px) {
     #orderSummary{
-        width:1170px;
-    }
+        width: 1170px;
+    
+        padding: 40px;
+}
 
     #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
     #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
         margin-top:30px;
     }
+    
+    
+    .accordionHeader{
+    display:block;
+    width: 1170px; 
+    text-decoration:none;
+    font-family: MyriadPro;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:400;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 40px 20px 40px;
+    background-color:#210001;
+    color:#d0bfa9;
+}
 }

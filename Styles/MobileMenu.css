@@ -2,21 +2,22 @@
 
 /* **** MOBILE MENU ICON **** */
 #navMobile .aMobileMenuIcon img {
-    left: -15px;
-    top: -17px;
+    left: 0px;
+    top: 0px;
     position: absolute;
     display:block;
     z-index: 2;
     cursor: pointer;
+    width: 100%;
 }
 
 #navMobile .aMobileMenuIcon:link,
 #navMobile .aMobileMenuIcon:visited {
     position: absolute;
-    width: 30px;
+    width: 15px;
     height: 30px;
-    top: -29px;
-    right: 32px;
+    top: -20px;
+    right: 30px;
     display: none;
 }
 

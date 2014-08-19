@@ -85,6 +85,21 @@ main {
        background-color: #411c13;
        margin: auto;
     }
+    
+        
+    #wrapper-data-page {
+       max-width: 1280px;
+       min-height: 100%;
+       position: absolute;
+       right: 0;
+       left: 0px;
+       background: url(../Files/Pages/DataPage/Pictures/background.jpg) no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       margin: auto;
+       overflow: scroll;
+    }
+
 
 }
 
@@ -133,7 +148,7 @@ main {
 @media all and (min-width: 1019px) and (max-width: 1274px) {
 
     #wrapper {
-       background-position: -225px center;
+       background-position: -115px center;
     }
 
 }
