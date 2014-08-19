@@ -12,6 +12,7 @@ var isPortrait = false;
 var scrollTopVal = 0;
 var scrollDir;
 var lastScrollAmount = 0;
+var isScroll = false;
 
 $(document).ready(function () {
     checkDevice();
@@ -24,6 +25,7 @@ $(document).ready(function () {
     miscImgLoader();
     openCloseMenu();
     openOrCloseSearch();
+    navigation();
 
     // PPI = getPPI();
     // console.log(PPI);
@@ -539,5 +541,22 @@ function headerShadow(){
         if (scrollTopVal > 0) {
             $('header').addClass('headerShadow');
         };
+    });
+}
+
+function navigation() {
+    $('.divNav *').bind('touchstart',function(){
+        isScroll = false;
+        $(this).bind('touchmove',function(){
+            isScroll = true;
+        });
+        $(this).bind('touchend',function(){
+            $('.divNav *').each(function(){
+                $(this).removeClass('hover');
+            })
+            if (!isScroll) {
+                $(this).addClass('hover');
+            };
+        });
     });
 }

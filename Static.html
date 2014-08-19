@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="Styles/Common.css" />
     <link rel="stylesheet" type="text/css" href="Styles/Header.css" />
     <link rel="stylesheet" type="text/css" href="Styles/Navi.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/Misc.css" />
     <link rel="stylesheet" type="text/css" href="Styles/MobileMenu.css" />
     <link rel="stylesheet" type="text/css" href="Styles/Static.css" />
 
@@ -30,7 +31,7 @@
 
         <!-- HEADER START -->
         <header>
-            <div class="divContent">
+            <div class="divContent staticPageNav">
 
                 <!-- LOGOTYPE START -->
                 <a href="#" class="aLogo"><img data-sixtythree="logotype" /></a>
@@ -38,16 +39,24 @@
 
                 <!-- NAVIGATION START -->
                 <nav>
-                    <div class="divNav staticPageNav">
+                    <div class="divNav">
 
                         <ul class="level1">
-                            <li><a href="#" class="aStyleA">TÜRK KAHVESİ<br> DÜNYASI</a></li>
+                            <li><a href="#" class="aStyleA">TÜRK KAHVESİ<br> DÜNYASI</a>
+                            </li>
                             <li><a href="#" class="aStyleA">ARZUM<br> OKKA DÜNYASI</a>
                                 <ul class="level2">
-                                    <li><a href="#" class="aStyleB">PRODUCT INFORMATION</a></li>
-                                    <li><a href="#" class="aStyleB">DEMO VIDEO</a></li>
-                                    <li><a href="#" class="aStyleB">INSTRUCTION MANUAL</a></li>
-                                    <li><a href="#" class="aStyleB">EXPERIENCE KIT SALES</a></li>
+                                    <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">PRODUCT INFORMATION</a></li>
+                                    <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">DEMO VIDEO</a>
+                                        <ul class="level3">
+                                            <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">PRODUCT INFORMATION</a></li>
+                                            <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">DEMO VIDEO</a></li>
+                                            <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">INSTRUCTION MANUAL</a></li>
+                                            <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">EXPERIENCE KIT SALES</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">INSTRUCTION MANUAL</a></li>
+                                    <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">EXPERIENCE KIT SALES</a></li>
                                 </ul>
                             </li>
                             <li><a href="#" class="aStyleA">NEREDE<br> BULABİLİRSİNİZ?</a></li>
@@ -56,7 +65,6 @@
                             <li><a href="#" class="aStyleA">ARZUM OKKA<br> KAYIT FORMU</a></li>
                         </ul>
 
-                        <div class="navSeperator"></div>
 
                     </div>
                 </nav>
@@ -72,11 +80,12 @@
 
                     <!-- MOBILE MAIN MENU -->
         <nav id="navMobile">
-            <a href="javascript:showOrCloseMobileMenu('-1');" class="aMobileMenuIcon"><img src="Images/nav.png"></a>
+            <a href="javascript:showOrCloseMobileMenu('-1');" class="aMobileMenuIcon"><img data-sixtythree="icon-mobile-nav"></a>
         </nav>
                     <!-- END - MOBILE MAIN MENU -->
 
 
+                        <div class="navSeperator"></div>
 
 
 
@@ -85,83 +94,81 @@
 
 
 
-
-        
     <!-- MOBILE SITE MAIN MENU CONTENT -->
     <div id="divMobileMenuEntireContent">
         <!-- **** 1st group of main menu **** -->
         <ul class="ulMobileMenu1">
             <li>
-                <a href="javascript:showSubMenu(11);">TÜRK KAHVESİ DÜNYASI<img src="Images/sectionArrow.png" /></a>
+                <a href="javascript:showSubMenu(11);">TÜRK KAHVESİ DÜNYASI<img data-sixtythree="icon-nav-next" /></a>
 
                 <ul class="ulMobileSubMenu1" data-sub-menu-id='11'>
-                    <li><a href="javascript:backToMainMenu(11);" class="aActive"><img src="Images/backArrow.png" />TÜRK KAHVESİ DÜNYASI</a></li>
+                    <li><a href="javascript:backToMainMenu(11);" class="aActive"><img data-sixtythree="icon-nav-previous" />TÜRK KAHVESİ DÜNYASI</a></li>
                     <li>
-                        <a href="#">GEÇMİŞTEN GÜNÜMÜZE TÜRK KAHVESİ<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">GEÇMİŞTEN GÜNÜMÜZE TÜRK KAHVESİ</a>
                     </li>
                     <li>
-                        <a href="#">GELENEKSEL TÜRK KAHVESİ KEYFİ<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">GELENEKSEL TÜRK KAHVESİ KEYFİ</a>
                     </li>
                 </ul>
             </li>
             <li>
-                <a href="javascript:showSubMenu(12);">ARZUM OKKA DÜNYASI<img src="Images/sectionArrow.png" /></a>
+                <a href="javascript:showSubMenu(12);">ARZUM OKKA DÜNYASI<img data-sixtythree="icon-nav-next" /></a>
 
                 <ul class="ulMobileSubMenu1" data-sub-menu-id='12'>
-                    <li><a href="javascript:backToMainMenu(12);" class="aActive"><img src="Images/backArrow.png" />ARZUM OKKA DÜNYASI</a></li>
+                    <li><a href="javascript:backToMainMenu(12);" class="aActive"><img data-sixtythree="icon-nav-previous" />ARZUM OKKA DÜNYASI</a></li>
                     <li>
-                        <a href="#">OKKALI TÜRK KAHVESİ<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">OKKALI TÜRK KAHVESİ</a>
                     </li>
                     <li>
-                        <a href="#">ARZUM OKKA TÜRK KAHVE MAKİNASI<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">ARZUM OKKA TÜRK KAHVE MAKİNASI</a>
                     </li>
                     <li>
-                        <a href="#">ÖDÜLLER<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">ÖDÜLLER</a>
                     </li>
                     <li>
-                        <a href="#">ARZUM OKKA TEKNİK BİLGİLER<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">ARZUM OKKA TEKNİK BİLGİLER</a>
                     </li>
                     <li>
-                        <a href="#">ARZUM OKKA TANITIM FİLMİ<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">ARZUM OKKA TANITIM FİLMİ</a>
                     </li>
                     <li>
-                        <a href="#">BASINDA ARZUM OKKA<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">BASINDA ARZUM OKKA</a>
                     </li>
                 </ul>
             </li>
 
             <li>
-                <a href="javascript:showSubMenu(13);">NEREDE BULABİLİRSİNİZ<img src="Images/sectionArrow.png" /></a>
+                <a href="javascript:showSubMenu(13);">NEREDE BULABİLİRSİNİZ<img data-sixtythree="icon-nav-next" /></a>
 
                 <ul class="ulMobileSubMenu1" data-sub-menu-id='13'>
-                    <li><a href="javascript:backToMainMenu(13);" class="aActive"><img src="Images/backArrow.png" />NEREDE BULABİLİRSİNİZ</a></li>
+                    <li><a href="javascript:backToMainMenu(13);" class="aActive"><img data-sixtythree="icon-nav-previous" />NEREDE BULABİLİRSİNİZ</a></li>
                     <li>
-                        <a href="#">SATIŞ NOKTALARI<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">SATIŞ NOKTALARI</a>
                     </li>
                     <li>
-                        <a href="#">YETKİLİ SERVİS NOKTALARI<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">YETKİLİ SERVİS NOKTALARI</a>
                     </li>
                     <li>
-                        <a href="#">ARZUM OKKA SATILAN ÜLKELER<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">ARZUM OKKA SATILAN ÜLKELER</a>
                     </li>
                 </ul>
             </li>
 
             <li>
-                <a href="javascript:showSubMenu(14);">İLETİŞİM KÖŞESİ<img src="Images/sectionArrow.png" /></a>
+                <a href="javascript:showSubMenu(14);">İLETİŞİM KÖŞESİ<img data-sixtythree="icon-nav-next" /></a>
 
                 <ul class="ulMobileSubMenu1" data-sub-menu-id='14'>
-                    <li><a href="javascript:backToMainMenu(14);" class="aActive"><img src="Images/backArrow.png" />İLETİŞİM KÖŞESİ</a></li>
+                    <li><a href="javascript:backToMainMenu(14);" class="aActive"><img data-sixtythree="icon-nav-previous" />İLETİŞİM KÖŞESİ</a></li>
                     <li>
-                        <a href="#">ARZUM OKKA'DAN DUYURULAR<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">ARZUM OKKA'DAN DUYURULAR</a>
                     </li>
                     <li>
-                        <a href="#">BİZE ULAŞABİLİRSİNİZ<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">BİZE ULAŞABİLİRSİNİZ</a>
                     </li>
                 </ul>
             </li>
 
-<!--             <li>
+            <!--<li>
                 <a href="javascript:showSubMenu(15);">EĞLENCE KÖŞESİ<img src="Images/sectionArrow.png" /></a>
 
                 <ul class="ulMobileSubMenu1" data-sub-menu-id='15'>
@@ -175,24 +182,24 @@
                 </ul>
             </li> -->
             <li>
-                <a href="javascript:showSubMenu(16);">KAYIT FORMU<img src="Images/sectionArrow.png" /></a>
+                <a href="javascript:showSubMenu(16);">KAYIT FORMU<img data-sixtythree="icon-nav-next" /></a>
 
                 <ul class="ulMobileSubMenu1" data-sub-menu-id='16'>
-                    <li><a href="javascript:backToMainMenu(16);" class="aActive"><img src="Images/backArrow.png" />KAYIT FORMU</a></li>
+                    <li><a href="javascript:backToMainMenu(16);" class="aActive"><img data-sixtythree="icon-nav-previous" />KAYIT FORMU</a></li>
                     <li>
-                        <a href="#">ÜYELİK<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">ÜYELİK</a>
                     </li>
                     <li>
-                        <a href="#">SİPARİŞ<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">SİPARİŞ</a>
                     </li>
                     <li>
-                        <a href="#">ÖDEME YAPISI<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">ÖDEME YAPISI</a>
                     </li>
                     <li>
-                        <a href="#">E-MAIL YAPISI<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">E-MAIL YAPISI</a>
                     </li>
                     <li>
-                        <a href="#">KUPON KULLANIMI<img src="Images/sectionArrow.png" /></a>
+                        <a href="#">KUPON KULLANIMI</a>
                     </li>
                 </ul>
             </li>
@@ -200,8 +207,6 @@
         <!-- **** end **** -->
     </div>
     <!-- END - MOBILE SITE MAIN MENU CONTENT -->
-
-
 
 
 

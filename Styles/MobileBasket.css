@@ -1,0 +1,170 @@
+﻿
+#mobileBasket {
+    width:100%;
+    margin-top:50px;
+    padding-bottom:100px;
+    border:1px solid #fff;
+    background-color:#fff;
+}
+
+#mobileBasket .divContent .divBasketRow {
+    width:100%;
+    padding-bottom:20px;
+    border-bottom:1px solid #bfbfbf;
+}
+
+#mobileBasket .divContent .divBasketRow > img {
+    display:block;
+    width:25%;
+    margin-top:10px;
+    float:left;
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent {
+    width:72%;
+    margin-top:10px;
+    float:right;
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(1){
+    width:100%;
+    height:60px;   
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(1) > div {
+    float:left;
+    margin-top:18px;
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(1) > div > h2,
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(1) > div > h3{
+    font-size:12px;
+    color:#000;
+    font-weight:400;
+    letter-spacing:1px;
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(1) > div >  h3 {
+    color:#a3a3a3;
+    margin-top:6px;
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(1) > a > img {
+    float:right;
+    margin:22px 20px 0 0;
+}
+
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(2) {
+    width:100%;
+    height:40px;
+    border-top:1px solid #f2f2f2;
+    padding-top:15px;
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(2) div:nth-child(1) {
+    float:left;
+    color:#a3a3a3;
+    font-size:12px;
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(2) div:nth-child(1) input[type="text"] {
+    width:30px;
+    height:20px;
+    border:1px solid #d9d9d9;
+    margin-right:10px;
+    font-size:12px;
+    color:#000;
+    padding-left:10px;
+}
+
+#mobileBasket .divContent .divBasketRow .divRowContent > div:nth-child(2) div:nth-child(2) {
+    float:right;
+    font-size:12px;
+    color:#000;
+    letter-spacing:1px;
+    margin:5px 20px 0 0;
+}
+
+
+
+
+#mobileBasket .divContent .divTotal {
+    width:100%;
+}
+
+#mobileBasket .divContent .divTotal .divTotalContent{
+    width:67%;
+    padding:20px 5% 0 0;
+    float:right;
+}
+
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(1),
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) {
+    padding-bottom:8px;
+}
+
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) {
+    border-top:1px solid #f2f2f2;
+    padding-top:15px;
+}
+
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(1),
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1){
+    width:60%;
+    float:left;
+}
+
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2),
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2){
+    width:40%;
+    float:right;
+    text-align:right;
+}
+
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(1) span,
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2) span,
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1) span,
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    display:block;
+    font-size:12px;
+    color:#a3a3a3;
+    letter-spacing:1px;
+    margin-bottom:7px;
+    text-align:right;
+}
+
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2) span,
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    color:#000;
+}
+
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1) span,
+#mobileBasket .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    font-weight:700;
+}
+
+#mobileBasket .divContent  a.aButton:link,
+#mobileBasket .divContent  a.aButton:visited{
+    margin:auto;
+    width:90%;
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    border:1px solid #000;
+    margin-top:10px;
+}
+
+#mobileBasket .divContent  a.aButton:hover,
+#mobileBasket .divContent  a.aButton:active{
+}
+
+#mobileBasket .divContent  a.aButton span{
+    display:block;
+    color:#fff;
+    font-size:12px;
+    letter-spacing:1px;
+    padding:14px 0 13px 0;
+    background-color:#000;
+    border:1px solid #fff;
+}

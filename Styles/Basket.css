@@ -1,0 +1,348 @@
+﻿
+#basket{
+    margin:auto;
+    width:1170px;
+    background-color:#fff;
+}
+
+#basket table{
+    margin:20px auto 0 auto;
+    width:100%;
+}
+
+#basket table tr th{
+    color:#28140f;
+    font-weight:400;
+    font-size:12px;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+#basket table tr th:nth-child(1){
+    width:15%;
+}
+
+#basket table tr th:nth-child(2){
+    text-align:left;
+}
+
+#basket table tr th:nth-child(3){
+    width:120px;
+}
+
+#basket table tr th:nth-child(4){
+    width:90px;
+}
+
+#basket table tr th:nth-child(5){
+    width:90px;
+}
+
+#basket table tr th:nth-child(6){
+    width:110px;
+}
+
+#basket table tr td{
+    border-top:1px solid #f3f3f3;
+    text-align:center;
+    vertical-align:middle;
+}
+
+#basket table tr td:nth-child(1){
+    vertical-align:top;
+    padding-top:30px;
+}
+
+#basket table tr td:nth-child(2){
+    vertical-align:top;
+    padding:20px 0 50px 0;
+    text-align:left;
+}
+
+#basket table tr td:nth-child(4) img{
+    display:block;
+    margin:auto;
+}
+
+#basket table tr td span.ref{
+    display:block;
+    color:#c2c2c2;
+    font-size:12px;
+    margin-top:20px;
+}
+
+#basket table tr td h1{
+    font-size:12px;
+    color:#000;
+    letter-spacing:0.070em;
+    margin-top:30px;
+}
+
+#basket table tr td h2{
+    font-size:12px;
+    color:#a3a3a3;
+    font-weight:500;
+    letter-spacing:0.070em;
+    margin-top:4px;
+}
+
+#basket table tr td span.old{
+    display:block;
+    color:#ca936f;
+    font-size:12px; 
+    text-decoration:line-through;
+    letter-spacing:1px;
+    margin-bottom:5px;
+}
+
+#basket table tr td span{
+    display:block;
+    color:#000;
+    font-size:16px; 
+    font-weight:400;
+}
+
+#basket table tr td a.a{
+    display:block;
+    text-decoration:none;
+    width:10px;
+    float:left;
+    font-size:20px;
+    color:#a3a3a3;
+    font-weight:400;
+}
+
+#basket table tr td div{
+    width:40px;
+    float:left;
+    font-size:14px;
+    color:#000;
+    font-weight:500;
+    margin-top:3px;
+}
+
+#basket .divTotal{
+    margin:auto;
+    width:100%;
+    height:240px;
+    border-top:1px solid #c6c6c6;
+    margin-top:40px;
+    position:relative;
+}
+
+#basket .divTotal h2{
+    display:inline-block;
+    font-size:12px;
+    color:#000;
+    letter-spacing:1px;
+    margin:30px 0 0 40px;
+    font-weight: 400;
+}
+
+#basket .divTotal .divInput{
+    width:300px;
+    margin:15px 0 0 25px;
+}
+
+#basket .divTotal .divInput input[type="text"]{
+    width:170px;
+    height:30px;
+    font-size:12px;
+    color:#c2c2c2;
+    font-weight:400;
+    border:1px solid #d9d9d9;
+    padding:0 0 0 15px;
+    float:left;
+}
+
+#basket .divTotal input[type="text"]::-webkit-input-placeholder {
+    color:#c2c2c2;
+}
+
+#basket .divTotal input[type="text"]:-moz-placeholder { /* Firefox 18- */
+    color:#c2c2c2;
+}
+
+#basket .divTotal input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+    color:#c2c2c2;
+}
+
+#basket .divTotal input[type="text"]:-ms-input-placeholder {  
+    color:#c2c2c2;
+}
+
+#basket .divTotal .divInput a.aButton:link,
+#basket .divTotal .divInput a.aButton:visited{
+    display:inline-block;
+    text-decoration:none;
+    background-color:#fff;
+    font-size:12px;
+    color:#000;
+    font-weight:500;
+    float:left;
+    margin:11px 0 0 15px;
+    text-align:center;
+    opacity:0.35;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+#basket .divTotal .divInput a.aButton:hover,
+#basket .divTotal .divInput a.aButton:active {
+    opacity:1;
+}
+
+#basket .divTotal .divInput a.aButton img {
+    float:left;
+    margin-right:10px;
+}
+
+#basket .divTotal a.aButton1:link,
+#basket .divTotal a.aButton1:visited {
+    text-decoration:none;
+    display:block;
+    width:170px;
+    text-align:center;
+    border:1px solid #7f7f7f;
+    position:absolute;
+    bottom:0;
+    left:25px;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    opacity:0.8;
+}
+
+#basket .divTotal a.aButton1:hover,
+#basket .divTotal a.aButton1:active{
+    opacity:1;
+}
+
+#basket .divTotal a.aButton1 span{
+    display:block;
+    color:#fff;
+    font-size:12px;
+    letter-spacing:1px;
+    padding:10px 0 9px 0;
+    background-color:#7f7f7f;
+    border:1px solid #fff;
+}
+
+#basket .divTotal a.aButton2:link,
+#basket .divTotal a.aButton2:visited{
+    text-decoration:none;
+    display:block;
+    width:170px;
+    text-align:center;
+    border:1px solid #000;
+    position:absolute;
+    bottom:0;
+    right:20px;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+     opacity:0.8;
+}
+
+#basket .divTotal a.aButton2:hover,
+#basket .divTotal a.aButton2:active{
+    opacity:1;
+}
+
+#basket .divTotal a.aButton2 span{
+    display:block;
+    color:#fff;
+    font-size:12px;
+    letter-spacing:1px;
+    padding:10px 0 9px 0;
+    background-color:#000;
+    border:1px solid #fff;
+}
+
+#basket .divTotal .divTotalContent{
+    width:360px;
+    float:right;
+    margin-top:-25px;
+}
+
+#basket .divTotal .divTotalContent > div:nth-child(1),
+#basket .divTotal .divTotalContent > div:nth-child(2) {
+    padding-bottom:8px;
+}
+
+#basket .divTotal .divTotalContent > div:nth-child(2) {
+    border-top:1px solid #c6c6c6;
+    padding-top:15px;
+}
+
+#basket .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2),
+#basket .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2){
+    padding-right:5%;
+}
+
+#basket .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(1),
+#basket .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1){
+    width:60%;
+    float:left;
+}
+
+#basket .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2),
+#basket .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2){
+    width:35%;
+    float:right;
+    text-align:right;
+}
+
+#basket .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(1) span,
+#basket .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2) span,
+#basket .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1) span,
+#basket .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    display:block;
+    font-size:13px;
+    color:#3c1d15;
+    font-weight:400;
+    letter-spacing:1px;
+    margin-bottom:12px;
+    text-align:right;
+}
+
+#basket .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2) span,
+#basket .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    color:#3c1d15;
+    font-weight:500;
+}
+
+#basket .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1) span,
+#basket .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    font-weight:500;
+}
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+} 
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+    #basket{
+        width:730px;
+    }
+}
+
+@media all and (min-width: 1019px) and (max-width: 1274px) {
+    #basket{
+        width:960px;
+        padding: 25px 50px 100px 50px;
+    }
+}
+
+@media all and (min-width: 1275px) {
+    #basket{
+        width:1170px;
+        padding: 25px 50px 100px 50px;
+    }
+}

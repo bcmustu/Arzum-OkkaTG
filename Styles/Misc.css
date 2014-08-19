@@ -74,12 +74,19 @@ img[data-sixtythree="icon-zoom-in"] {
     opacity: 0.3;
 }
 
+img[data-sixtythree="icon-arrow-nav"] {
+    display: block;
+    width: 5px;
+    height: 6px;
+}
+
 img[data-sixtythree="icon-mobile-nav"] {
     width: 69px;
     height: 65px;
     padding: 25px 25px 25px 25px;
     box-sizing: border-box;
 }
+
 /* SOCIAL MEDIA ICONS STYLES */
 img[data-sixtythree^="icon-social-"] {
     display: block;

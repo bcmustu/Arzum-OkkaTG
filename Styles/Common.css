@@ -5,10 +5,10 @@ html {
 
 
 body {
-    background: #f0caaa;
+    background: #876555;
     height: 100%;
+    font-family: MyriadPro;
 }
-
 
 #wrapper {
    max-width: 1280px;
@@ -33,16 +33,23 @@ body {
    min-height: 100%;
    background: url(../Files/Pages/Static/background.jpg) no-repeat;
    background-size: cover;
+   background-attachment: fixed;
    margin: auto;
 }
 
 #wrapper-data-page {
    max-width: 1280px;
    min-height: 100%;
+   position: fixed;
+   right: 0;
+   left: 0px;
    background: url(../Files/Pages/DataPage/Pictures/background.jpg) no-repeat;
+   background-attachment: fixed;
    background-size: cover;
    margin: auto;
+   overflow: scroll;
 }
+
 
 
 
@@ -99,14 +106,27 @@ main {
        background-size: cover; 
     }
 
-  #wrapper-detail {
-     max-width: 1280px;
-     min-height: 100%;
-     background: url(../Files/Products/01/Pictures/background-portrait.jpg) no-repeat;
-     background-position: left top;
-     background-color: #411c13;
-     margin: auto;
-  }
+    #wrapper-detail {
+       max-width: 1280px;
+       min-height: 100%;
+       background: url(../Files/Products/01/Pictures/background-portrait.jpg) no-repeat;
+       background-position: left top;
+       background-color: #411c13;
+       margin: auto;
+    }
+    
+    #wrapper-data-page {
+       max-width: 1280px;
+       min-height: 100%;
+       position: absolute;
+       right: 0;
+       left: 0px;
+       background: url(../Files/Pages/DataPage/Pictures/background.jpg) no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       margin: auto;
+       overflow: scroll;
+    }
 
 }
 

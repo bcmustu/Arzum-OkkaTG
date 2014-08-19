@@ -1,0 +1,477 @@
+﻿
+#orderSummary{
+    margin:50px auto 0 auto;
+    padding-bottom:100px;
+    background-color:#fff;
+}
+
+#orderSummary h1{
+    padding:0 0 20px 0;
+    display:block;
+    color:#000;
+    font-size:12px;
+    font-weight:400;
+    letter-spacing:1px;
+} 
+
+#orderSummary .divOrderSummaryInfo .divContent{
+    padding-bottom:50px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent > span{
+    font-size:14px;
+    color:#898989;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent > p{
+    margin:10px 0 0 0;
+    font-size:14px;
+    color:#898989;
+}
+
+
+#orderSummary .divOrderSummaryInfo .divContent table{
+    margin:50px auto 0 auto;
+    width:100%;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr th{
+    color:#cacaca;
+    font-weight:400;
+    font-size:12px;
+    letter-spacing:1px;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+
+#orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(1){
+    width:15%;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(2){
+    text-align:left;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(3){
+    width:120px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(4){
+    width:90px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(5){
+    width:90px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(6){
+    width:110px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr td{
+    border-top:1px solid #f3f3f3;
+    text-align:center;
+    vertical-align:middle;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(1){
+    vertical-align:top;
+    padding-top:30px;
+}
+
+
+#orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(1) img{
+    display:block;
+    margin:auto;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(2){
+    vertical-align:top;
+    padding:20px 0 50px 0;
+    text-align:left;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr td span.ref{
+    display:block;
+    color:#c2c2c2;
+    font-size:12px;
+    margin-top:20px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr td h1{
+    font-size:12px;
+    color:#000;
+    letter-spacing:0.070em;
+    margin-top:30px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr td h2{
+    font-size:12px;
+    color:#a3a3a3;
+    font-weight:500;
+    letter-spacing:0.070em;
+    margin-top:4px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent table tr td span{
+    display:block;
+    color:#000;
+    font-size:14px; 
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal{
+    margin:auto;
+    width:100%;
+    border-top:1px solid #c6c6c6;
+    margin-top:40px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent{
+    width:360px;
+    float:right;
+    margin-top:30px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1),
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) {
+    padding-bottom:8px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) {
+    border-top:1px solid #c6c6c6;
+    padding-top:15px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2),
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2){
+    padding-right:5%;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(1),
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1){
+    width:60%;
+    float:left;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2),
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2){
+    width:35%;
+    float:right;
+    text-align:right;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(1) span,
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2) span,
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1) span,
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    display:block;
+    font-size:12px;
+    color:#a3a3a3;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-bottom:12px;
+    text-align:right;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(2) span,
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    color:#000;
+    font-weight:700;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(1) span,
+#orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(2) > div:nth-child(2) span{
+    font-weight:700;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
+#orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
+    width:250px;
+    float:left;
+    margin-right:50px;
+    background-color:#f9f9f9;
+    padding:25px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation h2,
+#orderSummary .divOrderSummaryInfo .divContent .divBillingInformation h2{
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation span,
+#orderSummary .divOrderSummaryInfo .divContent .divBillingInformation span{
+    font-size:14px;
+    color:#898989;
+    line-height:20px;
+}
+
+#orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation p,
+#orderSummary .divOrderSummaryInfo .divContent .divBillingInformation p{
+    font-size:14px;
+    color:#898989;
+    line-height:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 400px) {
+    
+    #orderSummary .divOrderSummaryInfo .divContent > span,
+    #orderSummary .divOrderSummaryInfo .divContent > p{
+        font-size:12px !important;
+        margin-left:10px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table {
+        margin:30px auto 0 auto !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr th{
+        font-size:10px !important;
+        color:#b9b9b9 !important;
+        letter-spacing:0px;
+        padding-bottom:10px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(3),
+    #orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(5){
+        width:50px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(4){
+        width:30px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(1){
+        padding-top:15px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(2){
+        padding:0 0 20px 0 !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td span.ref{
+        font-weight:400 !important;
+        font-size:10px !important;
+        margin-top:20px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td h1 {
+        font-size:10px !important;
+        color:#000 !important;
+        font-weight:600 !important;
+        letter-spacing:0px !important;
+        margin-top:9px !important;
+        line-height:15px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td h2{
+        letter-spacing:0px !important;
+        font-size:10px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td span{
+        letter-spacing:0px !important;
+        font-weight:400 !important;
+        font-size:11px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divTotal{
+        margin-top:10px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent{
+        margin-top:20px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div span{
+        font-size:11px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(1) span{
+        font-weight:400;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
+        float:none !important;
+        margin:15px auto 0 auto !important;
+        width:90%;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation h2,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation h2{
+        font-size: 13px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation span,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation span,
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation p,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation p{
+        font-size:12px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent{
+        padding:0 5px 0 5px !important;
+    }
+}
+
+@media all and (min-width: 401px) and (max-width: 700px) {
+    #orderSummary .divOrderSummaryInfo .divContent > span,
+    #orderSummary .divOrderSummaryInfo .divContent > p{
+        font-size:12px !important;
+        margin-left:10px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table {
+        margin:30px auto 0 auto !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr th{
+        font-size:10px !important;
+        color:#b9b9b9 !important;
+        letter-spacing:0px;
+        padding-bottom:10px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(3),
+    #orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(5){
+        width:50px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr th:nth-child(4){
+        width:30px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(1){
+        padding-top:15px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td:nth-child(2){
+        padding:0 0 20px 0 !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td span.ref{
+        font-weight:400 !important;
+        font-size:10px !important;
+        margin-top:20px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td h1 {
+        font-size:10px !important;
+        color:#000 !important;
+        font-weight:600 !important;
+        letter-spacing:0px !important;
+        margin-top:9px !important;
+        line-height:15px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td h2{
+        letter-spacing:0px !important;
+        font-size:10px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent table tr td span{
+        letter-spacing:0px !important;
+        font-weight:400 !important;
+        font-size:11px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divTotal{
+        margin-top:10px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent{
+        margin-top:20px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div span{
+        font-size:11px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divTotal .divTotalContent > div:nth-child(1) > div:nth-child(1) span{
+        font-weight:400;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
+        float:none !important;
+        margin:15px auto 0 auto !important;
+        width:90%;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation h2,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation h2{
+        font-size: 13px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation span,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation span,
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation p,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation p{
+        font-size:12px !important;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent{
+        padding:0 5px 0 5px !important;
+    }
+} 
+
+@media all and (min-width: 701px) and (max-width: 1018px) {
+    #orderSummary{
+        width:730px;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
+        margin-top:30px;
+        margin-right:0;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation{
+        float:left;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation {
+        float:right;
+    }
+}
+
+@media all and (min-width: 1019px) and (max-width: 1274px) {
+    #orderSummary{
+        width:960px;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
+        margin-top:30px;
+    }
+}
+
+@media all and (min-width: 1275px) {
+    #orderSummary{
+        width:1170px;
+    }
+
+    #orderSummary .divOrderSummaryInfo .divContent .divDeliveryInformation,
+    #orderSummary .divOrderSummaryInfo .divContent .divBillingInformation{
+        margin-top:30px;
+    }
+}

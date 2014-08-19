@@ -134,6 +134,12 @@ a:active {
     font-weight: 500;
 }
 
+.faceM {
+    font-family: MyriadPro;
+    color: #441e15;
+    font-size: 20px;
+    font-weight: 400;
+}
 
 
 
@@ -180,8 +186,25 @@ a:active {
 }
 
 
+.aStyleJ:link,
+.aStyleJ:visited {
+    text-decoration: none;
+    color: #441e15;
+    font-family: MyriadPro;
+    font-size: 11px;
+    font-weight: 400;
+    display: block;
+}
 
-
+.aStyleE:link,
+.aStyleE:visited {
+    text-decoration: none;
+    color: #441e15;
+    font-family: MyriadPro;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+}
 
 
 
@@ -193,6 +216,22 @@ a:active {
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.08em;
+}
+
+.spanStyleJ {
+    display: inline-block;
+    color: #441e15;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    font-family: myriadPro;
+}
+.spanStyleK {
+    display: inline-block;color: #441e15;
+    font-size: 11px;
+    line-height: 37px;
+    font-weight: 400;
+    letter-spacing: 0.0em;font-family: myriadPro;
 }
 
 

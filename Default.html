@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="Styles/Common.css" />
     <link rel="stylesheet" type="text/css" href="Styles/Header.css" />
     <link rel="stylesheet" type="text/css" href="Styles/Navi.css" />  
+    <link rel="stylesheet" type="text/css" href="Styles/MobileMenu.css" />
     <link rel="stylesheet" type="text/css" href="Styles/Default.css" />
 
 
@@ -55,15 +56,145 @@
                             <li><a href="#" class="aStyleA">ARZUM OKKA<br> KAYIT FORMU</a></li>
                         </ul>
 
-                        <div class="navSeperator"></div>
 
                     </div>
                 </nav>
                 <!-- NAVIGATION FINISH -->
 
             </div>
+
+
+
+
+
+                    <!-- MOBILE MAIN MENU -->
+        <nav id="navMobile">
+            <a href="javascript:showOrCloseMobileMenu('-1');" class="aMobileMenuIcon"><img data-sixtythree="icon-mobile-nav"></a>
+        </nav>
+                    <!-- END - MOBILE MAIN MENU -->
+
+
+
+
+                        <div class="navSeperator"></div>
+
+
         </header>
         <!-- HEADER FINISH -->
+
+    <!-- MOBILE SITE MAIN MENU CONTENT -->
+    <div id="divMobileMenuEntireContent">
+        <!-- **** 1st group of main menu **** -->
+        <ul class="ulMobileMenu1">
+            <li>
+                <a href="javascript:showSubMenu(11);">TÜRK KAHVESİ DÜNYASI<img data-sixtythree="icon-nav-next" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='11'>
+                    <li><a href="javascript:backToMainMenu(11);" class="aActive"><img data-sixtythree="icon-nav-previous" />TÜRK KAHVESİ DÜNYASI</a></li>
+                    <li>
+                        <a href="#">GEÇMİŞTEN GÜNÜMÜZE TÜRK KAHVESİ</a>
+                    </li>
+                    <li>
+                        <a href="#">GELENEKSEL TÜRK KAHVESİ KEYFİ</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:showSubMenu(12);">ARZUM OKKA DÜNYASI<img data-sixtythree="icon-nav-next" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='12'>
+                    <li><a href="javascript:backToMainMenu(12);" class="aActive"><img data-sixtythree="icon-nav-previous" />ARZUM OKKA DÜNYASI</a></li>
+                    <li>
+                        <a href="#">OKKALI TÜRK KAHVESİ</a>
+                    </li>
+                    <li>
+                        <a href="#">ARZUM OKKA TÜRK KAHVE MAKİNASI</a>
+                    </li>
+                    <li>
+                        <a href="#">ÖDÜLLER</a>
+                    </li>
+                    <li>
+                        <a href="#">ARZUM OKKA TEKNİK BİLGİLER</a>
+                    </li>
+                    <li>
+                        <a href="#">ARZUM OKKA TANITIM FİLMİ</a>
+                    </li>
+                    <li>
+                        <a href="#">BASINDA ARZUM OKKA</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:showSubMenu(13);">NEREDE BULABİLİRSİNİZ<img data-sixtythree="icon-nav-next" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='13'>
+                    <li><a href="javascript:backToMainMenu(13);" class="aActive"><img data-sixtythree="icon-nav-previous" />NEREDE BULABİLİRSİNİZ</a></li>
+                    <li>
+                        <a href="#">SATIŞ NOKTALARI</a>
+                    </li>
+                    <li>
+                        <a href="#">YETKİLİ SERVİS NOKTALARI</a>
+                    </li>
+                    <li>
+                        <a href="#">ARZUM OKKA SATILAN ÜLKELER</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="javascript:showSubMenu(14);">İLETİŞİM KÖŞESİ<img data-sixtythree="icon-nav-next" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='14'>
+                    <li><a href="javascript:backToMainMenu(14);" class="aActive"><img data-sixtythree="icon-nav-previous" />İLETİŞİM KÖŞESİ</a></li>
+                    <li>
+                        <a href="#">ARZUM OKKA'DAN DUYURULAR</a>
+                    </li>
+                    <li>
+                        <a href="#">BİZE ULAŞABİLİRSİNİZ</a>
+                    </li>
+                </ul>
+            </li>
+
+            <!--<li>
+                <a href="javascript:showSubMenu(15);">EĞLENCE KÖŞESİ<img src="Images/sectionArrow.png" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='15'>
+                    <li><a href="javascript:backToMainMenu(15);" class="aActive"><img src="Images/backArrow.png" />EĞLENCE KÖŞESİ</a></li>
+                    <li>
+                        <a href="#">FAL<img src="Images/sectionArrow.png" /></a>
+                    </li>
+                    <li>
+                        <a href="#">OYUN<img src="Images/sectionArrow.png" /></a>
+                    </li>
+                </ul>
+            </li> -->
+            <li>
+                <a href="javascript:showSubMenu(16);">KAYIT FORMU<img data-sixtythree="icon-nav-next" /></a>
+
+                <ul class="ulMobileSubMenu1" data-sub-menu-id='16'>
+                    <li><a href="javascript:backToMainMenu(16);" class="aActive"><img data-sixtythree="icon-nav-previous" />KAYIT FORMU</a></li>
+                    <li>
+                        <a href="#">ÜYELİK</a>
+                    </li>
+                    <li>
+                        <a href="#">SİPARİŞ</a>
+                    </li>
+                    <li>
+                        <a href="#">ÖDEME YAPISI</a>
+                    </li>
+                    <li>
+                        <a href="#">E-MAIL YAPISI</a>
+                    </li>
+                    <li>
+                        <a href="#">KUPON KULLANIMI</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <!-- **** end **** -->
+    </div>
+    <!-- END - MOBILE SITE MAIN MENU CONTENT -->
 
 
         <!-- MAIN START -->
@@ -89,6 +220,7 @@
     <script type="text/javascript" src="Scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="Scripts/jquery-ui.js"></script>
     <script type="text/javascript" src="Scripts/Common.js"></script>
+    <script type="text/javascript" src="Scripts/MobileMenu.js"></script>
     <script type="text/javascript" src="Scripts/Default.js"></script>
     <!-- END - SCRIPTS -->
 

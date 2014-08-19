@@ -1,13 +1,13 @@
 ﻿header{
     width: 100%;
     z-index: 1000;
-    ba
 }
 
 header .divContent{
     padding-top: 40px;
     margin: auto;
     height: 105px;
+    z-index: 2;
 }
 
 header .divContent .aLogo:link {
@@ -31,11 +31,11 @@ header .divContent a img {
 
 /* Screen */
 @media all and (max-width: 400px) {
-
     header .divContent{
         width: 90%;
         padding-top: 20px;
         height: 60px;
+        position:absolute;
     }
 
     header .divContent .aLogo:link,
@@ -43,15 +43,15 @@ header .divContent a img {
         position: absolute;
         left: 0;
     }
+
     header .divContent a img {
+        left: 30px;
         width: 90px;
         height: auto;
     }
-
 }
 
 @media all and (min-width: 401px) and (max-width: 700px) {
-
     header .divContent{
         width: 90%;
         padding-top: 20px;
@@ -61,15 +61,13 @@ header .divContent a img {
     header .divContent .aLogo:link,
     header .divContent .aLogo:visited{
         position: absolute;
+        left: 0;
         width: 146px;
         height: 65px;
-        left: 0;
     }
-
 }
 
 @media all and (min-width: 701px) and (max-width: 1018px) {
-
     header .divContent{
         width: 700px;
         height: 180px;
@@ -78,15 +76,14 @@ header .divContent a img {
     header .divContent .aLogo:link,
     header .divContent .aLogo:visited{
         position: absolute;
+        left: 0;
         width: 146px;
         height: 65px;
-        left: 0;
     }
 
 }
 
 @media all and (min-width: 1019px) and (max-width: 1274px) {
-
     header .divContent{
         width: 980px;
     }
@@ -94,15 +91,13 @@ header .divContent a img {
     header .divContent .aLogo:link,
     header .divContent .aLogo:visited{
         position: absolute;
+        left: 20px;
         width: 146px;
         height: 65px;
-        left: 20px;
     }
-
 }
 
 @media all and (min-width: 1275px) {
-
     header .divContent{
         width: 1260px;
     }
@@ -110,16 +105,9 @@ header .divContent a img {
     header .divContent .aLogo:link,
     header .divContent .aLogo:visited{
         position: absolute;
+        left: 60px;
         width: 146px;
         height: 65px;
-        left: 60px;
     }
 
 }
-
-
-
-
-
-
-

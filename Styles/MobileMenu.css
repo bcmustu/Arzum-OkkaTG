@@ -2,23 +2,22 @@
 
 /* **** MOBILE MENU ICON **** */
 #navMobile .aMobileMenuIcon img {
-    height:12px;
-    position:absolute;
-    top:50%;
-    left:5%;
-    margin-top:-12px;
-    padding:6px;
+    left: -15px;
+    top: -17px;
+    position: absolute;
     display:block;
+    z-index: 2;
+    cursor: pointer;
 }
 
 #navMobile .aMobileMenuIcon:link,
 #navMobile .aMobileMenuIcon:visited {
-    position: fixed;
+    position: absolute;
     width: 30px;
     height: 30px;
-    top: 0px;
-    right: 0px;
-    background: tomato;
+    top: -29px;
+    right: 32px;
+    display: none;
 }
 
 #navMobile .aMobileMenuIcon:hover,
@@ -33,7 +32,7 @@
 #divMobileMenuEntireContent {
     background-color: #381915;
     position:absolute;
-    height: calc(100% - 100px);
+    height: calc(100% - 80px);
     left:0;
     width:100%;
     /*overflow:hidden;*/
@@ -67,7 +66,7 @@
     font-family: avenir;
     color: #ad9a8b;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     padding:15px 0 15px 5%;
     position:relative;
 }
@@ -80,6 +79,7 @@
     width:7px;
     height:13px;
     position:absolute;
+    top: 16px;
     right:5%;
 }
 
@@ -146,9 +146,10 @@
 
 #divMobileMenuEntireContent > ul > li > a.aActive:link,
 #divMobileMenuEntireContent > ul > li > a.aActive:visited {
-    background-color:#f7f7f7;
-    color:#bcbcbc;
+    background-color: #4e2a26;
+    color: #ad9a8b;
     padding-left:11%;
+    opacity: 0.5;
 }
 
 #divMobileMenuEntireContent > ul > li > a.aActive:hover,
@@ -161,3 +162,8 @@
 /* **** END - SUB MENUS **** */
 /* END - SITE MOBILE NAV MENU */
 
+@media all and (max-width: 400px) {
+    #navMobile .aMobileMenuIcon:link, #navMobile .aMobileMenuIcon:visited {
+      display: block;
+    }
+}

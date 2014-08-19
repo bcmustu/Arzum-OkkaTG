@@ -5,22 +5,308 @@ button,
 label,
 textarea{
     font-family:'Nova';
+    font-family: myriadpro;
 }
+
+
+
 
 
 /* Customized */
-.inputTextA{
+
+.inputTextE{
+    width: 100%;
+    height: 25px;
+    background-color: #e2cfbf;
+    border: 0px;
+    color: #441e15;
+    font-family: MyriadPro;
+    font-weight:500;
+    padding:20px;
+    margin-bottom:5px;
 }
 
-.inputTextA::-webkit-input-placeholder { /* WebKit browsers */
+.inputTextA {
+    border: 0; /*Removes border*/
+    -webkit-appearance: none; /*Removes default chrome and safari style*/
+    -moz-appearance: none; /* Removes Default Firefox style*/
+    background-color: transparent;
+    text-indent: 0.01px; /* Removes default arrow from firefox*/
+    text-overflow: ""; /*Removes default arrow from firefox*/ 
+    border-radius: 0;
+    cursor:pointer;
 }
-.inputTextA:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+
+.inputTextA::-ms-expand {
+    display: none;
 }
-.inputTextA::-moz-placeholder { /* Mozilla Firefox 19+ */
+
+.inputTextA {
+    display:block;
+    font-family:'Source Sans Pro';
+    width: 170px; 
+    padding:10px 10px 10px 10px;
+    color:#999;
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:1px;
+    border:1px solid #000;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
 }
-.inputTextA:-ms-input-placeholder { /* Internet Explorer 10+ */
+
+.inputTextA:hover,
+.inputTextA:focus  {
+    color:#333;
+    border:1px solid #777;
 }
-/* BUTTON STARTS HERE */
+
+.inputTextE::-webkit-input-placeholder { /* WebKit browsers */
+    color: #441e15;
+}
+.inputTextE:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #441e15;
+}
+.inputTextE::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #441e15;
+}
+.inputTextE:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #441e15;
+}
+
+.inputTextF{
+    width: 170px;
+    height: 20px;
+    background-color: #e2cfbf;
+    border: 0px;
+    color: #441e15;
+    font-family: MyriadPro;
+    font-weight:500;
+    padding: 15px;
+    margin-bottom:5px;
+}
+
+.inputTextF::-webkit-input-placeholder { /* WebKit browsers */
+    color: #441e15;
+}
+.inputTextF:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #441e15;
+}
+.inputTextF::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #441e15;
+}
+.inputTextF:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #441e15;
+}
+
+/*BUTTON STYLE */
+.buttonB{
+    background: #e2cfbf;
+    border: 0;
+    font-family: myriadPro;
+    padding: 5px 20px;
+    padding-top: 9px;
+    font-weight: 500;
+    float: right;
+    margin-top: 15px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.buttonB:hover{
+
+}
+
+.buttonB:active{
+}
+.warningA{
+    border:1px solid #ff0000;
+    background-color:#fff;
+}
+/*END BUTTON STYLE*/
+
+
+
+
+.selectStyleA{
+    display:block;
+    background-image:url('../Images/arrow03.png');
+    background-repeat:no-repeat;
+    background-position:95% center;
+    font-family:'Source Sans Pro';
+    width: 300px !important;
+    padding:5px 0 5px 10px;
+    color:#999;
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:1px;
+    border:1px solid #ccc;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.selectStyleA:hover,
+.selectStyleA:focus  {
+    color:#333;
+    border:1px solid #777;
+}
+
+
+
+
+
+.selectStyleB{
+}
+
+.selectStyleB option{
+}
+
+
+
+
+
+
+.textareaStyleA {
+    display:block;
+    font-family:'Source Sans Pro';
+    width:350px; 
+    height:60px;
+    padding:5px 10px 5px 10px;
+    color:#999;
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:1px;
+    border:1px solid #ccc;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.textareaStyleA:hover,
+.textareaStyleA:focus  {
+    color:#333;
+    border:1px solid #777;
+}
+
+
+
+
+
+.textareaStyleB{
+
+}
+
+
+
+
+
+
+.labelStyleA{
+}
+
+.labelStyleB{
+}
+/* LABELS STYLE */
+
+.labelA {
+    display: inline-block;
+    height: 38px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.040em;
+    transition: all 0.2s;
+}
+
+    .labelA:hover:after {
+        opacity: 1;
+    }
+
+.labelA a {
+	font-family:myriadpro;
+    display: inline-block;
+    color:#000;
+}
+
+.labelB {
+	font-family: myriadPro;
+    display: inline-block;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.010em;
+    transition: all 0.2s;
+}
+
+
+.labelC {
+    padding:0 5px 0 60px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.030em;
+}
+
+    .labelC:after {
+        top: 7px;
+        left: 31px;
+    }
+
+/* END - LABELS STYLE */
+
+/* CHECKBOX STYLE */
+input[type="checkbox"] {
+    display: inline-block;
+    top: 5px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000;
+    transition: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"].checkboxTypeA {
+    width: 12px;
+    height: 12px;
+    top: 5px;
+}
+
+    input[type="checkbox"]:checked {
+        background: url(../images/checkbox.png) no-repeat center;
+        background-size: 50%;
+    }
+
+
+/* END CHECKBOX STYLE */
+
+
+/* RADIO STYLE */
+
+input[type="radio"] {
+    display: inline-block;
+    top: 4px;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #441e15;
+    border-radius:50%;
+    transition:none;
+    cursor: pointer;
+}
+
+    input[type="radio"]:checked {
+        background: #441e15;
+        background-size: 60%;
+    }
+
+input[type="radio"].radioTypeA {
+    height: 12px;
+    width: 12px;
+    top: 2px;
+}
+
+/* END - RADIO STYLE */
 
 /*BLACK BUTTON STYLE */
 .buttonA{
@@ -34,48 +320,6 @@ textarea{
 
 }
 /*END BLACK BUTTON STYLE*/
-
-
-
-
-
-
-
-
-
-.selectStyleA{
-}
-
-.selectStyleA option{
-}
-
-.selectStyleB{
-}
-
-.selectStyleB option{
-}
-
-
-
-
-
-.textareaStyleA{
-
-}
-
-.textareaStyleB{
-
-}
-
-
-
-
-
-.labelStyleA{
-}
-
-.labelStyleB{
-}
 
 
 
