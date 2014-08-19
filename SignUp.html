@@ -1,4 +1,4 @@
-﻿
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -229,7 +229,7 @@
         <main>
 
             <!-- PERSONAL DATA PAGE DETAIL START -->
-            <section class="personalDataPage">
+            <section class="signUpPage">
 
                 <!-- PAGE CONTENT START -->
                 <div class="pageContent">
@@ -246,39 +246,41 @@
 
                             <div class="divMemberA">
 
-                                <input type="text" placeholder="İSİM*" class="inputTextE input" />
-                                <input type="text" placeholder="SOYİSİM*" class="inputTextE input" />
+                                <input type="text" placeholder="İSİM" class="inputTextE input" />
+                                <input type="text" placeholder="SOYİSİM" class="inputTextE input" />
                             </div>
 
                             <div class="divMemberB">
-                                <input type="text" placeholder="E-POSTA ADRESİ*" class="inputTextE input" />
+                                <input type="text" placeholder="E-POSTA ADRESİ" class="inputTextE input" />
+                                <select class="inputTextE input">
+                                    <option>CİNSİYET</option>
+                                    <option>KADIN</option>
+                                    <option>ERKEK</option>
+                                </select>
                             </div>
 
                             <div class="divMemberC">
-                                <input type="text" placeholder="ŞİFRE*" class="inputTextE input" />
-                                <input type="text" placeholder="ŞİFRE(TEKRAR)*" class="inputTextE input" />
-                                <span class="spanStyleK requiredFieldsNote">*Doldurulması zorunludur</span>
+                                <input type="text" placeholder="ŞİFRE" class="inputTextE input" />
+                                <input type="text" placeholder="ŞİFRE(TEKRAR)" class="inputTextE input" />
                             </div>
 
-
-                            <div class="formSubTitle faceM">Zaten Okka Club Üyesi Misiniz?</div>
-
-
-                            <div class="alreadyAMemberOrNot">
-                                <label for="notAMemberYet" class="labelB"><input name="alreadyAMemberOrNot" type="radio" id="notAMemberYet" checked />Hayır, Daha değilim</label>
-                                <label for="alreadyAMember" class="labelB"><input name="alreadyAMemberOrNot" type="radio" id="alreadyAMember" />Üyeyim,</label>
-                                <label for="alreadyAMember" class="labelB additionalInputLabel"><input class="input innerLabel inputTextF" name="alreadyAMemberOrNot" type="text" id="alreadyAMember" />Üyelik Numaram:</label>
-                            </div>
                             <div class="separator"></div>
 
 
                             <div class="divMemberD">
-                                <button class="buttonB">SONRAKİ</button>
+                                <button class="buttonB">KAYIT OL</button>
+                                <label for="membershipAgreement" class="labelA"><input type="checkbox" id="membershipAgreement" /><a href="#">Üyelik sözleşmesini okudum.</a></label>
+                                
                                 <div class="separator"></div>
                             </div>
 
 
                             <div class="separator line"></div>
+
+
+                            <a href="login.html" class="aStyleE contShopping">
+                                <span>ZATEN ÜYEYİM</span>
+                            </a>
 
                             <div class="separator"></div>
                         </div>

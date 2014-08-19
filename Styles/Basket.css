@@ -226,6 +226,7 @@
     display: block; color: #000; 
     font-weight: 400; letter-spacing: 0px; 
     font-size: 14px; 
+    top: 20px;
     padding: 15px 0 12px 0; background-color: #e2cfbf;
 }
 
@@ -251,12 +252,13 @@
 
 #basket .divTotal a.aButton2 span{
     display:block;
-    color: #000;
+    color: #fff;
     font-weight: 400;
+    top: 20px;
     letter-spacing: 0px;
     font-size: 14px;
     padding: 15px 0 12px 0;
-    background-color: #e2cfbf;
+    background-color: #210002;
 }
 
 #basket .divTotal .divTotalContent{

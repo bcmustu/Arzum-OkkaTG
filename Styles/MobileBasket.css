@@ -150,7 +150,7 @@
 #mobileBasket .divContent  a.aButton:link,
 #mobileBasket .divContent  a.aButton:visited{
     margin:auto;
-    width:90%;
+    width: 100%;
     display:block;
     text-decoration:none;
     text-align:center;
