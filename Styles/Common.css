@@ -8,6 +8,8 @@ body {
     background: #876555;
     height: 100%;
     font-family: MyriadPro;
+    opacity: 0;
+    transition: all 0.4s;
 }
 
 #wrapper {

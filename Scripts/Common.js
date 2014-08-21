@@ -564,6 +564,9 @@ function navigation() {
 
 
 function pageSpecialization() {
+    setTimeout(function(){
+       $('body').css('opacity','1');
+    },100)
     var pageSpec = $('main').attr('id');
     $('main').attr('id','');
     $('body').attr('id',pageSpec);

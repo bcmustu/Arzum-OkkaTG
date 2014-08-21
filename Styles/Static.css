@@ -4,6 +4,10 @@ header {
     padding-bottom: 30px;
     background: rgba(24,5,3,0.9);
 }
+
+.accountAndBasket {
+    top: 115px;
+}
 main {
     text-align: center;
 }
@@ -73,6 +77,10 @@ main {
     margin-top: 5%;
 }
 
+.accountAndBasket {
+    top: 32px;
+}
+
 .staticContentMainImage {
     width: 100%;
     float: none;
@@ -122,7 +130,9 @@ main {
     left: 0;
     margin-top: 34px;
 }
-
+.accountAndBasket {
+    top: 95px;
+}
 .staticContentMainImage {
     width: 100%;
     float: none;
