@@ -236,8 +236,9 @@ a:active {
 }
 .spanStyleK {
     display: inline-block;color: #441e15;
+    margin-top: 5px;
     font-size: 11px;
-    line-height: 37px;
+    line-height: 27px;
     font-weight: 400;
     letter-spacing: 0.0em;font-family: myriadPro;
 }

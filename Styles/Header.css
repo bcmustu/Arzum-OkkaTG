@@ -21,9 +21,43 @@ header .divContent a img {
     height: 65px;
 }
 
+.accountAndBasket{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    align-items: center;
+    margin-left: 398px;
+    top: 125px;
+}
 
+.accountAndBasket a:last-child{
 
+}
 
+.accountAndBasket a{
+    opacity:0.7;
+    transition:all 0.5s;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.accountAndBasket a:hover{
+    opacity:1;
+}
+
+.accountAndBasket a span.accountAndBasketWording {
+    float: left;
+
+    font-family: myriadpro;
+    font-size: 12px;
+    color: #a67861;
+}
+
+.accountAndBasket a img {
+    float: left;
+    
+    margin-right: 8px;
+}
 
 
 
@@ -49,6 +83,67 @@ header .divContent a img {
         width: 90px;
         height: auto;
     }
+    
+    
+    .accountAndBasket{
+        position: absolute;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        right: 50px;
+        left: auto;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        margin-left: 88px;
+        top: 31px;
+    
+        z-index: 99999999999999999999;
+}
+
+    .accountAndBasket a:last-child{
+
+    }
+
+    .accountAndBasket a{
+        opacity:0.7;
+        transition:all 0.5s;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        margin-right: 12px;
+    }
+    .accountAndBasket a:hover{
+        opacity:1;
+    }
+
+    .accountAndBasket a span.accountAndBasketWording {
+        float: left;
+
+        font-family: myriadpro;
+        font-size: 12px;
+        color: #a67861;
+    
+        display: none;
+}
+
+    .accountAndBasket a img {
+        float: left;
+        
+        margin-right: 8px;
+    }
+
 }
 
 @media all and (min-width: 401px) and (max-width: 700px) {
@@ -65,6 +160,62 @@ header .divContent a img {
         width: 146px;
         height: 65px;
     }
+    
+    
+    .accountAndBasket{
+        position: absolute;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        left: 50%;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        margin-left: 398px;
+        top: 125px;
+    }
+
+    .accountAndBasket a:last-child{
+
+    }
+
+    .accountAndBasket a{
+        opacity:0.7;
+        transition:all 0.5s;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .accountAndBasket a:hover{
+        opacity:1;
+    }
+
+    .accountAndBasket a span.accountAndBasketWording {
+        float: left;
+
+        font-family: myriadpro;
+        font-size: 12px;
+        color: #a67861;
+    }
+
+    .accountAndBasket a img {
+        float: left;
+        
+        margin-right: 8px;
+    }
+
 }
 
 @media all and (min-width: 701px) and (max-width: 1018px) {
@@ -80,6 +231,62 @@ header .divContent a img {
         width: 146px;
         height: 65px;
     }
+    
+    
+    .accountAndBasket{
+        position: absolute;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        left: 50%;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        margin-left: 178px;
+        top: 96px;
+    }
+
+    .accountAndBasket a:last-child{
+
+    }
+
+    .accountAndBasket a{
+        opacity:0.7;
+        transition:all 0.5s;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .accountAndBasket a:hover{
+        opacity:1;
+    }
+
+    .accountAndBasket a span.accountAndBasketWording {
+        float: left;
+
+        font-family: myriadpro;
+        font-size: 12px;
+        color: #a67861;
+    }
+
+    .accountAndBasket a img {
+        float: left;
+        
+        margin-right: 8px;
+    }
+
 
 }
 
@@ -95,6 +302,62 @@ header .divContent a img {
         width: 146px;
         height: 65px;
     }
+    
+    
+    .accountAndBasket{
+        position: absolute;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        left: 50%;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        margin-left: 287px;
+        top: 125px;
+    }
+
+    .accountAndBasket a:last-child{
+
+    }
+
+    .accountAndBasket a{
+        opacity:0.7;
+        transition:all 0.5s;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .accountAndBasket a:hover{
+        opacity:1;
+    }
+
+    .accountAndBasket a span.accountAndBasketWording {
+        float: left;
+
+        font-family: myriadpro;
+        font-size: 12px;
+        color: #a67861;
+    }
+
+    .accountAndBasket a img {
+        float: left;
+        
+        margin-right: 8px;
+    }
+
 }
 
 @media all and (min-width: 1275px) {
@@ -107,6 +370,7 @@ header .divContent a img {
         position: absolute;
         left: 60px;
         width: 146px;
+        z-index: 9;
         height: 65px;
     }
 

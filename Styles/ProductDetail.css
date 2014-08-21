@@ -21,6 +21,31 @@ section.productDetail .productImage img {
     left: 30px;
 }
 
+section.productDetail .productImageColorPalette {
+    width: 100%;
+    float: left;
+    height: 60px;
+    left: 30px;
+    top: -110px;
+}
+
+section.productDetail .productImageColorPalette .productColorSample{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+section.productDetail .productImageColorPalette .productColorSample#white{
+    background: white;
+}
+
+section.productDetail .productImageColorPalette .productColorSample#black{
+    background: black;
+}
+
 section.productDetail .productDetailDescription {
     width: 800px;
     float: right;
@@ -208,11 +233,12 @@ section.productDetail .productDetailDescription .technicalImages img {
 
     section.productDetail .productImage {
         width: 300px;
-        height: 400px;
+        height: 300px;
         left: 50%;
         margin-left: -150px;
         margin-top: 75px;
-        z-index: 99;
+        margin-bottom: 100px;
+        z-index: 999999;
     }
 
     section.productDetail .productImage img {
@@ -400,6 +426,28 @@ section.productDetail .productDetailDescription .technicalImages img {
         top: 2px;
         border: 1px solid;
     }
+    
+    section.productDetail .productImageColorPalette {
+        width: 50%;
+        position: absolute;
+        height: 60px;
+        float: right;
+        left: auto;
+        right: -32px;
+        top: auto;
+        bottom: -40px;
+    
+        z-index: 999999999;
+}
+
+section.productDetail .productImageColorPalette .productColorSample{
+        float: right;
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
 
 }
 
@@ -442,7 +490,7 @@ section.productDetail .productDetailDescription .technicalImages img {
         padding: 0px 15px 20px 15px; 
     
         z-index: 9999;
-}
+    }
 
     section.productDetail .productDetailDescription .introSection {
         width: 720px;
@@ -482,6 +530,26 @@ section.productDetail .productDetailDescription .technicalImages img {
         height: 200px;
         float: left;
         margin-top: 30px; 
+    }
+    
+    section.productDetail .productImageColorPalette {
+        width: 50%;
+        position: absolute;
+        float: left;
+        height: 60px;
+        left: -145px;
+    
+        top: auto;
+        bottom: 60px;
+    }
+
+section.productDetail .productImageColorPalette .productColorSample{
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+        border-radius: 50%;
+        cursor: pointer;
     }
 
 }

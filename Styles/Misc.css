@@ -15,6 +15,16 @@
 /* THESE STYLES ARE FOR LIMART SPECIFIC - NOT A PART OF STOP63 DEFAULT TEMPLATE */
 
 /* ICONS AND OTHERS */
+img[data-sixtythree="icon-user"] {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+img[data-sixtythree="icon-basket"] {
+    width: 14px !important;
+    height: 14px !important;
+}
+
 img[data-sixtythree="arrow-next"] {
     width: 24px;
     height: 11px;
@@ -509,6 +519,17 @@ img[data-sixtythree="logotype-white"] {
 
 /* Screen */
 @media all and (max-width: 400px) {
+
+
+    img[data-sixtythree="icon-user"] {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    img[data-sixtythree="icon-basket"] {
+        width: 18px !important;
+        height: 18px !important;
+    }
     header nav img[data-sixtythree="icon-search"] {
         width: 15px;
         height: 15px;
