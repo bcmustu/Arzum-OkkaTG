@@ -26,6 +26,7 @@ $(document).ready(function () {
     openCloseMenu();
     openOrCloseSearch();
     navigation();
+    pageSpecialization();
 
     // PPI = getPPI();
     // console.log(PPI);
@@ -559,4 +560,11 @@ function navigation() {
             };
         });
     });
+}
+
+
+function pageSpecialization() {
+    var pageSpec = $('main').attr('id');
+    $('main').attr('id','');
+    $('.wrapper').attr('id',pageSpec);
 }
