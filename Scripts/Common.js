@@ -566,5 +566,5 @@ function navigation() {
 function pageSpecialization() {
     var pageSpec = $('main').attr('id');
     $('main').attr('id','');
-    $('.wrapper').attr('id',pageSpec);
+    $('body').attr('id',pageSpec);
 }
