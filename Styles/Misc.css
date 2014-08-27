@@ -102,6 +102,18 @@ img[data-sixtythree="icon-arrow-next-dark"]{
     box-sizing: border-box;
 }
 
+img[data-sixtythree="logotype-reddot"]{
+    width: 124px !important;
+    height: 96px !important;
+    box-sizing: border-box;
+}
+
+
+img[data-sixtythree="icon-play-video"]{
+    width: 58px !important;
+    height: 58px !important;
+}
+
 /* SOCIAL MEDIA ICONS STYLES */
 img[data-sixtythree^="icon-social-"] {
     display: block;

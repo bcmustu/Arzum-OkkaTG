@@ -22,7 +22,7 @@ section.productDetail .productImage img {
 }
 
 section.productDetail .productImageColorPalette {
-    width: 100%;
+    width: 345px;
     float: left;
     height: 60px;
     left: 30px;
@@ -66,7 +66,7 @@ section.productDetail .productDetailDescription .detailHead select {
     float:right;
     width: 146px !important;
     margin-right: 10px;
-    font-family: myriadpro;
+    font-family: Meta;
     font-size: 15px;
     font-weight: 500;
     line-height: 40px;
@@ -214,9 +214,38 @@ section.productDetail .productDetailDescription .technicalImages img {
     width: 100%;
 }
 
+.introSection .photoGallery {
+    background:#38120d;
+    float:left;
+    width: 720px;
+    padding:10px;
+}
+.introSection .photoGallery .galleryItem {
+    background-color:rgba(255,255,255,0.1);
+    float:left;
+    width:135px;
+    height:135px;
+    margin-right:10px;
+}
+.introSection .photoGallery .galleryItem:last-child {
+    background-color:transparent;
+    float:left;
+    width:90px;
+    height:135px;
+    margin-right:10px;
+}
 
+.introSection .photoGallery .galleryItem a img {
+    float:left;
+    width:135px;
+    height:135px;
+}
 
+.introSection .photoGallery .galleryItem:last-child a img {
+    margin: 30px;
 
+    margin-top: 36px;
+}
 
 
 
@@ -411,7 +440,7 @@ section.productDetail .productDetailDescription .technicalImages img {
         float: right;
         width: 130px !important;
         margin-right: 0px;
-        font-family: myriadpro;
+        font-family: Meta;
         font-size: 15px;
         font-weight: 500;
         line-height: 30px;
@@ -449,6 +478,41 @@ section.productDetail .productImageColorPalette .productColorSample{
         cursor: pointer;
     }
 
+.introSection .photoGallery {
+    background:#38120d;
+    float:left;
+    width: 100%;
+    padding:10px;
+    padding-right: 0px;
+}
+.introSection .photoGallery .galleryItem {
+    background-color:rgba(255,255,255,0.1);
+    float:left;
+    width: 129px;
+    height: 129px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.introSection .photoGallery .galleryItem:last-child {
+    background-color:transparent;
+    width:90px;
+    height:135px;
+    float: none;
+    margin: auto;
+    left: -20px;
+}
+
+.introSection .photoGallery .galleryItem a img {
+    float:left;
+    width: 129px;
+    height: 129px;
+}
+
+.introSection .photoGallery .galleryItem:last-child a img {
+    margin: 30px;
+
+    margin-top: 36px;
+}
 }
 
 @media all and (min-width: 401px) and (max-width: 700px) {
@@ -552,6 +616,39 @@ section.productDetail .productImageColorPalette .productColorSample{
         cursor: pointer;
     }
 
+.introSection .photoGallery {
+    background:#38120d;
+    float:left;
+    width: 100%;
+    padding:10px;
+}
+.introSection .photoGallery .galleryItem {
+    background-color:rgba(255,255,255,0.1);
+    float:left;
+    width:135px;
+    height:135px;
+    margin-right: 4px;
+}
+.introSection .photoGallery .galleryItem:last-child {
+    background-color:transparent;
+    float:left;
+    width:90px;
+    height:135px;
+    margin-right:10px;
+}
+
+.introSection .photoGallery .galleryItem a img {
+    float:left;
+    width:135px;
+    height:135px;
+}
+
+.introSection .photoGallery .galleryItem:last-child a img {
+    margin: 30px;
+
+    margin-top: 36px;
+}
+
 }
 
 @media all and (min-width: 1019px) and (max-width: 1274px) {
@@ -631,3 +728,187 @@ section.productDetail .productImageColorPalette .productColorSample{
 @media all and (min-width: 1275px) {
 
 }
+
+
+/* MAXI ARTICLE RELATED */
+.divOverlay {
+    position: fixed;
+    top: 0;
+    right:0;
+    bottom:0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 9999999999;
+    display: none;
+}
+
+.articleMaxiSlider {
+    margin: 0 auto 0 auto;
+}
+
+    .articleMaxiSlider table {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+        .articleMaxiSlider table td {
+            vertical-align: middle;
+        }
+
+
+    .articleMaxiSlider .divImgContainer {
+        text-align:center;
+    }
+
+    .articleMaxiSlider .divImgContainer img {
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+    .articleMaxiSlider .divImgContainer iframe {
+        width: 100%;
+        margin: auto;
+        margin-top: 80px;
+        height: 500px;
+    
+        max-width: 600px;
+}
+
+    .articleMaxiSlider .divCaptionContainer {
+        text-align: center;
+        font-family: akzidenzregular;
+        font-size: 13px;
+        line-height: 16px;
+        height: 84px;
+        margin: 22px auto 0 auto;
+        position: relative;
+    }
+
+        .articleMaxiSlider .divCaptionContainer h6 {
+            color: #656565;
+        }
+
+        .articleMaxiSlider .divCaptionContainer div {
+            color: #ddd;
+            position: absolute;
+            bottom: 0;
+            height: 55px;
+            overflow: auto;
+        }
+
+.divOverlay .close {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    right: 20px;
+    top: 21px;
+    z-index: 5;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #232323;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #000;
+    transition:none !important;
+}
+
+    .divOverlay .close:after {
+        content: '';
+        height: 1px;
+        width: 16px;
+        border-radius: 10px;
+        position: absolute;
+        display: block;
+        background: #6c6c6c;
+        left: 50%;
+        margin-left: -8px;
+        margin-top: -1px;
+        top: 50%;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .divOverlay .close:before {
+        content: '';
+        height: 1px;
+        width: 16px;
+        border-radius: 10px;
+        position: absolute;
+        display: block;
+        background: #6c6c6c;
+        left: 50%;
+        margin-left: -8px;
+        margin-top: -1px;
+        top: 50%;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+/* END - MAXI ARTICLE RELATED */
+
+/* Smartphone (portrait) */
+@media only screen and (orientation : portrait) and (max-device-width : 599px) {
+    .articleMaxiSlider .divCaptionContainer {
+        display: none;
+    }
+
+    .articleMaxiSlider .divImgContainer img {
+        width:auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 600px;
+    }
+}
+
+/* Smartphone (landscape) */
+@media only screen and (orientation : landscape) and (max-device-width : 760px) {
+    .articleMaxiSlider .divImgContainer img {
+        width: auto;
+        max-height: 100%;
+    }
+
+    .articleMaxiSlider .divCaptionContainer {
+        display: none;
+    }
+}
+
+/* Tablet (portrait) */
+@media only screen and (orientation : portrait) and (min-device-width : 600px) {
+    .articleMaxiSlider .divImgContainer img {
+        width:auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 600px;
+    }
+
+    .articleMaxiSlider .divCaptionContainer {
+        width: 90%;
+    }
+}
+
+/* Tablet (landscape) */
+@media only screen and (orientation : landscape) and (min-device-width : 761px) {
+    .articleMaxiSlider .divImgContainer img {
+        width: auto;
+        max-height: 100%;
+    }
+
+    .articleMaxiSlider .divCaptionContainer {
+        width: 70%;
+    }
+}
+
+
+
+/* iPhone 4 (landscape) */
+@media only screen and (orientation : landscape) and (max-device-width : 481px) {
+}
+
+/* END - SLIDER STYLE */

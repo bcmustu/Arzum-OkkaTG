@@ -24,6 +24,7 @@ main {
 .staticContentMainImage {
     width: 460px;
     float: left;
+    min-height: 2px;
 }
 
     .staticContentMainImage img {

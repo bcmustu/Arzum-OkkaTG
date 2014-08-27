@@ -7,7 +7,7 @@ html {
 body {
     background: #876555;
     height: 100%;
-    font-family: MyriadPro;
+    font-family: Meta;
     opacity: 0;
     transition: all 0.4s;
 }
@@ -24,16 +24,40 @@ body {
 #wrapper-detail {
    max-width: 1280px;
    min-height: 100%;
-   background: url(../Files/Products/01/Pictures/background.jpg) no-repeat;
+   background: url(../Files/Products/01/pictures/background.jpg) no-repeat;
    background-position: left top;
    background-color: #411c13;
    margin: auto;
 }
 
-#wrapper-photo {
+#wrapper-photo-1 {
    max-width: 1280px;
    min-height: 100%;
-   background: url(../Files/Pages/Static/background.jpg) no-repeat;
+   background: url(../Files/Pages/Static/background-01.jpg) no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: auto;
+}
+#wrapper-photo-2 {
+   max-width: 1280px;
+   min-height: 100%;
+   background: url(../Files/Pages/Static/background-02.jpg) no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: auto;
+}
+#wrapper-photo-3 {
+   max-width: 1280px;
+   min-height: 100%;
+   background: url(../Files/Pages/Static/background-03.jpg) no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   margin: auto;
+}
+#wrapper-photo-4 {
+   max-width: 1280px;
+   min-height: 100%;
+   background: url(../Files/Pages/Static/background-master.jpg) no-repeat;
    background-size: cover;
    background-attachment: fixed;
    margin: auto;
@@ -42,7 +66,6 @@ body {
 #wrapper-data-page {
    max-width: 1280px;
    min-height: 100%;
-   position: fixed;
    right: 0;
    left: 0px;
    background: url(../Files/Pages/DataPage/Pictures/background.jpg) no-repeat;

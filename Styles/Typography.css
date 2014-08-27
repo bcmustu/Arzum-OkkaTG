@@ -54,7 +54,7 @@ a:active {
 }
 
 .faceB {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #d0bfa9;
     font-size: 15px;
     font-weight: 400;
@@ -62,7 +62,7 @@ a:active {
 }
 
 .faceC {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #ebcbaf;
     font-size: 22px;
     font-weight: 500;
@@ -70,7 +70,7 @@ a:active {
 }
 
 .faceD {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #340d08;
     font-size: 16px;
     font-weight: 500;
@@ -78,7 +78,7 @@ a:active {
 }
 
 .faceE {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #ebcbaf;
     font-size: 18px;
     font-weight: 400;
@@ -86,63 +86,63 @@ a:active {
 }
 
 .faceF {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #bea794;
     font-size: 13px;
     font-weight: 400;
 }
 
 .faceG {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #ebcbaf;
     font-size: 13px;
     font-weight: 500;
 }
 
 .faceH {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #ebcbaf;
     font-size: 17px;
     font-weight: 400;
 }
 
 .faceI {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #ebcbaf;
     font-size: 18px;
     font-weight: 400;
 }
 
 .faceJ {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #ebcbaf;
     font-size: 24px;
     font-weight: 400;
 }
 
 .faceK {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #441e15;
     font-size: 20px;
     font-weight: 400;
 }
 
 .faceL {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #441e15;
     font-size: 14px;
     font-weight: 500;
 }
 
 .faceM {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #441e15;
     font-size: 20px;
     font-weight: 400;
 }
 
 .faceN {
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #8c685f;
     font-size: 18px;
     font-weight: 400;
@@ -181,7 +181,7 @@ a:active {
 .aStyleB:visited {
     text-decoration: none;
     color: #b27d66;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size: 12px;
     font-weight: 400;
     display: block;
@@ -198,7 +198,7 @@ a:active {
 .aStyleJ:visited {
     text-decoration: none;
     color: #441e15;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size: 11px;
     font-weight: 400;
     display: block;
@@ -208,7 +208,7 @@ a:active {
 .aStyleE:visited {
     text-decoration: none;
     color: #441e15;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size: 12px;
     font-weight: 400;
     display: block;
@@ -232,7 +232,7 @@ a:active {
     font-size: 17px;
     font-weight: 500;
     letter-spacing: 0.08em;
-    font-family: myriadPro;
+    font-family: Meta;
 }
 .spanStyleK {
     display: inline-block;color: #441e15;
@@ -240,7 +240,7 @@ a:active {
     font-size: 11px;
     line-height: 27px;
     font-weight: 400;
-    letter-spacing: 0.0em;font-family: myriadPro;
+    letter-spacing: 0.0em;font-family: Meta;
 }
 
 

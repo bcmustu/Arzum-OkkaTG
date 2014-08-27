@@ -23,6 +23,10 @@
     <link rel="stylesheet" type="text/css" href="Styles/ProductDetail.css" />
 
 
+    <!-- SLIDER - STYLESHEET FILES -->
+    <link type="text/css" media="screen" href="SliderFiles/royalslider.css" rel="stylesheet" />
+    <link type="text/css" media="screen" href="SliderFiles/rs-minimal-white.css" rel="stylesheet">
+    <!-- END - STYLESHEET FILES -->
 </head>
 <body>
 
@@ -54,16 +58,16 @@
                                 <ul class="level2">
                                     <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="statik-okkali-turk-kahvesi-deneyimi.html" class="aStyleB">OKKALI TÜRK KAHVESİ DENEYİMİ NEDİR?</a></li>
                                     <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="urun-makina.html" class="aStyleB">ARZUM OKKA TÜRK KAHVESİ MAKİNESI</a></li>
-                                    <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="javascript:void(0);" class="aStyleB">ARZUM OKKA AKSESUARLAR</a>
+                                    <!--<li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="javascript:void(0);" class="aStyleB">ARZUM OKKA AKSESUARLAR</a>
 
                                         <ul class="level3">
                                             <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="urun-fincan.html" class="aStyleB">FİNCAN</a></li>
                                             <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="urun-tepsi.html" class="aStyleB">TEPSİ</a></li>
                                         </ul>
 
-                                    </li>
+                                    </li>-->
                                     <!-- <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">REKLAMLAR</a></li> -->
-                                    <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="awards.html" class="aStyleB">ÖDÜLLER</a></li>
+                                    <!--<li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="awards.html" class="aStyleB">ÖDÜLLER</a></li>-->
                                     <!-- <li><img class="listBullet" data-sixtythree="icon-arrow-nav" /><a href="#" class="aStyleB">BASINDA ARZUM OKKA</a></li> -->
                                 </ul>
                             </li>
@@ -235,7 +239,7 @@
 
                 <!-- PRODUCT IMAGE START -->
                 <div class="productImage">
-                    <img src="Files/Products/01/Pictures/product.png">
+                    <img src="Files/Products/01/Pictures/.png">
 
                     <div class="productImageColorPalette">
                         <div class="productColorSample" id="white"></div>
@@ -264,11 +268,33 @@
 
                     <!-- INTRO SECTION START -->
                     <div class="introSection">
-
-                        <div class="introTextFirst faceB">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their </div>
-
-                        <div class="introTextSecond faceB">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </div>
-
+                        <div class="photoGallery">
+                            <div class="galleryItem">
+                                <a href="javascript:setupArticleMaxiSlider(0);">
+                                    <img src="Files/Products/01/Pictures/01-thumb.png" />
+                                </a>
+                            </div>
+                            <div class="galleryItem">
+                                <a href="javascript:setupArticleMaxiSlider(1);">
+                                    <img src="Files/Products/01/Pictures/02-thumb.png" />
+                                </a>
+                            </div>
+                            <div class="galleryItem">
+                                <a href="javascript:setupArticleMaxiSlider(2);">
+                                    <img src="Files/Products/01/Pictures/03-thumb.png" />
+                                </a>
+                            </div>
+                            <div class="galleryItem">
+                                <a href="javascript:setupArticleMaxiSlider(3);">
+                                    <img src="Files/Products/01/Pictures/04-thumb.png" />
+                                </a>
+                            </div>
+                            <div class="galleryItem">
+                                <a href="javascript:setupArticleMaxiSlider(4);">
+                                    <img data-sixtythree="icon-play-video"/>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                     <!-- INTRO SECTION FINISH -->
 
@@ -357,7 +383,6 @@
 
             </section>
             <!-- PRODUCT DETAIL FINISH -->
-
         </main>
         <!-- MAIN FINISH -->
 
@@ -366,12 +391,102 @@
         <footer></footer>
         <!-- FOOTER FINISH -->
 
+    <div class="divOverlay">
+        <div class="close"></div>
+        <div class="sponsor">
+        </div>
+        <!-- maxi article slider -->
+        <div id="articleMaxiSlider" class="articleMaxiSlider">
+            
+            <!-- slide 1 -->
+            <div class="rsContent">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="divImgContainer">
+                                <a href="Files/Products/01/Pictures/01.jpg" class="rsImg"></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end -->
+
+            <!-- slide 2 -->
+            <div class="rsContent">
+                <table>
+                    <tr>
+                        <td>
+
+                            <div class="divImgContainer">
+                                <a href="Files/Products/01/Pictures/02.jpg" class="rsImg"></a>
+                            </div>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end -->
+
+            <!-- slide 3 -->
+            <div class="rsContent">
+                <table>
+                    <tr>
+                        <td>
+
+                            <div class="divImgContainer">
+                                <a href="Files/Products/01/Pictures/03.jpg" class="rsImg"></a>
+                            </div>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end -->
+
+            <!-- slide 4 -->
+            <div class="rsContent">
+                <table>
+                    <tr>
+                        <td>
+
+                            <div class="divImgContainer">
+                                <a href="Files/Products/01/Pictures/04.jpg" class="rsImg"></a>
+                            </div>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end -->
+
+            <!-- slide 5 -->
+            <div class="rsContent">
+                <table>
+                    <tr>
+                        <td>
+
+                            <div class="divImgContainer">
+                                <iframe width="420" height="315" src="//www.youtube.com/embed/r1NghogxdII" frameborder="0" allowfullscreen></iframe>
+                            </div>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- end -->
+
+        </div>
+        <!-- END - maxi article slider -->
+
+    </div>
 
     <!-- SCRIPTS -->
     <script type="text/javascript" src="Scripts/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="Scripts/jquery-ui.js"></script>
     <script type="text/javascript" src="Scripts/Common.js"></script>
     <script type="text/javascript" src="Scripts/MobileMenu.js"></script>
+    <script type="text/javascript" src="SliderFiles/jquery.royalslider.min.js"></script>
     <script type="text/javascript" src="Scripts/Product.js"></script>
     <!-- END - SCRIPTS -->
 

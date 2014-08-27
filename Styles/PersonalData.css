@@ -19,14 +19,18 @@ section.personalDataPage .pageContent {
     background: rgba(189,177,172, 0.9);
 }
 section.loginPage .pageContent {
-    position: fixed;
+    position: relative;
     width: 600px;
     padding-bottom: 50px;
     bottom: 0px;
     background: rgba(189,177,172, 0.9);
     left: 50%;
     margin-left: -70px;
+    margin-top: calc(100vh - 627px);
+    padding-top: 30px;
 }
+
+.pageContent {}
 section.signUpPage .pageContent {
     position: fixed;
     width: 600px;
@@ -41,6 +45,7 @@ section.personalDataPage .pageContent .pageTitle, section.loginPage .pageContent
     padding-top: 20px;
     margin: 35px auto;
     border-top:1px solid #fee5cc;
+    margin-top: 0px;
 }
 
 section.personalDataPage .pageContent .formSection, section.loginPage .pageContent .formSection, section.signUpPage .pageContent .formSection {
@@ -145,8 +150,9 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
     bottom: -5px;
 }
 
+
     p.pContactGuide {
-        padding: 36px;
+        padding: 30px;
     
         padding-top: 0px;
         margin-top: -20px;
@@ -155,6 +161,7 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
         width: 70%;
         padding-bottom: 0px;
 }
+
 
     textarea.inputTextE {
         height: 100px;
@@ -301,7 +308,6 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
     
     p.pContactGuide {
         padding: 36px;
-    
         padding-top: 0px;
         margin-top: -20px;
         color: #441e15;

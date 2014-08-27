@@ -13,31 +13,6 @@
 
 
 
-/* MYRAID PRO FAMILY */
-
-@font-face {
-	font-family: 'MyriadPro';
-	src: url('../fonts/MyriadPro/MyriadProRegular.eot');
-	src: local('☺'), url('../fonts/MyriadPro/MyriadProRegular.woff') format('woff'), url('../fonts/MyriadPro/MyriadProRegular.ttf') format('truetype'), url('../fonts/MyriadPro/MyriadProRegular.svg') format('svg');
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'MyriadPro';
-	src: url('../fonts/MyriadPro/MyriadProSemibold.eot');
-	src: local('☺'), url('../fonts/MyriadPro/MyriadProSemibold.woff') format('woff'), url('../fonts/MyriadPro/MyriadProSemibold.ttf') format('truetype'), url('../fonts/MyriadPro/MyriadProSemibold.svg') format('svg');
-	font-weight: 500;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'MyriadPro';
-	src: url('../fonts/MyriadPro/MyriadProBold.eot');
-	src: local('☺'), url('../fonts/MyriadPro/MyriadProBold.woff') format('woff'), url('../fonts/MyriadPro/MyriadProBold.ttf') format('truetype'), url('../fonts/MyriadPro/MyriadProBold.svg') format('svg');
-	font-weight: 600;
-	font-style: normal;
-}
 
 
 
@@ -46,7 +21,7 @@
 @font-face {
 	font-family: 'Trajan';
 	src: url('../fonts/Trajan/TrajanRegular.eot');
-	src: local('☺'), url('../fonts/MyriadPro/TrajanRegular.woff') format('woff'), url('../fonts/MyriadPro/TrajanRegular.ttf') format('truetype'), url('../fonts/MyriadPro/TrajanRegular.svg') format('svg');
+	src: local('☺'), url('../fonts/Meta/TrajanRegular.woff') format('woff'), url('../fonts/Meta/TrajanRegular.ttf') format('truetype'), url('../fonts/Meta/TrajanRegular.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -54,11 +29,22 @@
 @font-face {
 	font-family: 'Trajan';
 	src: url('../fonts/Trajan/TrajanBold.eot');
-	src: local('☺'), url('../fonts/MyriadPro/TrajanBold.woff') format('woff'), url('../fonts/MyriadPro/TrajanBold.ttf') format('truetype'), url('../fonts/MyriadPro/TrajanBold.svg') format('svg');
+	src: local('☺'), url('../fonts/Meta/TrajanBold.woff') format('woff'), url('../fonts/Meta/TrajanBold.ttf') format('truetype'), url('../fonts/Meta/TrajanBold.svg') format('svg');
 	font-weight: 500;
 	font-style: normal;
 }
 
+
+
+/* META FAMILY */
+
+@font-face {
+	font-family: 'Meta';
+	src: url('../fonts/Meta/MetaPlus-Normal.eot');
+	src: local('☺'), url('../fonts/Meta/MetaPlus-Normal.woff') format('woff'), url('../fonts/Meta/MetaPlus-Normal.ttf') format('truetype'), url('../fonts/Meta/MetaPlus-Normal.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
 
 
 

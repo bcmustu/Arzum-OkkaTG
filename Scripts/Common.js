@@ -570,4 +570,17 @@ function pageSpecialization() {
     var pageSpec = $('main').attr('id');
     $('main').attr('id','');
     $('body').attr('id',pageSpec);
+    // $('a').click(function(e){
+    //     e.preventDefault();
+    //     var destination = $(this).attr('href');
+    //     if (destination !== '#' || destination !== 'javascript:void(0);') {
+    //         $('body').css('opacity','0');
+    //         setTimeout(function(){
+    //             window.location.replace(destination);
+    //             setTimeout(function(){
+    //                 $('body').css('opacity','1');
+    //             },300)
+    //         },700); 
+    //     };
+    // });
 }

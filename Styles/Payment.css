@@ -3,7 +3,7 @@
 .paymentHeader {
     margin-top: 50px;
     border-bottom: 1px solid #513830;
-    font-family: MyriadPro;
+    font-family: Meta;
     color: #ae9688;
     padding-left: 30px;
     padding-bottom: 20px;
@@ -27,7 +27,7 @@
 #payment .tab .accordionHeader{
     display:block;
     text-decoration:none;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:14px;
     letter-spacing:1px;
     font-weight:400;
@@ -40,13 +40,13 @@
     margin:auto;
     width:90%;
     padding-bottom:40px;
-    font-family: myriadpro;
+    font-family: Meta;
 }
 
 /* ADDRESS INFO */
 #payment .divAddressInfo .divContent > span{
     display:block;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:12px;
     color:#000;
     padding:30px 0 0 0;
@@ -59,12 +59,12 @@
 
 #payment .divAddressInfo .divContent .divAddressSelection1 label,
 #payment .divAddressInfo .divContent .divAddressSelection2 label {
-    font-family: MyriadPro;
+    font-family: Meta;
 }
 
 
 #payment .divAddressInfo .divContent p.noAddress {
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:14px;
     color:#de5454;
     font-weight:400;
@@ -111,7 +111,7 @@
 
 #payment .divAddressInfo .divContent .divAddress h5{
     padding:4% 0 3% 8%;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:14px;
     font-weight:400;
     margin-bottom:5%;
@@ -126,7 +126,7 @@
 
 #payment .divAddressInfo .divContent .divAddress p{
     padding:0 4% 4% 8%;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:14px;
 }
 
@@ -186,7 +186,7 @@
 }
 
 #payment .divAddressInfo .divContent .divOtherPersonPickUpDetails p {
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:12px;
     color:#000;
     letter-spacing:0.040em;
@@ -208,7 +208,7 @@
 #payment .divAddressInfo .divContent .divOtherPersonPickUp label,
 #payment .divGiftInfo .divContent .divGift label,
 #paymentCreditCard .divContract label{
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:14px;
     color:#000;
     font-weight:400;
@@ -239,7 +239,7 @@
 }
 
 #payment .divGiftInfo .divContent .divOrderNoteDetails p {
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:12px;
     color:#000;
     letter-spacing:0.040em;
@@ -275,7 +275,7 @@
     height:35px;
     text-decoration:none;
     color:#000;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:14px;
     line-height: 35px;
     font-weight:600;
@@ -313,7 +313,7 @@
 
 #paymentCreditCard table tr td{
     color:#000;
-    font-family: MyriadPro;
+    font-family: Meta;
     font-size:14px;
     font-weight:400;
     text-align:left;
@@ -337,7 +337,7 @@
     background-position:85% center;
     background-color: transparent;
     height: 36px;
-    font-family: myriadpro;
+    font-family: Meta;
     font-weight: 400;
 }
 
@@ -386,7 +386,7 @@
 #paymentCreditCard .divInstalment .tableInstalment tr td{
     padding-top:13px;
     color: rgba(0,0,0,0.5);
-    font-family: myriadpro;
+    font-family: Meta;
     font-size: 12px;
     font-weight: 500;
     letter-spacing:1px;
@@ -413,7 +413,7 @@
     color:#000;
     font-size: 14px;
     display: inline;
-    font-family: MyriadPro;
+    font-family: Meta;
 }
 
 .checkboxStyleA label{
@@ -423,7 +423,7 @@
 #payment .divCardInfo .divContent a.linkStyleA{
     border:1px solid #000;
     margin:35px 0 0 0;
-    font-family: MyriadPro;
+    font-family: Meta;
 }
 
 #payment .divCardInfo .divContent a.linkStyleA span{
@@ -534,7 +534,7 @@
     height: 35px;
     width: 233px !important;
     margin-top:35px;
-    font-family: myriadpro;
+    font-family: Meta;
     background-color: transparent;
     top: -220px;
     line-height: 27px;
@@ -551,7 +551,7 @@
     margin-top: 25px;
     background-color: #efe0d2;
     padding-bottom:40px;
-    font-family: MyriadPro;
+    font-family: Meta;
 }
 
 #basketSummary h3{
