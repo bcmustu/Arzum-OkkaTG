@@ -42,6 +42,31 @@ main h1.welcomeText {
     font-size: 13.8px;
     font-family: meta;
 }
+
+.seeProduct {
+    background-color: #542B23;
+    width: 115px;
+    padding-left: 35px;
+    padding-top: 27px;
+    float: left;
+    height: 97px;
+    font-family: trajan;
+}
+.seeProduct img {
+    float: left;
+    top: 17px;
+    left: -17px;
+}
+.seeProduct p {
+    color: #c99f75 !important;
+    width: 90px;
+    float: left;
+    top: -7px;
+    left: -7px;
+    margin-left: 11px;
+    font-size: 13.8px;
+    font-family: meta;
+}
 .redDotLogo {
     background-color: #fff;
     padding-left: 20px;

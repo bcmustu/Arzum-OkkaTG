@@ -50,6 +50,11 @@ img[data-sixtythree="icon-search"] {
     height: 12px;
 }
 
+img[data-sixtythree="icon-nav-next"] {
+    width: 7px;
+    height: 13px;
+}
+
 img[data-sixtythree="icon-room-view"] {
     display: block;
     width: 18px;
