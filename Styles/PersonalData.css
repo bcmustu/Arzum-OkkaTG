@@ -6,7 +6,7 @@ section.personalDataPage {
 }
 
 section.personalDataPage .pageContent {
-    position: absolute;
+    position: relative;
     width: 600px;
     margin: 0 auto;
     left:50%;
