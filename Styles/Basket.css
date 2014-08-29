@@ -167,7 +167,7 @@
     color:#000;
 }
 
-#basket .divTotal input[type="text"]::-moz-placeholder {  /* Firefox 19+ */
+#basket .divTotal input[type="text"] ::-moz-placeholder {  /* Firefox 19+ */
     color:#000;
 }
 

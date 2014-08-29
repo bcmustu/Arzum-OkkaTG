@@ -22,7 +22,8 @@ textarea{
     color: #441e15;
     font-family: Meta;
     font-weight:500;
-    padding:20px;
+    padding:0px 20px;
+    height:40px;
     margin-bottom:5px;
 }
 
@@ -67,7 +68,7 @@ textarea{
 .inputTextE:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color: #441e15;
 }
-.inputTextE::-moz-placeholder { /* Mozilla Firefox 19+ */
+.inputTextE ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color: #441e15;
 }
 .inputTextE:-ms-input-placeholder { /* Internet Explorer 10+ */
@@ -92,7 +93,7 @@ textarea{
 .inputTextF:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     color: #441e15;
 }
-.inputTextF::-moz-placeholder { /* Mozilla Firefox 19+ */
+.inputTextF ::-moz-placeholder { /* Mozilla Firefox 19+ */
     color: #441e15;
 }
 .inputTextF:-ms-input-placeholder { /* Internet Explorer 10+ */
