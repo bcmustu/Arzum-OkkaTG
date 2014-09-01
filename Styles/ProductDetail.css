@@ -61,7 +61,35 @@ section.productDetail .productDetailDescription .detailHead {
     margin-left: 25px;
     padding: 0px 15px 20px 15px; 
 }
+section.productDetail .productDetailDescription .detailHead .selectWrapper {
+    float: right;
+    width: 145px;
+    padding-left: 26px;
+    top: 0px;
+    border: 1px solid #E0BA8F;
+    left: -10px;
+    height: 49px;
+}
 
+section.productDetail .productDetailDescription .detailHead .selectWrapper select {
+    float: right;
+    width: 127px !important;
+    margin-right: 10px;
+    font-family: Meta;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    background-color: transparent;
+    color: #E0BA8F;
+    background-image: url('../Images/icon-arrow-down.png');
+    background-size: 10px auto;
+    background-repeat: no-repeat;
+    background-position: 86% center !important;
+    height: 50px;
+    padding-left: 28px;
+    top: -6px;
+    left: 26px;
+}
 section.productDetail .productDetailDescription .detailHead select {
     float:right;
     width: 146px !important;
