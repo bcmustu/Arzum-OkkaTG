@@ -90,7 +90,19 @@ main {
 /* END - PAGE HEADER */
 
 
+/*BUG FIX*/
 
+.selectWrapper {
+  overflow: hidden;
+}
+
+.selectWrapper select {
+  padding-right: 20px;
+  box-sizing:content-box;
+  background-position: 95% center !important; 
+}
+
+/* END - BUG FIX */
 
 /* Screen */
 @media all and (max-width: 400px) {
