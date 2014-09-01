@@ -37,6 +37,12 @@ $(document).ready(function () {
         $('nav .divNav .divMenuContent').css({height:230});
     }
 
+    if (!$.browser.webkit) {
+        $('select').each(function(){
+            $(this).wrap('<div class="selectWrapper">')
+        });
+    }
+
 });
 
 
