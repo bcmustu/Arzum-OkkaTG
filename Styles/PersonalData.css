@@ -175,7 +175,7 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
 }
 
 /* Screen */
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
 
     section.personalDataPage .pageContent, section.signUpPage .pageContent, section.loginPage .pageContent {
         width: 90%;
@@ -249,10 +249,6 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
     width:100%;
     float: left;
 }
-
-}
-
-@media all and (min-width: 401px) and (max-width: 700px) {
 
 }
 

@@ -106,7 +106,7 @@ main {
 /* END - BUG FIX */
 
 /* Screen */
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
 
     #wrapper {
        background-position: center center !important;
@@ -136,16 +136,6 @@ main {
        margin: auto;
     }
 
-
-}
-
-@media all and (min-width: 401px) and (max-width: 700px) {
-
-    #wrapper {
-       background-position: center center !important;
-       background: url(../Files/Pages/Home/Pictures/background.jpg);
-       background-size: cover; 
-    }
 
 }
 

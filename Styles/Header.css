@@ -64,7 +64,7 @@ header .divContent a img {
 
 
 /* Screen */
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
     header .divContent{
         width: 90%;
         padding-top: 20px;
@@ -136,78 +136,6 @@ header .divContent a img {
         color: #a67861;
     
         display: none;
-}
-
-    .accountAndBasket a img {
-        float: left;
-        
-        margin-right: 8px;
-    }
-
-}
-
-@media all and (min-width: 401px) and (max-width: 700px) {
-    header .divContent{
-        width: 90%;
-        padding-top: 20px;
-        height: 85px;
-    }
-
-    header .divContent .aLogo:link,
-    header .divContent .aLogo:visited{
-        position: absolute;
-        left: 0;
-        width: 146px;
-        height: 65px;
-    }
-    
-    
-    .accountAndBasket{
-        position: absolute;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        left: 50%;
-        -webkit-align-items: center;
-        -moz-align-items: center;
-        -ms-align-items: center;
-        -o-align-items: center;
-        align-items: center;
-        margin-left: 398px;
-        top: 125px;
-    }
-
-    .accountAndBasket a:last-child{
-
-    }
-
-    .accountAndBasket a{
-        opacity:0.7;
-        transition:all 0.5s;
-        display: -webkit-flex;
-        display: -moz-flex;
-        display: -ms-flex;
-        display: -o-flex;
-        display: flex;
-        -webkit-align-items: center;
-        -moz-align-items: center;
-        -ms-align-items: center;
-        -o-align-items: center;
-        align-items: center;
-        margin-right: 20px;
-    }
-    .accountAndBasket a:hover{
-        opacity:1;
-    }
-
-    .accountAndBasket a span.accountAndBasketWording {
-        float: left;
-
-        font-family: Meta;
-        font-size: 12px;
-        color: #a67861;
     }
 
     .accountAndBasket a img {

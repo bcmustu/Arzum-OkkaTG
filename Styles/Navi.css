@@ -166,7 +166,7 @@ header .navSeperator {
 
 
 /* Screen */
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
 
     nav{
         width:100%;
@@ -204,10 +204,6 @@ header .navSeperator {
         top: 38px !important;
         background: url(../Images/divider-nav.png) repeat-y center center !important;
     }
-
-}
-
-@media all and (min-width: 401px) and (max-width: 700px) {
 
 }
 

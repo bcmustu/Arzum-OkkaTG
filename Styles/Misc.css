@@ -535,7 +535,7 @@ img[data-sixtythree="logotype-white"] {
 
 
 /* Screen */
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
 
 
     img[data-sixtythree="icon-user"] {
@@ -567,13 +567,6 @@ img[data-sixtythree="logotype-white"] {
 
     .divLineB {
         height: 50px;
-    }
-}
-
-@media all and (min-width: 401px) and (max-width: 700px) {
-    header nav img[data-sixtythree="icon-search"] {
-        width: 15px;
-        height: 15px;
     }
 }
 

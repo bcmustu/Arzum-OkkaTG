@@ -356,7 +356,7 @@ input[type="radio"].radioTypeA {
 
 
 /* Screen */
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
 
     .dateSelectorHeader {
         float: left;
@@ -375,10 +375,6 @@ input[type="radio"].radioTypeA {
         margin-left: 5px;
     }
 
-
-}
-
-@media all and (min-width: 401px) and (max-width: 700px) {
 
 }
 

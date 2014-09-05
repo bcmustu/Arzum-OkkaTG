@@ -163,7 +163,7 @@
 /* **** END - SUB MENUS **** */
 /* END - SITE MOBILE NAV MENU */
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
     #navMobile .aMobileMenuIcon:link, #navMobile .aMobileMenuIcon:visited {
       display: block;
     }
