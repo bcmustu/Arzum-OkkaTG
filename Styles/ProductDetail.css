@@ -280,7 +280,7 @@ section.productDetail .productDetailDescription .technicalImages img {
 
 
 /* Screen */
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
 
 
     section.productDetail {
@@ -542,11 +542,6 @@ section.productDetail .productImageColorPalette .productColorSample{
     margin-top: 36px;
 }
 }
-
-@media all and (min-width: 401px) and (max-width: 700px) {
-
-}
-
 @media all and (min-width: 701px) and (max-width: 1018px) {
 
     section.productDetail {

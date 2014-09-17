@@ -249,7 +249,7 @@ a:active {
 
 
 /* Screen */
-@media all and (max-width: 400px) {
+@media all and (max-width: 700px) {
 
     .faceA {
         font-family: Trajan;
@@ -280,11 +280,6 @@ a:active {
     }
 
 }
-
-@media all and (min-width: 401px) and (max-width: 700px) {
-
-}
-
 @media all and (min-width: 701px) and (max-width: 1018px) {
 
     .faceA {
