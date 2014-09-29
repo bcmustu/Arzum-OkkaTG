@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	colorSelect();
     articleMaxiSliderCloseSetup();
+    triggerAdditionalPhotos();
 });
 
 
@@ -35,6 +36,7 @@ function colorSelect() {
 		},700);
 	})
 }
+
 
 $(window).on("orientationchange", function (event) {
     // maxiSlider quick actions like hide / show
@@ -140,6 +142,7 @@ function articleMaxiSlider(isOrientationChange) {
         controlNavigation: 'none',
         imageScaleMode: 'none',
         imageScalePadding: 0,
+        arrowsAutoHide: false,
         imageAlignCenter: false,
         loop: false,
         loopRewind: false,
@@ -187,3 +190,28 @@ function articleMaxiSliderCloseSetup() {
     });
 }
 // End
+
+
+function triggerAdditionalPhotos() {
+
+    $('#additionalPhotosSlider').royalSlider({
+        arrowsNav: true,
+        fadeinLoadedSlide: false,
+        arrowsAutoHide: false,
+        slidesSpacing: 0,
+        controlNavigationSpacing: 0,
+        controlNavigation: 'none',
+        imageScaleMode: 'none',
+        imageAlignCenter: true,
+        loop: false,
+        loopRewind: false,
+        numImagesToPreload: 9,
+        keyboardNavEnabled: true,
+        usePreloader: true,
+        addActiveClass: true
+    });
+
+}
+
+
+
