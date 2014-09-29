@@ -50,16 +50,16 @@ section.productDetail .productDetailDescription {
     width: 800px;
     float: right;
     margin-top: 70px;
-    padding-top: 20px;
+    padding-top: 00px;
     padding-bottom: 75px;
     background: #340d08;
 }
 
 section.productDetail .productDetailDescription .detailHead {
-    width: 750px;
+    width: 100%;
     float: left; 
-    margin-left: 25px;
-    padding: 0px 15px 20px 15px; 
+    padding: 20px 37px 25px 43px; 
+    background: white;
 }
 section.productDetail .productDetailDescription .detailHead .selectWrapper {
     float: right;
@@ -99,33 +99,60 @@ section.productDetail .productDetailDescription .detailHead select {
     font-weight: 500;
     line-height: 40px;
     background-color: transparent;
-    color: #e0ba8f;
+    color: #744024;
     background-image: url('../Images/icon-arrow-down.png'); background-size: 10px; background-repeat: no-repeat; 
     background-position: 86% center;
     height: 47px;
     padding-left: 28px;
     top: 2px;
-    border: 1px solid;
+    border: 1px solid #e0ba8f;
+}
+
+section.productDetail .productDetailDescription .detailHead .productWording {
+    float: left;
+    width: 410px;
+    color: #744024;
 }
 
 section.productDetail .productDetailDescription .detailHead h1.productTitle {
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
+    color: #744024;
     line-height: 20px;
+}
+
+
+section.productDetail .productDetailDescription .detailHead h2.productDesc {
+    margin-top: 5px;
+    line-height: 20px;
+    float: left;
+    letter-spacing: 1.5px;
+    color: #d02f2f;
+}
+
+section.productDetail .productDetailDescription .detailHead h2.productDesc span {
+    font-family: meta;
+    font-weight: 500;
+    font-family: Meta;  
+    top: 0px;
+    letter-spacing: 0.2px;
+    font-size: 17px;  
 }
 
 section.productDetail .productDetailDescription .detailHead .addToBasketButton {
     width: auto;
     float: right;
     line-height: 20px;
+    background: #b51f1f;
 }
 
 section.productDetail .productDetailDescription .detailHead .addToBasketButton input[type="button"] {
-    background: #e0ba8f;
+    background: #c12c2c;
     border: 0;
     padding: 15px 25px 13px 25px;
     cursor: pointer; 
     transition: all 0.3s;
+    color: white;
 }
 
 section.productDetail .productDetailDescription .detailHead .addToBasketButton input[type="button"]:hover {
@@ -138,7 +165,6 @@ section.productDetail .productDetailDescription .introSection {
     float: left; 
     margin-left: 25px;
     padding: 30px 15px 50px 15px; 
-    border-top:1px solid #fee5cc;
     text-align: justify;
 }
 
@@ -235,7 +261,7 @@ section.productDetail .productDetailDescription .technicalDetails .technicalList
 section.productDetail .productDetailDescription .technicalImages {
     width: 720px;
     float: left;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 section.productDetail .productDetailDescription .technicalImages img {
@@ -271,17 +297,59 @@ section.productDetail .productDetailDescription .technicalImages img {
 
 .introSection .photoGallery .galleryItem:last-child a img {
     margin: 30px;
-
     margin-top: 36px;
 }
 
+#additionalPhotosSlider {
+    float: left;
+    margin-top: 30px;
+    width: 100%;
+    height: 189px
+}
 
+#additionalPhotosSlider .rsContainer {
+    width: 612px;
+    margin: auto;
+}
 
+#additionalPhotosSlider .rsHidden {
+    visibility: visible;
+}
 
+#additionalPhotosSlider img {
+    width: 48%;
+    margin: auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+
+#additionalPhotosSlider .rsArrow {
+    top: 0px;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    opacity: 1 !important;
+    z-index: 10;
+}
+
+#additionalPhotosSlider .rsArrowLeft {
+    background: url(../images/icon-arrow-previous.png) no-repeat center;
+    left: 0px;
+}
+
+#additionalPhotosSlider .rsArrowRight {
+    background: url(../images/icon-arrow-next.png) no-repeat center;
+    right: 0px;
+}
 
 /* Screen */
 @media all and (max-width: 700px) {
 
+
+    section.productDetail .productDetailDescription .detailHead h2.productDesc {
+        margin-bottom:20px;
+    }
 
     section.productDetail {
         max-width: 100%;
@@ -308,7 +376,7 @@ section.productDetail .productDetailDescription .technicalImages img {
     section.productDetail .productDetailDescription {
         width: 100%;
         float: left;
-        margin-top: -60px;
+        margin-top: 0px;
         padding-bottom: 25px;
         background: transparent; 
     }
@@ -318,14 +386,13 @@ section.productDetail .productDetailDescription .technicalImages img {
         float: left; 
         margin-left: 5%;
         margin-top: -30px;
-        padding: 0 0 20px 0; 
+        padding: 10px; 
     
         z-index: 99999;
 }
 
     section.productDetail .productDetailDescription .detailHead h1.productTitle {
         float: left;
-        margin-top: -40px;
         margin-bottom: 21px;
         line-height: 20px;
     
@@ -340,7 +407,7 @@ section.productDetail .productDetailDescription .technicalImages img {
 }
 
     section.productDetail .productDetailDescription .detailHead .addToBasketButton input[type="button"] {
-        background: #e0ba8f;
+        background: #995100;
         border: 0;
         padding: 10px 15px 10px 15px;
         cursor: pointer; 
@@ -541,6 +608,15 @@ section.productDetail .productImageColorPalette .productColorSample{
 
     margin-top: 36px;
 }
+
+
+
+section.productDetail .productDetailDescription .detailHead .productWording {
+    float: left;
+    width: 100%;
+    color: #744024;
+}
+
 }
 @media all and (min-width: 701px) and (max-width: 1018px) {
 
@@ -574,8 +650,8 @@ section.productDetail .productImageColorPalette .productColorSample{
         width: 720px;
         float: left; 
         margin-left: 25px;
-        padding: 0px 15px 20px 15px; 
-    
+        margin-top: 20px;
+        padding: 20px 15px 20px 15px;
         z-index: 9999;
     }
 
@@ -670,6 +746,14 @@ section.productDetail .productImageColorPalette .productColorSample{
     margin: 30px;
 
     margin-top: 36px;
+}
+
+
+
+section.productDetail .productDetailDescription .detailHead .productWording {
+    float: left;
+    width: 370px;
+    color: #744024;
 }
 
 }
