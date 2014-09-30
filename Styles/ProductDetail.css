@@ -252,6 +252,120 @@ section.productDetail .productDetailDescription .technicalDetails .technicalList
 section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li img  {
     width: 35px;
     height: 35px;
+    cursor: pointer;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li .tooltip {
+    opacity: 0;
+    background: #fde5c9;
+    height: auto;
+    width: 288px;
+    line-height: 25px;
+    position: absolute;
+    padding: 5px 19px;
+    top: 44px;
+    left: -11px;
+    font-size: 13px;
+    color: #340d08;
+    border-radius: 10px;
+    transition: opacity 0.3s;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:nth-child(2) .tooltip {
+    left: -59px;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:nth-child(2) .tooltip span {
+    left: 67px;
+    
+}
+
+
+
+
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:nth-child(3) .tooltip {
+    left: -107px;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:nth-child(3) .tooltip span {
+    left: 115px;
+    
+}
+
+
+
+
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:nth-child(4) .tooltip {
+    left: -155px;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:nth-child(4) .tooltip span {
+    left: 162px;
+    
+}
+
+
+
+
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:nth-child(5) .tooltip {
+    left: -203px;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:nth-child(5) .tooltip span {
+    left: 211px;
+    
+}
+
+
+
+
+
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:last-child .tooltip {
+    opacity: 0;
+    background: #fde5c9;
+    height: 25px;
+    line-height: 25px;
+    position: absolute;
+    padding: 0px 19px;
+    top: 44px;
+    right: -11px;
+    left: auto;
+    font-size: 13px;
+    color: #340d08;
+    border-radius: 10px;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li .tooltip span {
+    display:block;
+    width:20px;
+    height:20px;
+    background:url(../images/icon_pointer.png) center no-repeat;
+    position:absolute;
+    top:-10px;
+    background-size:15px;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:last-child .tooltip span {
+    display:block;
+    width:20px;
+    height:20px;
+    background:url(../images/icon_pointer.png) center no-repeat;
+    position:absolute;
+    top:-10px;
+    background-size:15px;
+    right: 18px;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li img:hover ~ .tooltip {
+    opacity: 1;
+}
+
+section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li img:hover:after {
+
 }
 
 section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:first-child  {
@@ -261,7 +375,7 @@ section.productDetail .productDetailDescription .technicalDetails .technicalList
 section.productDetail .productDetailDescription .technicalImages {
     width: 720px;
     float: left;
-    margin-top: 30px;
+    margin-top: 30px; 
 }
 
 section.productDetail .productDetailDescription .technicalImages img {
@@ -329,18 +443,26 @@ section.productDetail .productDetailDescription .technicalImages img {
     width: 60px;
     height: 100%;
     position: absolute;
-    opacity: 1 !important;
     z-index: 10;
+    opacity: 0.6;
+    transition: opacity 0.4;
 }
+
+.rsArrow:hover {
+    opacity: 1 !important;
+}
+
 
 #additionalPhotosSlider .rsArrowLeft {
     background: url(../images/icon-arrow-previous.png) no-repeat center;
     left: 0px;
+    background-size: 18px;
 }
 
 #additionalPhotosSlider .rsArrowRight {
     background: url(../images/icon-arrow-next.png) no-repeat center;
     right: 0px;
+    background-size: 18px;
 }
 
 /* Screen */
@@ -517,9 +639,11 @@ section.productDetail .productDetailDescription .technicalImages img {
     section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li img  {
         width: 35px;
         height: 35px;
+    }section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons .tooltip {
+
     }
 
-    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:first-child  {
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:first-child{
         margin-left: 0px;
     }
 
@@ -615,6 +739,11 @@ section.productDetail .productDetailDescription .detailHead .productWording {
     float: left;
     width: 100%;
     color: #744024;
+}
+
+#additionalPhotosSlider .rsContainer {
+    width: 100%;
+    margin: auto;
 }
 
 }
@@ -754,6 +883,12 @@ section.productDetail .productDetailDescription .detailHead .productWording {
     float: left;
     width: 370px;
     color: #744024;
+}
+
+
+#additionalPhotosSlider .rsContainer {
+    width: 100%;
+    margin: auto;
 }
 
 }
