@@ -195,6 +195,7 @@ function articleMaxiSliderCloseSetup() {
 function triggerAdditionalPhotos() {
 
     $('#additionalPhotosSlider').royalSlider({
+        autoHeight: true,
         arrowsNav: true,
         fadeinLoadedSlide: false,
         arrowsAutoHide: false,

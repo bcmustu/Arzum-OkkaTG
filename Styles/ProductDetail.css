@@ -491,7 +491,6 @@ section.productDetail .productDetailDescription .technicalImages img {
     section.productDetail .productImage img {
         width: 250px;
         left: 5px;
-    
         margin: auto;
 }
 
@@ -627,7 +626,9 @@ section.productDetail .productDetailDescription .technicalImages img {
         width: 100%;
         float: left;
         margin-top: 50px;
-    }
+    
+        z-index: 9;
+}
 
     section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li  {
         width: 35px;
@@ -743,6 +744,18 @@ section.productDetail .productDetailDescription .detailHead .productWording {
 
 #additionalPhotosSlider .rsContainer {
     width: 100%;
+    margin: auto;
+}
+
+#additionalPhotosSlider {
+    float: left;
+    margin-top: -10px;
+    width: 100%;
+    height: auto;
+}
+
+#additionalPhotosSlider .rsContainer {
+    width: 80%;
     margin: auto;
 }
 
