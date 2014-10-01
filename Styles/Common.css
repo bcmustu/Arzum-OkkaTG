@@ -83,7 +83,18 @@ main {
 }
 
 
-
+#copyright {
+    background: #0C0503;
+  
+    padding-top: 15px;
+    padding-bottom: 13px;
+    color: #ebcbaf;
+    opacity: 0.5;
+    text-align: right;
+    letter-spacing: 1px;
+    font-size: 11px;
+    padding-right: 2%;
+}
 
 /* PAGE HEADER */
 #pageHeader{}
@@ -100,7 +111,24 @@ main {
   box-sizing:content-box;
   background-position: 95% center !important; 
 }
+#langLinks {
+    position: absolute;
 
+    right: 20px;
+    margin-top: -25px;
+    width: 100px;
+}
+
+#langLinks a {
+    float: left; font-family: Meta; font-size: 12px; color: #a67861;
+
+}
+
+#langLinks span {
+    float: left; font-family: Meta; font-size: 12px; color: #a67861;
+
+    margin: 0px 5px;
+}
 
 
 /* END - BUG FIX */
