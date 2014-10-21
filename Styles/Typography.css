@@ -149,6 +149,13 @@ a:active {
     letter-spacing: 1px;
 }
 
+.faceO {
+    font-family: Meta;
+    color: #523b29;
+    font-size: 13px;
+    font-weight: 400;
+}
+
 
 
 
@@ -192,6 +199,27 @@ a:active {
     color: #d9d9d9;
     text-decoration: none;
 }
+
+
+
+
+.aStyleC:link,
+.aStyleC:visited {
+    text-decoration: none;
+    color: #441e15;
+    font-family: Meta;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.aStyleC:hover,
+.aStyleC:active {
+    color: #441e15;
+    text-decoration: none;
+}
+
+
 
 
 .aStyleJ:link,
