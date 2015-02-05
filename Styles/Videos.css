@@ -1,0 +1,852 @@
+﻿
+
+
+
+section.videos {
+    max-width: 1240px;
+    margin: auto;
+}
+
+section.videos .productImage {
+    width: 345px;
+    height: 500px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 100px;
+    z-index: 99;
+}
+
+section.videos .productImage img {
+    width: 350px;
+    left: 30px;
+}
+
+
+
+
+
+
+
+section.videos .videoContent {
+    width: 800px;
+    float: right;
+    margin-top: 70px;
+    padding-top: 00px;
+    padding-bottom: 75px;
+    background: #340d08;
+}
+
+    section.videos .videoContent .videoHead {
+        width: 100%;
+        float: left; 
+        padding: 20px 37px 25px 43px; 
+        background: white;
+    }
+
+    section.videos .videoContent .videoHead h1 {
+        width: 100%;
+        float: left; 
+    }
+
+    section.videos .videoContent .videoHead h2 {
+        width: 100%;
+        float: left;
+        padding-top: 5px; 
+    }
+
+
+
+
+
+
+
+section.videos .videoContent .videoBoxes {
+    width: 750px;
+    float: left; 
+    margin-left: 25px;
+    padding: 30px 15px 50px 15px; 
+    text-align: left;
+    background: tomato;
+}
+
+    section.videos .videoContent .videoBoxes .videoItem {
+        width: 233px;
+        height: 240px;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background: black;
+    }
+
+    section.videos .videoContent .videoBoxes .videoItem:nth-child(3n) {
+        margin-right: 0px;
+    }
+
+    section.videos .videoContent .videoBoxes .videoItem a.video {
+        width: 233px;
+        height: 220px;
+        display: block;
+        overflow: hidden;
+        background: green;
+    }
+        section.videos .videoContent .videoBoxes .videoItem a.video img.icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 1;
+            width: 48px;
+            height: 33px;
+            margin: -16px 0 0 -24px;
+        }
+        section.videos .videoContent .videoBoxes .videoItem a.video img {
+            height: 175px;
+            margin: auto; 
+        }
+
+        section.videos .videoContent .videoBoxes .videoItem a.video span.videoTitle {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            display: block;
+            padding-left: 12px;
+            padding-top: 12px;
+            line-height: 18px;
+        }
+
+
+
+
+
+#overlay {
+    position: fixed;
+    z-index: 99999;
+    top: -10000px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.90);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+    #overlay.on {
+        top: 0;
+        height: 100%;
+        opacity: 1;
+    }
+#player {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+
+
+
+
+/* Screen */
+@media all and (max-width: 700px) {
+
+
+    section.productDetail .productDetailDescription .detailHead h2.productDesc {
+        margin-bottom:20px;
+    }
+
+    section.productDetail {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    section.productDetail .productImage {
+        width: 300px;
+        height: 350px;
+        left: 50%;
+        margin-left: -150px;
+        margin-top: 75px;
+        margin-bottom: 100px;
+        z-index: 999999;
+    }
+
+    section.productDetail .productImage img {
+        width: 250px;
+        left: 5px;
+        margin: auto;
+}
+
+    section.productDetail .productDetailDescription {
+        width: 100%;
+        float: left;
+        margin-top: 0px;
+        padding-bottom: 25px;
+        background: transparent; 
+    }
+
+    section.productDetail .productDetailDescription .detailHead {
+        width: 90%;
+        float: left; 
+        margin-left: 5%;
+        margin-top: -30px;
+        padding: 10px; 
+    
+        z-index: 99999;
+}
+
+    section.productDetail .productDetailDescription .detailHead h1.productTitle {
+        float: left;
+        margin-bottom: 21px;
+        line-height: 20px;
+    
+        width: 100%;
+}
+
+    section.productDetail .productDetailDescription .detailHead .addToBasketButton {
+        width: auto;
+        line-height: 20px;
+    
+        float: left;
+}
+
+    section.productDetail .productDetailDescription .detailHead .addToBasketButton input[type="button"] {
+        background: #995100;
+        border: 0;
+        padding: 10px 15px 10px 15px;
+        cursor: pointer; 
+        width: 130px;
+        transition: all 0.3s;
+    }
+
+    section.productDetail .productDetailDescription .introSection {
+        width: 90%;
+        float: left; 
+        margin-left: 5%;
+        padding: 30px 0 50px 0; 
+        border-top:1px solid #fee5cc;
+        text-align: justify;
+    }
+
+    section.productDetail .productDetailDescription .introSection .introTextFirst  {
+        width: 100%;
+        float: left;
+        line-height: 20px;
+    }
+
+    section.productDetail .productDetailDescription .introSection .introTextSecond  {
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+        margin-left: 0;
+        line-height: 20px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails {
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+        padding: 0 0 30px 0; 
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalTitle  {
+        width: 100%;
+        float: left;
+        padding-bottom: 15px;
+        border-bottom:1px solid #fee5cc;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists  {
+        width: 100%;
+        float: left;
+        margin-top: 30px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists ul.technical  {
+        width: 100%;
+        float: left;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists ul.technical li  {
+        width: 55%;
+        height: 25px;
+        float: left;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists ul.technical li.value  {
+        width: 45%;
+        text-align: right;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails  {
+        width: 100%;
+        float: left;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails .rightTitle  {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 30px;
+        margin-top: 20px;
+        border-top: 1px solid #fee5cc;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.rightList  {
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.rightList li  {
+        width: 100%;
+        height: 25px;
+        float: left;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons  {
+        width: 100%;
+        float: left;
+        margin-top: 50px;
+    
+        z-index: 9;
+}
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li  {
+        width: 35px;
+        height: 35px;
+        float: left;
+        margin-left: 15px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li img  {
+        width: 35px;
+        height: 35px;
+    }section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons .tooltip {
+
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li:first-child{
+        margin-left: 0px;
+    }
+
+    section.productDetail .productDetailDescription .technicalImages {
+        width: 100%;
+        height: 200px;
+        float: left;
+        margin-top: 30px; 
+    }
+    
+    
+    section.productDetail .productDetailDescription .detailHead select {
+        float: right;
+        width: 130px !important;
+        margin-right: 0px;
+        font-family: Meta;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        background-color: transparent;
+        color: #e0ba8f;
+        background-image: url('../Images/icon-arrow-down.png');
+        background-size: 10px;
+        background-repeat: no-repeat;
+        background-position: 86% center;
+        height: 39px;
+        padding-left: 28px;
+        top: 2px;
+        border: 1px solid;
+    }
+    
+    section.productDetail .productImageColorPalette {
+        width: 50%;
+        position: absolute;
+        height: 60px;
+        float: right;
+        left: auto;
+        right: -0px;
+        top: auto;
+        bottom: -40px;
+    
+        z-index: 999999999;
+}
+
+section.productDetail .productImageColorPalette .productColorSample{
+        float: right;
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+.introSection .photoGallery {
+    background:#38120d;
+    float:left;
+    width: 100%;
+    padding:10px;
+    padding-right: 0px;
+}
+.introSection .photoGallery .galleryItem {
+    background-color:rgba(255,255,255,0.1);
+    float:left;
+    width: 129px;
+    height: 129px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.introSection .photoGallery .galleryItem:last-child {
+    background-color:transparent;
+    width:90px;
+    height:135px;
+    float: none;
+    margin: auto;
+    left: -20px;
+}
+
+.introSection .photoGallery .galleryItem a img {
+    float:left;
+    width: 129px;
+    height: 129px;
+}
+
+.introSection .photoGallery .galleryItem:last-child a img {
+    margin: 30px;
+
+    margin-top: 36px;
+}
+
+
+
+section.productDetail .productDetailDescription .detailHead .productWording {
+    float: left;
+    width: 100%;
+    color: #744024;
+}
+
+#additionalPhotosSlider .rsContainer {
+    width: 100%;
+    margin: auto;
+}
+
+#additionalPhotosSlider {
+    float: left;
+    margin-top: -10px;
+    width: 100%;
+    height: auto;
+}
+
+#additionalPhotosSlider .rsContainer {
+    width: 80%;
+    margin: auto;
+}
+
+}
+@media all and (min-width: 701px) and (max-width: 1018px) {
+
+    section.productDetail {
+        max-width: 768px;
+        margin: auto;
+    }
+
+    section.productDetail .productImage {
+        width: 450px;
+        height: 650px;
+        left: 50%;
+        margin-left: -225px;
+        margin-top: 150px;
+        z-index: 99;
+    }
+
+    section.productDetail .productImage img {
+        width: 450px;
+        left: 5px;
+    }
+
+    section.productDetail .productDetailDescription {
+        width: 100%;
+        margin-top: -70px;
+        margin-left: 28px;
+        background: transparent;
+    }
+
+    section.productDetail .productDetailDescription .detailHead {
+        width: 720px;
+        float: left; 
+        margin-left: 25px;
+        margin-top: 20px;
+        padding: 20px 15px 20px 15px;
+        z-index: 9999;
+    }
+
+    section.productDetail .productDetailDescription .introSection {
+        width: 720px;
+    }
+
+    section.productDetail .productDetailDescription .introSection .introTextFirst  {
+        width: 330px;
+    }
+
+    section.productDetail .productDetailDescription .introSection .introTextSecond  {
+        width: 330px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails {
+        width: 720px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalTitle  {
+        width: 700px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists  {
+        width: 700px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li  {
+        width: 35px;
+        height: 35px;
+        float: left;
+        margin-left: 10px;
+    }
+
+    section.productDetail .productDetailDescription .technicalImages {
+        width: 700px;
+        height: 200px;
+        float: left;
+        margin-top: 30px; 
+    }
+    
+    section.productDetail .productImageColorPalette {
+        width: 50%;
+        position: absolute;
+        float: left;
+        height: 60px;
+        left: -145px;
+    
+        top: auto;
+        bottom: 60px;
+    }
+
+section.productDetail .productImageColorPalette .productColorSample{
+        float: left;
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+.introSection .photoGallery {
+    background:#38120d;
+    float:left;
+    width: 100%;
+    padding:10px;
+}
+.introSection .photoGallery .galleryItem {
+    background-color:rgba(255,255,255,0.1);
+    float:left;
+    width:135px;
+    height:135px;
+    margin-right: 4px;
+}
+.introSection .photoGallery .galleryItem:last-child {
+    background-color:transparent;
+    float:left;
+    width:90px;
+    height:135px;
+    margin-right:10px;
+}
+
+.introSection .photoGallery .galleryItem a img {
+    float:left;
+    width:135px;
+    height:135px;
+}
+
+.introSection .photoGallery .galleryItem:last-child a img {
+    margin: 30px;
+
+    margin-top: 36px;
+}
+
+
+
+section.productDetail .productDetailDescription .detailHead .productWording {
+    float: left;
+    width: 370px;
+    color: #744024;
+}
+
+
+#additionalPhotosSlider .rsContainer {
+    width: 100%;
+    margin: auto;
+}
+
+}
+
+@media all and (min-width: 1019px) and (max-width: 1274px) {
+
+    section.productDetail {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    section.productDetail .productImage {
+        width: 350px;
+        height: 450px;
+        float: left;
+        margin-left: 0;
+        z-index: 99;
+    }
+
+    section.productDetail .productImage img {
+        width: 350px;
+        left: 30px;
+    }
+
+    section.productDetail .productDetailDescription {
+        width: 645px;
+        margin-left: 28px;
+    }
+
+    section.productDetail .productDetailDescription .detailHead {
+        width: 600px;
+        float: left; 
+        margin-left: 25px;
+        padding: 0px 15px 20px 15px; 
+    }
+
+    section.productDetail .productDetailDescription .introSection {
+        width: 600px;
+    }
+
+    section.productDetail .productDetailDescription .introSection .introTextFirst  {
+        width: 270px;
+    }
+
+    section.productDetail .productDetailDescription .introSection .introTextSecond  {
+        width: 270px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails {
+        width: 600px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalTitle  {
+        width: 580px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists  {
+        width: 580px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    section.productDetail .productDetailDescription .technicalDetails .technicalLists .rightDetails ul.technicalIcons li  {
+        width: 35px;
+        height: 35px;
+        float: left;
+        margin-left: 4px;
+    }
+
+    section.productDetail .productDetailDescription .technicalImages {
+        width: 580px;
+        height: 200px;
+        float: left;
+        margin-top: 30px; 
+    }
+
+}
+
+@media all and (min-width: 1275px) {
+
+}
+
+
+/* MAXI ARTICLE RELATED */
+.divOverlay {
+    position: fixed;
+    top: 0;
+    right:0;
+    bottom:0;
+    left: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 9999999999;
+    display: none;
+}
+
+.articleMaxiSlider {
+    margin: 0 auto 0 auto;
+}
+
+    .articleMaxiSlider table {
+        width: 100%;
+        margin: 0 auto 0 auto;
+    }
+
+        .articleMaxiSlider table td {
+            vertical-align: middle;
+        }
+
+
+    .articleMaxiSlider .divImgContainer {
+        text-align:center;
+    }
+
+    .articleMaxiSlider .divImgContainer img {
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+    .articleMaxiSlider .divImgContainer iframe {
+        width: 100%;
+        margin: auto;
+        margin-top: 80px;
+        height: 500px;
+    
+        max-width: 600px;
+}
+
+    .articleMaxiSlider .divCaptionContainer {
+        text-align: center;
+        font-family: akzidenzregular;
+        font-size: 13px;
+        line-height: 16px;
+        height: 84px;
+        margin: 22px auto 0 auto;
+        position: relative;
+    }
+
+        .articleMaxiSlider .divCaptionContainer h6 {
+            color: #656565;
+        }
+
+        .articleMaxiSlider .divCaptionContainer div {
+            color: #ddd;
+            position: absolute;
+            bottom: 0;
+            height: 55px;
+            overflow: auto;
+        }
+
+.divOverlay .close {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    right: 20px;
+    top: 21px;
+    z-index: 5;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #232323;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #000;
+    transition:none !important;
+}
+
+    .divOverlay .close:after {
+        content: '';
+        height: 1px;
+        width: 16px;
+        border-radius: 10px;
+        position: absolute;
+        display: block;
+        background: #6c6c6c;
+        left: 50%;
+        margin-left: -8px;
+        margin-top: -1px;
+        top: 50%;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .divOverlay .close:before {
+        content: '';
+        height: 1px;
+        width: 16px;
+        border-radius: 10px;
+        position: absolute;
+        display: block;
+        background: #6c6c6c;
+        left: 50%;
+        margin-left: -8px;
+        margin-top: -1px;
+        top: 50%;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+/* END - MAXI ARTICLE RELATED */
+
+/* Smartphone (portrait) */
+@media only screen and (orientation : portrait) and (max-device-width : 599px) {
+    .articleMaxiSlider .divCaptionContainer {
+        display: none;
+    }
+
+    .articleMaxiSlider .divImgContainer img {
+        width:auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 600px;
+    }
+}
+
+/* Smartphone (landscape) */
+@media only screen and (orientation : landscape) and (max-device-width : 760px) {
+    .articleMaxiSlider .divImgContainer img {
+        width: auto;
+        max-height: 100%;
+    }
+
+    .articleMaxiSlider .divCaptionContainer {
+        display: none;
+    }
+}
+
+/* Tablet (portrait) */
+@media only screen and (orientation : portrait) and (min-device-width : 600px) {
+    .articleMaxiSlider .divImgContainer img {
+        width:auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 600px;
+    }
+
+    .articleMaxiSlider .divCaptionContainer {
+        width: 90%;
+    }
+}
+
+/* Tablet (landscape) */
+@media only screen and (orientation : landscape) and (min-device-width : 761px) {
+    .articleMaxiSlider .divImgContainer img {
+        width: auto;
+        max-height: 100%;
+    }
+
+    .articleMaxiSlider .divCaptionContainer {
+        width: 70%;
+    }
+}
+
+
+
+/* iPhone 4 (landscape) */
+@media only screen and (orientation : landscape) and (max-device-width : 481px) {
+}
+
+/* END - SLIDER STYLE */

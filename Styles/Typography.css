@@ -156,6 +156,30 @@ a:active {
     font-weight: 400;
 }
 
+.faceP {
+    font-family: Meta;
+    color: #210001;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.faceR {
+    font-family: Meta;
+    color: #744024;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.faceS {
+    font-family: Meta;
+    color: #bea794;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
 
 
 
