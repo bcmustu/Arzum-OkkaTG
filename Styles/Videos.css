@@ -91,6 +91,9 @@ section.videos .videoContent {
             color: #fff;
             font-size: 14px;
         }
+            section.videos .videoContent .videoSelect select option {
+                color: #181818;
+            }
 
     section.videos .videoContent .videoBoxes {
         width: 750px;
