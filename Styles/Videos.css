@@ -102,7 +102,7 @@ section.videos .videoContent {
 
         section.videos .videoContent .videoBoxes .videoItem {
             width: 233px;
-            height: 240px;
+            height: 270px;
             float: left;
             margin-right: 10px;
             margin-bottom: 10px;
@@ -114,7 +114,7 @@ section.videos .videoContent {
 
         section.videos .videoContent .videoBoxes .videoItem a.video {
             width: 233px;
-            height: 220px;
+            height: 250px;
             display: block;
             overflow: hidden;
         }
@@ -125,7 +125,7 @@ section.videos .videoContent {
                 z-index: 1;
                 width: 48px;
                 height: 33px;
-                margin: -30px 0 0 -24px;
+                margin: -55px 0 0 -24px;
                 opacity: 1;
             }
             section.videos .videoContent .videoBoxes .videoItem a.video img {
@@ -140,7 +140,7 @@ section.videos .videoContent {
 
             section.videos .videoContent .videoBoxes .videoItem a.video span.videoTitle {
                 position: absolute;
-                bottom: 0;
+                top: 170px;
                 width: 100%;
                 display: block;
                 padding-left: 12px;
