@@ -17,6 +17,11 @@ function setupVideo() {
     player_height = $('#player').attr('data-height');
     $('#player').css({ marginTop: -parseInt(player_height / 2), marginLeft: -parseInt(player_width / 2) });
 
+    if (wW < 768) {
+        $('#player').css({ width: 300, height: 220 });
+        $('#player').css({ marginTop: -parseInt(220 / 2), marginLeft: -parseInt(300 / 2) });
+    }
+
     // retrieve thumb images for pop-up video 
     $('a.video').each(function (index, elem) {
         var videoID = $(this).attr('data-video-id');
