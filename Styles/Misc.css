@@ -173,6 +173,12 @@ img[data-sixtythree="logotype-white"] {
     width: 122px;
     height: 45px;
 }
+
+
+img[data-sixtythree="icon-close-white"] {
+    width: 26px;
+    height: 26px;
+}
 /* END LOGOTYPE */
 
 
