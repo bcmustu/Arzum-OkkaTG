@@ -33,6 +33,7 @@
 #divMobileMenuEntireContent {
     background-color: #381915;
     position:absolute;
+    height: -webkit-calc(100% - 80px);
     height: calc(100% - 80px);
     left:0;
     width:100%;

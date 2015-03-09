@@ -18,6 +18,7 @@ main {
     min-height: 400px;
     text-align: left;
     left: 100px;
+    margin-top: -webkit-calc(100vh - 627px);
     margin-top: calc(100vh - 627px);
 }
 
@@ -175,6 +176,7 @@ main {
         min-height: 400px;
         left: auto;
         text-align: left;
+        margin-top: -webkit-calc(734px - 625px);
         margin-top: calc(734px - 625px);
     }
 

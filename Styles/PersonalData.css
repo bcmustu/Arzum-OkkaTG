@@ -14,6 +14,7 @@ section.personalDataPage .pageContent {
     padding-bottom: 50px;
     padding-top: 1px;
     top: 100px;
+    min-height: -webkit-calc(100vh - 150px);
     min-height:calc(100vh - 150px);
     bottom: 0px;
     background: rgba(189,177,172, 0.9);
@@ -26,6 +27,7 @@ section.loginPage .pageContent {
     background: rgba(189,177,172, 0.9);
     left: 50%;
     margin-left: -70px;
+    margin-top: -webkit-calc(100vh - 627px);
     margin-top: calc(100vh - 627px);
     padding-top: 30px;
 }
@@ -267,16 +269,19 @@ div.alreadyAMemberOrNot label.additionalInputLabel {
         position: relative;
 }
     section.personalDataPage .pageContent{
+    margin-top: -webkit-calc(20.4% - 110px);
     margin-top: calc(20.4% - 110px);
 
     padding-top: 30px;
 }
     section.signUpPage .pageContent{
+    margin-top: -webkit-calc(43.6% - 110px);
     margin-top: calc(43.6% - 110px);
 
     padding-top: 30px;
 }
     section.loginPage .pageContent{
+    margin-top: -webkit-calc(45% - 141px);
     margin-top: calc(45% - 141px);
 
     padding-top: 30px;
