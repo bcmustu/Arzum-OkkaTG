@@ -101,20 +101,20 @@ img[data-sixtythree="icon-mobile-nav"] {
 }
 
 
-img[data-sixtythree="icon-arrow-next-dark"]{
+img[data-sixtythree="icon-arrow-next-dark"] {
     width: 10px !important;
     height: 20px !important;
     box-sizing: border-box;
 }
 
-img[data-sixtythree="logotype-reddot"]{
+img[data-sixtythree="logotype-reddot"] {
     width: 124px !important;
     height: 96px !important;
     box-sizing: border-box;
 }
 
 
-img[data-sixtythree="icon-play-video"]{
+img[data-sixtythree="icon-play-video"] {
     width: 58px !important;
     height: 58px !important;
 }
@@ -536,6 +536,88 @@ img[data-sixtythree="icon-close-white"] {
         }
 
 
+#overlay {
+    position: fixed;
+    z-index: 99999;
+    top: -10000px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.90);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+    #overlay.on {
+        top: 0;
+        height: 100%;
+        opacity: 1;
+    }
+
+    #overlay .aClose {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+
+
+    #overlay .popUpContent {
+        display:none;
+        position: fixed;
+        z-index: 999999;
+        top: 50%;
+        left: 50%;
+        margin: -250px 0 0 -450px;
+        width: 900px;
+        height: 500px;
+        background-image: url('../Files/Modal/modal-box-background-large.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+    #overlay.on .popUpContent {
+        display:block;
+    }
+
+        #overlay .popUpContent .content {
+            width: 350px;
+            height: 500px;
+            padding-top: 160px;
+            margin-left: 78px;
+        }
+
+            #overlay .popUpContent .content p {
+                width: 350px;
+                margin-top: 35px;
+                margin-bottom: 36px;
+                color: #fff;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 27px;
+            }
+
+                #overlay .popUpContent .content p span {
+                    color: #fff;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+
+            #overlay .popUpContent .content .buttonG {
+                display: block;
+                width: 125px;
+                padding: 12px 0 12px 0;
+                color: #505050;
+                font-size: 13px;
+                font-weight: 500;
+                text-align: center;
+                background-color: #fff;
+                border: 1px solid #fff;
+            }
+
+
 
 
 
@@ -553,6 +635,7 @@ img[data-sixtythree="icon-close-white"] {
         width: 18px !important;
         height: 18px !important;
     }
+
     header nav img[data-sixtythree="icon-search"] {
         width: 15px;
         height: 15px;
@@ -574,6 +657,46 @@ img[data-sixtythree="icon-close-white"] {
     .divLineB {
         height: 50px;
     }
+
+
+
+
+    #overlay .popUpContent {
+        margin: -174px 0 0 -150px;
+        width: 300px;
+        height: 348px;
+        background-image: url('../Files/Modal/modal-box-background-small.jpg');
+    }
+
+        #overlay .popUpContent .content {
+            width: 100%;
+            height: 100%;
+            padding: 0 20px 0 20px;
+            margin-left: 0;
+        }
+
+            #overlay .popUpContent .content img {
+                display: none;
+            }
+
+            #overlay .popUpContent .content p {
+                width: 100%;
+                margin-top: 142px;
+                margin-bottom: 23px;
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 25px;
+            }
+
+                #overlay .popUpContent .content p span {
+                    font-size: 19px;
+                    font-weight: 400;
+                }
+
+            #overlay .popUpContent .content .buttonG {
+                width: 100%;
+                margin-top: 5px;
+            }
 }
 
 @media all and (min-width: 701px) and (max-width: 1018px) {
@@ -585,6 +708,33 @@ img[data-sixtythree="icon-close-white"] {
     header nav img[data-sixtythree^="icon-social-"]:not(.white) {
         opacity: 1;
     }
+
+
+
+
+    #overlay .popUpContent {
+        margin: -189px 0 0 -350px;
+        width: 700px;
+        height: 389px;
+    }
+
+
+        #overlay .popUpContent .content {
+            width: 350px;
+            height: 100%;
+            padding-top: 130px;
+            margin-left: 35px;
+        }
+
+            #overlay .popUpContent .content img {
+                width: 100px;
+                height: auto;
+            }
+
+            #overlay .popUpContent .content p {
+                margin-top: 23px;
+                margin-bottom: 29px;
+            }
 }
 
 

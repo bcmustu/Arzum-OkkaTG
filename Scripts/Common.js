@@ -122,6 +122,7 @@ function popupSettings() {
             if (e.keyCode == 27) {
                 closeSearch();
                 closeMenu();
+                closeModalBox();
             }
         });
 

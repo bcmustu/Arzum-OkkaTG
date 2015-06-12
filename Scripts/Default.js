@@ -1,38 +1,59 @@
-﻿$(document).ready(function(){
+﻿$(document).ready(function () {
     articleMaxiSliderCloseSetup();
+    showModalBox();
 });
 
 
-$(window).load(function(){
+$(window).load(function () {
     //Extracting Url hash, opening fullscreen slider, and defining the opening slide number
-        slideNoToInitiate = parseInt((window.location.hash).substring(1));
-        if (slideNoToInitiate >= 0) {
-            setupArticleMaxiSlider(slideNoToInitiate);
-        };
+    slideNoToInitiate = parseInt((window.location.hash).substring(1));
+    if (slideNoToInitiate >= 0) {
+        setupArticleMaxiSlider(slideNoToInitiate);
+    };
     //
 });
 
 
 
-function colorSelect() {
-	var selectedColor = 'white'
-	var sample = $('.productDetail .productImage img')
-	var colorlessSampleSource = sample.attr('src')
-	var baseSource = colorlessSampleSource.substr(0,colorlessSampleSource.lastIndexOf('.'));
-	var fileType = colorlessSampleSource.substr(colorlessSampleSource.lastIndexOf('.'));
-	sample.attr('src',baseSource+selectedColor+fileType);
-	sample.css('transition','all 0.7s');
 
-	$('.productDetail .productImageColorPalette .productColorSample').click(function(){
-		var selectedColor = $(this).attr('id');
-		sample.css('opacity','0');
-		setTimeout(function(){
-			setTimeout(function(){
-				sample.css('opacity','1');
-			},200);
-			sample.attr('src',baseSource+selectedColor+fileType);
-		},700);
-	})
+function showModalBox() {
+    // position overlay
+    $('#overlay').addClass('on');
+
+    $('html, body').click(function () {
+        closeModalBox();
+    });
+
+    $('#overlay .popUpContent').click(function (e) {
+        e.stopPropagation();
+    });
+}
+
+function closeModalBox() {
+    $('#overlay').removeClass('on');
+}
+
+
+
+function colorSelect() {
+    var selectedColor = 'white'
+    var sample = $('.productDetail .productImage img')
+    var colorlessSampleSource = sample.attr('src')
+    var baseSource = colorlessSampleSource.substr(0, colorlessSampleSource.lastIndexOf('.'));
+    var fileType = colorlessSampleSource.substr(colorlessSampleSource.lastIndexOf('.'));
+    sample.attr('src', baseSource + selectedColor + fileType);
+    sample.css('transition', 'all 0.7s');
+
+    $('.productDetail .productImageColorPalette .productColorSample').click(function () {
+        var selectedColor = $(this).attr('id');
+        sample.css('opacity', '0');
+        setTimeout(function () {
+            setTimeout(function () {
+                sample.css('opacity', '1');
+            }, 200);
+            sample.attr('src', baseSource + selectedColor + fileType);
+        }, 700);
+    })
 }
 
 $(window).on("orientationchange", function (event) {
@@ -102,7 +123,7 @@ function articleMaxiSlider(isOrientationChange) {
     $('#articleMaxiSlider').css({
         height: sliderH,
         width: sliderW,
-        marginTop: gapValForScreen*1.85,
+        marginTop: gapValForScreen * 1.85,
         marginLeft: gapValForScreen
     });
 
@@ -113,7 +134,7 @@ function articleMaxiSlider(isOrientationChange) {
 
     // set image container dynamic style
     $('#articleMaxiSlider .divImgContainer').css({
-        height: (isLandscape) ? (sliderH - captionH - gapValForCaption - sponsorHeight/4) : 'auto'
+        height: (isLandscape) ? (sliderH - captionH - gapValForCaption - sponsorHeight / 4) : 'auto'
     });
 
     // trigger slider
@@ -140,12 +161,12 @@ function articleMaxiSlider(isOrientationChange) {
 
 
     currentSlide = maxiArticleSlider.currSlideId;
-    history.pushState({}, '', 'default.html#'+currentSlide);
+    history.pushState({}, '', 'default.html#' + currentSlide);
 
     maxiArticleSlider.ev.on('rsAfterSlideChange', function (event) {
         slideNoToInitiate = maxiArticleSlider.currSlideId;
         currentSlide = maxiArticleSlider.currSlideId;
-        history.pushState({}, '', 'default.html#'+currentSlide);
+        history.pushState({}, '', 'default.html#' + currentSlide);
     });
 }
 // End
@@ -153,7 +174,7 @@ function articleMaxiSlider(isOrientationChange) {
 // close article maxi slider setup which uses touchstart instead of click
 function articleMaxiSliderCloseSetup() {
     $('.divOverlay div.close').on("click", function (ev) {
-    	ev.stopPropagation();
+        ev.stopPropagation();
         $('.divOverlay').stop(true, false).fadeOut(function () {
             slideNoToInitiate = 0;
             articleMaxiSliderQuickChanges();
@@ -168,7 +189,7 @@ function articleMaxiSliderCloseSetup() {
         });
     });
     $('#articleMaxiSlider').on("click", function (ev) {
-    	ev.stopPropagation();
+        ev.stopPropagation();
     });
 }
 // End
