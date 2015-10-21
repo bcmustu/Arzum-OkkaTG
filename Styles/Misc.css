@@ -182,6 +182,30 @@ img[data-sixtythree="icon-close-white"] {
 /* END LOGOTYPE */
 
 
+img[data-sixtythree="logotype-gray"] {
+    width: 130px;
+    height: 58px;
+}
+
+img[data-sixtythree="icon-okka-prop-01"] {
+    width: 30px;
+    height: 30px;
+}
+
+img[data-sixtythree="icon-okka-prop-02"] {
+    width: 30px;
+    height: 30px;
+}
+
+img[data-sixtythree="icon-okka-prop-03"] {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
 /* THIN DESIGN LINES */
 .divLineA {
     width: 1px;
@@ -572,50 +596,84 @@ img[data-sixtythree="icon-close-white"] {
         margin: -250px 0 0 -450px;
         width: 900px;
         height: 500px;
-        background-image: url('../Files/Modal/modal-box-background-large.jpg');
+        background-image: url('../Files/Modal/modal-box-background-01-large.jpg');
         background-repeat: no-repeat;
         background-position: center center;
     }
-
 
     #overlay.on .popUpContent {
         display:block;
     }
 
         #overlay .popUpContent .content {
-            width: 350px;
-            height: 500px;
-            padding-top: 160px;
-            margin-left: 78px;
+            width: 462px;
+            padding-top: 60px;
+            margin-left: 80px;
         }
 
-            #overlay .popUpContent .content p {
-                width: 350px;
-                margin-top: 35px;
-                margin-bottom: 36px;
-                color: #fff;
-                font-size: 24px;
-                font-weight: 400;
-                line-height: 27px;
+        #overlay .popUpContent .content h6 {
+            margin-top: 30px;
+            margin-bottom: 25px;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 0.030em;
+            font-family: 'Trajan';
+            line-height:30px;
+        }
+
+        #overlay .popUpContent .content .item {
+            height:30px;
+            margin-bottom:20px;
+        }
+
+        
+            #overlay .popUpContent .content .item img {
+                float:left;
+                margin-right:10px;
+                top:50%;
+                -webkit-transform:translateY(-50%);
+                -moz-transform:translateY(-50%);
+                -ms-transform:translateY(-50%);
+                -o-transform:translateY(-50%);
+                transform:translateY(-50%);
             }
 
-                #overlay .popUpContent .content p span {
-                    color: #fff;
-                    font-size: 24px;
-                    font-weight: 500;
-                }
+
+            #overlay .popUpContent .content .item p {
+                float:left;
+                top:50%;
+                color: #a5a6a6;
+                font-size: 18px;
+                font-weight: 500;
+                -webkit-transform:translateY(-50%);
+                -moz-transform:translateY(-50%);
+                -ms-transform:translateY(-50%);
+                -o-transform:translateY(-50%);
+                transform:translateY(-50%);
+            }
 
             #overlay .popUpContent .content .buttonG {
                 display: block;
                 width: 125px;
                 padding: 12px 0 12px 0;
-                color: #505050;
-                font-size: 13px;
-                font-weight: 500;
-                text-align: center;
-                background-color: #fff;
-                border: 1px solid #fff;
+                margin-top:30px;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 600;
+                background-color: #47596a;
+                border: 1px solid #47596a;
             }
+
+
+
+             
+
+            
+
+
+
+
 
 
 
@@ -665,38 +723,37 @@ img[data-sixtythree="icon-close-white"] {
         margin: -174px 0 0 -150px;
         width: 300px;
         height: 348px;
-        background-image: url('../Files/Modal/modal-box-background-small.jpg');
+        background-image: url('../Files/Modal/modal-box-background-01-small.jpg');
     }
 
         #overlay .popUpContent .content {
-            width: 100%;
-            height: 100%;
-            padding: 0 20px 0 20px;
+             width: 100%;
+            padding: 75px 15px 0 15px;
             margin-left: 0;
+            text-align:center;
         }
 
-            #overlay .popUpContent .content img {
-                display: none;
+            #overlay .popUpContent .content .logotype {
+                display: inline-block;
+                width:110px;
+                height:auto;
             }
 
-            #overlay .popUpContent .content p {
-                width: 100%;
-                margin-top: 142px;
-                margin-bottom: 23px;
-                font-size: 19px;
-                font-weight: 400;
-                line-height: 25px;
+            #overlay .popUpContent .content h6 {
+                margin-top: 20px;
+                margin-bottom: 0;
+                font-size:20px;
+                line-height:24px;
             }
 
-                #overlay .popUpContent .content p span {
-                    font-size: 19px;
-                    font-weight: 400;
-                }
-
+            #overlay .popUpContent .content .item ,
             #overlay .popUpContent .content .buttonG {
-                width: 100%;
-                margin-top: 5px;
+                display:none;
             }
+
+
+
+
 }
 
 @media all and (min-width: 701px) and (max-width: 1018px) {
@@ -718,23 +775,38 @@ img[data-sixtythree="icon-close-white"] {
         height: 389px;
     }
 
-
         #overlay .popUpContent .content {
-            width: 350px;
-            height: 100%;
-            padding-top: 130px;
+            width: 400px;
+            padding-top: 35px;
             margin-left: 35px;
         }
 
-            #overlay .popUpContent .content img {
+            #overlay .popUpContent .content .logotype {
                 width: 100px;
                 height: auto;
             }
 
-            #overlay .popUpContent .content p {
-                margin-top: 23px;
-                margin-bottom: 29px;
+            #overlay .popUpContent .content h6 {
+                margin-top: 10px;
+                margin-bottom: 15px;
+                font-size: 20px;
+                line-height:26px;
             }
+
+             #overlay .popUpContent .content .item {
+                margin-bottom:15px;
+            }
+
+                #overlay .popUpContent .content .item p {
+                    font-size:16px;
+                }
+
+            #overlay .popUpContent .content .buttonG {
+                margin-top:20px;
+            }
+
+
+
 }
 
 
